@@ -57,7 +57,8 @@ wakedrive-database/
 ├── triggers/
 │   └── trg_validate_alert.sql
 ├── .gitignore
-└── README.md
+├── README.md
+└── apply_all.sql
 ```
 
 | Contenido | Descripción |
@@ -69,6 +70,18 @@ wakedrive-database/
 | `audit/triggers/` | Un trigger de auditoría por cada tabla auditada. |
 | `dml/` | Datos de ejemplo ficticios, incluida una carga de 500 000 alertas. |
 | `indexes/` | Índices de `alerts`. |
+| `apply_all.sql` | Crea la base de datos completa ejecutando todos los scripts en orden. |
+
+## Crear la base de datos
+
+```bash
+psql -U postgres -c "CREATE DATABASE wakedrive"
+psql -U postgres -d wakedrive -v ON_ERROR_STOP=1 -f apply_all.sql
+```
+
+`apply_all.sql` ejecuta, en orden: las tablas principales y sus claves foráneas, las tablas de auditoría, los triggers de negocio y de auditoría, los datos de ejemplo (DML) y, al final, los índices.
+
+Si la base ya fue creada por el backend (Hibernate), solo hace falta aplicar la auditoría, los triggers y los índices con `database/apply_all.sql` del repositorio WakeDrive-Back.
 
 ## Modelos
 
