@@ -1,0 +1,5 @@
+INSERT INTO public.event_types (name) VALUES
+('CONNECTION_LOST'),
+('DEVICE_OFF'),
+('DROWSINESS'),
+('FACE_NOT_DETECTED');

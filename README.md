@@ -30,6 +30,22 @@ wakedrive-database/
 │   ├── ddl_vehicle_types.sql
 │   ├── ddl_vehicles.sql
 │   └── ddl_vinculations.sql
+├── dml/
+│   ├── dml_access_requests.sql
+│   ├── dml_alerts.sql
+│   ├── dml_brands.sql
+│   ├── dml_cities.sql
+│   ├── dml_companies.sql
+│   ├── dml_devices.sql
+│   ├── dml_drivers.sql
+│   ├── dml_event_types.sql
+│   ├── dml_notifications.sql
+│   ├── dml_refresh_token.sql
+│   ├── dml_roles.sql
+│   ├── dml_users.sql
+│   ├── dml_vehicle_types.sql
+│   ├── dml_vehicles.sql
+│   └── dml_vinculations.sql
 ├── docs/
 │   ├── c4_nivel1_contexto.png
 │   ├── c4_nivel2_contenedores.png
@@ -49,6 +65,7 @@ wakedrive-database/
 | `audit/ddl/` | Tablas `audi_<tabla>` de auditoría (2: users y vinculations). `audi_users` no guarda contraseñas ni tokens. |
 | `triggers/` | `trg_validate_alert` (regla de negocio sobre alertas). |
 | `audit/triggers/` | Un trigger de auditoría por cada tabla auditada. |
+| `dml/` | Datos de ejemplo ficticios, incluida una carga de 500 000 alertas. |
 
 ## Modelos
 
@@ -79,7 +96,7 @@ Convenciones: `pk` llave primaria, `uk` llave única, `fkN` llave foránea; opci
 | pk | * | role_id | BIGINT |  |  |
 | uk | * | name | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_roles.sql`](ddl/ddl_roles.sql)
+Script: [`ddl/ddl_roles.sql`](ddl/ddl_roles.sql) · Datos de ejemplo: [`dml/dml_roles.sql`](dml/dml_roles.sql)
 
 ### Tabla 2. CITIES (CTY)
 
@@ -88,7 +105,7 @@ Script: [`ddl/ddl_roles.sql`](ddl/ddl_roles.sql)
 | pk | * | city_id | BIGINT |  |  |
 | uk | * | name | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_cities.sql`](ddl/ddl_cities.sql)
+Script: [`ddl/ddl_cities.sql`](ddl/ddl_cities.sql) · Datos de ejemplo: [`dml/dml_cities.sql`](dml/dml_cities.sql)
 
 ### Tabla 3. BRANDS (BRN)
 
@@ -97,7 +114,7 @@ Script: [`ddl/ddl_cities.sql`](ddl/ddl_cities.sql)
 | pk | * | brand_id | BIGINT |  |  |
 | uk | * | name | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_brands.sql`](ddl/ddl_brands.sql)
+Script: [`ddl/ddl_brands.sql`](ddl/ddl_brands.sql) · Datos de ejemplo: [`dml/dml_brands.sql`](dml/dml_brands.sql)
 
 ### Tabla 4. VEHICLE_TYPES (VTP)
 
@@ -106,7 +123,7 @@ Script: [`ddl/ddl_brands.sql`](ddl/ddl_brands.sql)
 | pk | * | vehicle_type_id | BIGINT |  |  |
 | uk | * | name | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_vehicle_types.sql`](ddl/ddl_vehicle_types.sql)
+Script: [`ddl/ddl_vehicle_types.sql`](ddl/ddl_vehicle_types.sql) · Datos de ejemplo: [`dml/dml_vehicle_types.sql`](dml/dml_vehicle_types.sql)
 
 ### Tabla 5. EVENT_TYPES (EVT)
 
@@ -115,7 +132,7 @@ Script: [`ddl/ddl_vehicle_types.sql`](ddl/ddl_vehicle_types.sql)
 | pk | * | event_type_id | BIGINT |  |  |
 | uk | * | name | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_event_types.sql`](ddl/ddl_event_types.sql)
+Script: [`ddl/ddl_event_types.sql`](ddl/ddl_event_types.sql) · Datos de ejemplo: [`dml/dml_event_types.sql`](dml/dml_event_types.sql)
 
 ### Tabla 6. COMPANIES (CMP)
 
@@ -137,7 +154,7 @@ Script: [`ddl/ddl_event_types.sql`](ddl/ddl_event_types.sql)
 |  | o | logo_name | VARCHAR | 255 |  |
 |  | o | logo_path | VARCHAR | 255 |  |
 
-Script: [`ddl/ddl_companies.sql`](ddl/ddl_companies.sql)
+Script: [`ddl/ddl_companies.sql`](ddl/ddl_companies.sql) · Datos de ejemplo: [`dml/dml_companies.sql`](dml/dml_companies.sql)
 
 ### Tabla 7. USERS (USR)
 
@@ -153,7 +170,7 @@ Script: [`ddl/ddl_companies.sql`](ddl/ddl_companies.sql)
 |  | * | password | VARCHAR | 255 |  |
 |  | o | reset_token | VARCHAR | 255 |  |
 
-Script: [`ddl/ddl_users.sql`](ddl/ddl_users.sql)
+Script: [`ddl/ddl_users.sql`](ddl/ddl_users.sql) · Datos de ejemplo: [`dml/dml_users.sql`](dml/dml_users.sql)
 
 ### Tabla 8. REFRESH_TOKEN (RFT)
 
@@ -164,7 +181,7 @@ Script: [`ddl/ddl_users.sql`](ddl/ddl_users.sql)
 | fk1 | * | user_id | BIGINT |  | users(user_id) |
 | uk | * | token | VARCHAR | 255 |  |
 
-Script: [`ddl/ddl_refresh_token.sql`](ddl/ddl_refresh_token.sql)
+Script: [`ddl/ddl_refresh_token.sql`](ddl/ddl_refresh_token.sql) · Datos de ejemplo: [`dml/dml_refresh_token.sql`](dml/dml_refresh_token.sql)
 
 ### Tabla 9. ACCESS_REQUESTS (ARQ)
 
@@ -182,7 +199,7 @@ Script: [`ddl/ddl_refresh_token.sql`](ddl/ddl_refresh_token.sql)
 |  | * | company_name | VARCHAR | 100 |  |
 |  | * | address | VARCHAR | 150 |  |
 
-Script: [`ddl/ddl_access_requests.sql`](ddl/ddl_access_requests.sql)
+Script: [`ddl/ddl_access_requests.sql`](ddl/ddl_access_requests.sql) · Datos de ejemplo: [`dml/dml_access_requests.sql`](dml/dml_access_requests.sql)
 
 ### Tabla 10. VEHICLES (VHC)
 
@@ -198,7 +215,7 @@ Script: [`ddl/ddl_access_requests.sql`](ddl/ddl_access_requests.sql)
 |  | * | status | VARCHAR | 20 |  |
 |  | * | model | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_vehicles.sql`](ddl/ddl_vehicles.sql)
+Script: [`ddl/ddl_vehicles.sql`](ddl/ddl_vehicles.sql) · Datos de ejemplo: [`dml/dml_vehicles.sql`](dml/dml_vehicles.sql)
 
 ### Tabla 11. DEVICES (DVC)
 
@@ -211,7 +228,7 @@ Script: [`ddl/ddl_vehicles.sql`](ddl/ddl_vehicles.sql)
 |  | * | status | VARCHAR | 20 |  |
 | uk | * | serial | VARCHAR | 50 |  |
 
-Script: [`ddl/ddl_devices.sql`](ddl/ddl_devices.sql)
+Script: [`ddl/ddl_devices.sql`](ddl/ddl_devices.sql) · Datos de ejemplo: [`dml/dml_devices.sql`](dml/dml_devices.sql)
 
 ### Tabla 12. DRIVERS (DRV)
 
@@ -226,7 +243,7 @@ Script: [`ddl/ddl_devices.sql`](ddl/ddl_devices.sql)
 |  | o | email | VARCHAR | 100 |  |
 |  | * | full_name | VARCHAR | 100 |  |
 
-Script: [`ddl/ddl_drivers.sql`](ddl/ddl_drivers.sql)
+Script: [`ddl/ddl_drivers.sql`](ddl/ddl_drivers.sql) · Datos de ejemplo: [`dml/dml_drivers.sql`](dml/dml_drivers.sql)
 
 ### Tabla 13. VINCULATIONS (VNC)
 
@@ -238,7 +255,7 @@ Script: [`ddl/ddl_drivers.sql`](ddl/ddl_drivers.sql)
 |  | * | linked_at | TIMESTAMP |  |  |
 | uk, fk3 | * | vehicle_id | BIGINT |  | vehicles(vehicle_id) |
 
-Script: [`ddl/ddl_vinculations.sql`](ddl/ddl_vinculations.sql)
+Script: [`ddl/ddl_vinculations.sql`](ddl/ddl_vinculations.sql) · Datos de ejemplo: [`dml/dml_vinculations.sql`](dml/dml_vinculations.sql)
 
 ### Tabla 14. ALERTS (ALR)
 
@@ -254,7 +271,7 @@ Script: [`ddl/ddl_vinculations.sql`](ddl/ddl_vinculations.sql)
 |  | * | level | VARCHAR | 10 |  |
 |  | * | location | VARCHAR | 150 |  |
 
-Script: [`ddl/ddl_alerts.sql`](ddl/ddl_alerts.sql)
+Script: [`ddl/ddl_alerts.sql`](ddl/ddl_alerts.sql) · Datos de ejemplo: [`dml/dml_alerts.sql`](dml/dml_alerts.sql)
 
 ### Tabla 15. NOTIFICATIONS (NTF)
 
@@ -268,7 +285,7 @@ Script: [`ddl/ddl_alerts.sql`](ddl/ddl_alerts.sql)
 |  | * | title | VARCHAR | 100 |  |
 |  | * | message | VARCHAR | 255 |  |
 
-Script: [`ddl/ddl_notifications.sql`](ddl/ddl_notifications.sql)
+Script: [`ddl/ddl_notifications.sql`](ddl/ddl_notifications.sql) · Datos de ejemplo: [`dml/dml_notifications.sql`](dml/dml_notifications.sql)
 
 ## Auditoría
 
@@ -295,6 +312,10 @@ Cada tabla de auditoría (`audi_<tabla>`) guarda el estado de la fila antes (`st
 | Trigger | Regla | Script |
 |---|---|---|
 | `trg_validate_alert` | Solo un dispositivo ACTIVE, vinculado al mismo conductor y vehículo, puede registrar alertas. | [`triggers/trg_validate_alert.sql`](triggers/trg_validate_alert.sql) |
+
+## Datos de ejemplo
+
+Los datos son ficticios: nombres, documentos, NIT, correos, contraseñas y tokens no corresponden a personas ni empresas reales. Los catálogos (roles, ciudades, marcas, tipos de vehículo y tipos de evento) sí son los del sistema.
 
 ## Integrantes
 
