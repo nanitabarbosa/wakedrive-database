@@ -52,6 +52,8 @@ wakedrive-database/
 │   ├── modelo_conceptual.png
 │   ├── modelo_fisico.png
 │   └── modelo_logico.png
+├── indexes/
+│   └── idx_alerts.sql
 ├── triggers/
 │   └── trg_validate_alert.sql
 ├── .gitignore
@@ -66,6 +68,7 @@ wakedrive-database/
 | `triggers/` | `trg_validate_alert` (regla de negocio sobre alertas). |
 | `audit/triggers/` | Un trigger de auditoría por cada tabla auditada. |
 | `dml/` | Datos de ejemplo ficticios, incluida una carga de 500 000 alertas. |
+| `indexes/` | Índices de `alerts`. |
 
 ## Modelos
 
@@ -316,6 +319,10 @@ Cada tabla de auditoría (`audi_<tabla>`) guarda el estado de la fila antes (`st
 ## Datos de ejemplo
 
 Los datos son ficticios: nombres, documentos, NIT, correos, contraseñas y tokens no corresponden a personas ni empresas reales. Los catálogos (roles, ciudades, marcas, tipos de vehículo y tipos de evento) sí son los del sistema.
+
+## Índices
+
+`idx_alerts_detected_at`, `idx_alerts_driver` e `idx_alerts_vehicle` sobre la tabla `alerts` ([`indexes/idx_alerts.sql`](indexes/idx_alerts.sql)).
 
 ## Integrantes
 
