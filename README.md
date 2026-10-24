@@ -49,7 +49,7 @@ wakedrive-database/
 ### Modelo físico
 ![Modelo físico](docs/modelo_fisico.png)
 
-El diagrama físico corresponde a la cuarta versión del modelo (14 tablas).
+El diagrama físico refleja la base de datos implementada, con los tamaños definitivos de los atributos: las 15 tablas principales (incluida `refresh_token`, que guarda las sesiones de la API) y las tablas de auditoría `audi_users` y `audi_vinculations`.
 
 ### Arquitectura (modelo C4)
 ![C4 nivel 1: contexto del sistema](docs/c4_nivel1_contexto.png)
@@ -65,7 +65,7 @@ Convenciones: `pk` llave primaria, `uk` llave única, `fkN` llave foránea; opci
 | Tipo de clave | Opcionalidad | Nombre de la columna | Tipo de dato | Tamaño | Referencia |
 |---|---|---|---|---|---|
 | pk | * | role_id | BIGINT |  |  |
-| uk | * | name | VARCHAR | 255 |  |
+| uk | * | name | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_roles.sql`](ddl/ddl_roles.sql)
 
@@ -74,7 +74,7 @@ Script: [`ddl/ddl_roles.sql`](ddl/ddl_roles.sql)
 | Tipo de clave | Opcionalidad | Nombre de la columna | Tipo de dato | Tamaño | Referencia |
 |---|---|---|---|---|---|
 | pk | * | city_id | BIGINT |  |  |
-| uk | * | name | VARCHAR | 255 |  |
+| uk | * | name | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_cities.sql`](ddl/ddl_cities.sql)
 
@@ -83,7 +83,7 @@ Script: [`ddl/ddl_cities.sql`](ddl/ddl_cities.sql)
 | Tipo de clave | Opcionalidad | Nombre de la columna | Tipo de dato | Tamaño | Referencia |
 |---|---|---|---|---|---|
 | pk | * | brand_id | BIGINT |  |  |
-| uk | * | name | VARCHAR | 255 |  |
+| uk | * | name | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_brands.sql`](ddl/ddl_brands.sql)
 
@@ -92,7 +92,7 @@ Script: [`ddl/ddl_brands.sql`](ddl/ddl_brands.sql)
 | Tipo de clave | Opcionalidad | Nombre de la columna | Tipo de dato | Tamaño | Referencia |
 |---|---|---|---|---|---|
 | pk | * | vehicle_type_id | BIGINT |  |  |
-| uk | * | name | VARCHAR | 255 |  |
+| uk | * | name | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_vehicle_types.sql`](ddl/ddl_vehicle_types.sql)
 
@@ -101,7 +101,7 @@ Script: [`ddl/ddl_vehicle_types.sql`](ddl/ddl_vehicle_types.sql)
 | Tipo de clave | Opcionalidad | Nombre de la columna | Tipo de dato | Tamaño | Referencia |
 |---|---|---|---|---|---|
 | pk | * | event_type_id | BIGINT |  |  |
-| uk | * | name | VARCHAR | 255 |  |
+| uk | * | name | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_event_types.sql`](ddl/ddl_event_types.sql)
 
@@ -115,15 +115,15 @@ Script: [`ddl/ddl_event_types.sql`](ddl/ddl_event_types.sql)
 |  | * | notify_device_shutdown | BOOLEAN |  |  |
 |  | o | alarm_sound_size | BIGINT |  |  |
 |  | o | logo_size | BIGINT |  |  |
-|  | o | phone | VARCHAR | 20 |  |
-| uk | * | nit | VARCHAR | 30 |  |
-|  | o | address | VARCHAR | 150 |  |
+|  | * | phone | VARCHAR | 10 |  |
+| uk | * | nit | VARCHAR | 12 |  |
+|  | * | email | VARCHAR | 100 |  |
+|  | * | name | VARCHAR | 100 |  |
+|  | * | address | VARCHAR | 150 |  |
 |  | o | alarm_sound_name | VARCHAR | 255 |  |
 |  | o | alarm_sound_path | VARCHAR | 255 |  |
-|  | o | email | VARCHAR | 255 |  |
 |  | o | logo_name | VARCHAR | 255 |  |
 |  | o | logo_path | VARCHAR | 255 |  |
-|  | * | name | VARCHAR | 255 |  |
 
 Script: [`ddl/ddl_companies.sql`](ddl/ddl_companies.sql)
 
@@ -136,8 +136,8 @@ Script: [`ddl/ddl_companies.sql`](ddl/ddl_companies.sql)
 | fk1 | o | company_id | BIGINT |  | companies(company_id) |
 |  | o | reset_token_expiry | TIMESTAMP |  |  |
 | fk2 | * | role_id | BIGINT |  | roles(role_id) |
-| uk | * | email | VARCHAR | 255 |  |
-|  | * | name | VARCHAR | 255 |  |
+| uk | * | email | VARCHAR | 100 |  |
+|  | * | name | VARCHAR | 100 |  |
 |  | * | password | VARCHAR | 255 |  |
 |  | o | reset_token | VARCHAR | 255 |  |
 
@@ -161,14 +161,14 @@ Script: [`ddl/ddl_refresh_token.sql`](ddl/ddl_refresh_token.sql)
 | pk | * | access_request_id | BIGINT |  |  |
 | fk1 | * | city_id | BIGINT |  | cities(city_id) |
 |  | * | created_at | TIMESTAMP |  |  |
-|  | * | nit | VARCHAR | 30 |  |
-|  | * | address | VARCHAR | 255 |  |
-|  | * | admin_email | VARCHAR | 255 |  |
-|  | * | admin_name | VARCHAR | 255 |  |
-|  | * | admin_phone | VARCHAR | 255 |  |
-|  | * | company_name | VARCHAR | 255 |  |
-|  | * | company_phone | VARCHAR | 255 |  |
-|  | * | status | VARCHAR | 255 |  |
+|  | * | admin_phone | VARCHAR | 10 |  |
+|  | * | company_phone | VARCHAR | 10 |  |
+|  | * | nit | VARCHAR | 12 |  |
+|  | * | status | VARCHAR | 20 |  |
+|  | * | admin_email | VARCHAR | 100 |  |
+|  | * | admin_name | VARCHAR | 100 |  |
+|  | * | company_name | VARCHAR | 100 |  |
+|  | * | address | VARCHAR | 150 |  |
 
 Script: [`ddl/ddl_access_requests.sql`](ddl/ddl_access_requests.sql)
 
@@ -178,13 +178,13 @@ Script: [`ddl/ddl_access_requests.sql`](ddl/ddl_access_requests.sql)
 |---|---|---|---|---|---|
 | pk | * | vehicle_id | BIGINT |  |  |
 |  | * | year | INTEGER |  |  |
+| uk | * | plate | VARCHAR | 6 |  |
 | fk1 | * | brand_id | BIGINT |  | brands(brand_id) |
 | fk2 | * | company_id | BIGINT |  | companies(company_id) |
 |  | * | created_at | TIMESTAMP |  |  |
 | fk3 | * | vehicle_type_id | BIGINT |  | vehicle_types(vehicle_type_id) |
-| uk | * | plate | VARCHAR | 15 |  |
-|  | * | model | VARCHAR | 255 |  |
-|  | * | status | VARCHAR | 255 |  |
+|  | * | status | VARCHAR | 20 |  |
+|  | * | model | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_vehicles.sql`](ddl/ddl_vehicles.sql)
 
@@ -196,8 +196,8 @@ Script: [`ddl/ddl_vehicles.sql`](ddl/ddl_vehicles.sql)
 | fk1 | * | company_id | BIGINT |  | companies(company_id) |
 |  | * | created_at | TIMESTAMP |  |  |
 |  | o | last_connection | TIMESTAMP |  |  |
-| uk | * | serial | VARCHAR | 255 |  |
-|  | * | status | VARCHAR | 255 |  |
+|  | * | status | VARCHAR | 20 |  |
+| uk | * | serial | VARCHAR | 50 |  |
 
 Script: [`ddl/ddl_devices.sql`](ddl/ddl_devices.sql)
 
@@ -208,11 +208,11 @@ Script: [`ddl/ddl_devices.sql`](ddl/ddl_devices.sql)
 | pk | * | driver_id | BIGINT |  |  |
 | fk1 | * | company_id | BIGINT |  | companies(company_id) |
 |  | * | created_at | TIMESTAMP |  |  |
-| uk | * | document | VARCHAR | 255 |  |
-|  | o | email | VARCHAR | 255 |  |
-|  | * | full_name | VARCHAR | 255 |  |
-|  | o | phone | VARCHAR | 255 |  |
-|  | * | status | VARCHAR | 255 |  |
+| uk | * | document | VARCHAR | 10 |  |
+|  | o | phone | VARCHAR | 10 |  |
+|  | * | status | VARCHAR | 20 |  |
+|  | o | email | VARCHAR | 100 |  |
+|  | * | full_name | VARCHAR | 100 |  |
 
 Script: [`ddl/ddl_drivers.sql`](ddl/ddl_drivers.sql)
 
@@ -239,8 +239,8 @@ Script: [`ddl/ddl_vinculations.sql`](ddl/ddl_vinculations.sql)
 | fk2 | * | driver_id | BIGINT |  | drivers(driver_id) |
 | fk3 | * | event_type_id | BIGINT |  | event_types(event_type_id) |
 | fk4 | * | vehicle_id | BIGINT |  | vehicles(vehicle_id) |
-|  | * | level | VARCHAR | 255 |  |
-|  | * | location | VARCHAR | 255 |  |
+|  | * | level | VARCHAR | 10 |  |
+|  | * | location | VARCHAR | 150 |  |
 
 Script: [`ddl/ddl_alerts.sql`](ddl/ddl_alerts.sql)
 
@@ -252,9 +252,9 @@ Script: [`ddl/ddl_alerts.sql`](ddl/ddl_alerts.sql)
 |  | * | read | BOOLEAN |  |  |
 | fk1 | * | company_id | BIGINT |  | companies(company_id) |
 |  | * | created_at | TIMESTAMP |  |  |
+|  | * | type | VARCHAR | 30 |  |
+|  | * | title | VARCHAR | 100 |  |
 |  | * | message | VARCHAR | 255 |  |
-|  | * | title | VARCHAR | 255 |  |
-|  | * | type | VARCHAR | 255 |  |
 
 Script: [`ddl/ddl_notifications.sql`](ddl/ddl_notifications.sql)
 

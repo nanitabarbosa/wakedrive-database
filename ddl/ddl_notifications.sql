@@ -4,9 +4,9 @@ CREATE TABLE IF NOT EXISTS public.notifications (
     read                     BOOLEAN NOT NULL,
     company_id               BIGINT NOT NULL,
     created_at               TIMESTAMP(6) NOT NULL,
+    type                     VARCHAR(30) NOT NULL,
+    title                    VARCHAR(100) NOT NULL,
     message                  VARCHAR(255) NOT NULL,
-    title                    VARCHAR(255) NOT NULL,
-    type                     VARCHAR(255) NOT NULL,
     CONSTRAINT notifications_pkey PRIMARY KEY (notification_id),
     CONSTRAINT notifications_type_check CHECK (((type)::text = ANY ((ARRAY['DEVICE_OFF'::character varying, 'DEVICE_ONLINE'::character varying, 'DROWSINESS'::character varying, 'VINCULATION_CREATED'::character varying, 'USER_REGISTERED'::character varying])::text[])))
 );

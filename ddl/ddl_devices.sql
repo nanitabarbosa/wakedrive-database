@@ -4,8 +4,8 @@ CREATE TABLE IF NOT EXISTS public.devices (
     company_id               BIGINT NOT NULL,
     created_at               TIMESTAMP(6) NOT NULL,
     last_connection          TIMESTAMP(6),
-    serial                   VARCHAR(255) NOT NULL,
-    status                   VARCHAR(255) NOT NULL,
+    status                   VARCHAR(20) NOT NULL,
+    serial                   VARCHAR(50) NOT NULL,
     CONSTRAINT devices_serial_key UNIQUE (serial),
     CONSTRAINT devices_pkey PRIMARY KEY (device_id),
     CONSTRAINT devices_status_check CHECK (((status)::text = ANY ((ARRAY['ACTIVE'::character varying, 'INACTIVE'::character varying])::text[])))

@@ -7,8 +7,8 @@ CREATE TABLE IF NOT EXISTS public.alerts (
     driver_id                BIGINT NOT NULL,
     event_type_id            BIGINT NOT NULL,
     vehicle_id               BIGINT NOT NULL,
-    level                    VARCHAR(255) NOT NULL,
-    location                 VARCHAR(255) NOT NULL,
+    level                    VARCHAR(10) NOT NULL,
+    location                 VARCHAR(150) NOT NULL,
     CONSTRAINT alerts_pkey PRIMARY KEY (alert_id),
     CONSTRAINT alerts_level_check CHECK (((level)::text = ANY ((ARRAY['HIGH'::character varying, 'MEDIUM'::character varying, 'LOW'::character varying])::text[])))
 );
