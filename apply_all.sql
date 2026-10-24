@@ -25,6 +25,8 @@
 
 -- 3. Triggers de negocio y de auditoría
 \i triggers/trg_validate_alert.sql
+\i triggers/trg_validate_vinculation.sql
+\i triggers/trg_protect_alerts.sql
 \i audit/triggers/trg_audi_users.sql
 \i audit/triggers/trg_audi_vinculations.sql
 

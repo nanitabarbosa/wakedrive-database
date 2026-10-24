@@ -55,7 +55,9 @@ wakedrive-database/
 ├── indexes/
 │   └── idx_alerts.sql
 ├── triggers/
-│   └── trg_validate_alert.sql
+│   ├── trg_protect_alerts.sql
+│   ├── trg_validate_alert.sql
+│   └── trg_validate_vinculation.sql
 ├── .gitignore
 ├── README.md
 └── apply_all.sql
@@ -66,7 +68,7 @@ wakedrive-database/
 | `docs/` | Diagramas del modelo (conceptual, lógico y físico) y de arquitectura (C4). |
 | `ddl/` | Una tabla por archivo (15 tablas) y `ddl_foreign_keys.sql` con todas las claves foráneas. Reflejan el esquema que genera Hibernate en el backend. |
 | `audit/ddl/` | Tablas `audi_<tabla>` de auditoría (2: users y vinculations). `audi_users` no guarda contraseñas ni tokens. |
-| `triggers/` | `trg_validate_alert` (regla de negocio sobre alertas). |
+| `triggers/` | `trg_validate_alert`, `trg_validate_vinculation` y `trg_protect_alerts` (reglas de negocio sobre alertas y vinculaciones). |
 | `audit/triggers/` | Un trigger de auditoría por cada tabla auditada. |
 | `dml/` | Datos de ejemplo ficticios, incluida una carga de 500 000 alertas. |
 | `indexes/` | Índices de `alerts`. |
@@ -81,7 +83,7 @@ psql -U postgres -d wakedrive -v ON_ERROR_STOP=1 -f apply_all.sql
 
 `apply_all.sql` ejecuta, en orden: las tablas principales y sus claves foráneas, las tablas de auditoría, los triggers de negocio y de auditoría, los datos de ejemplo (DML) y, al final, los índices.
 
-Si la base ya fue creada por el backend (Hibernate), solo hace falta aplicar la auditoría, los triggers y los índices con `database/apply_all.sql` del repositorio WakeDrive-Back.
+Si la base ya fue creada por el backend (Hibernate), solo hace falta aplicar la auditoría, los triggers y los índices con `backend/src/main/resources/update.sql` del repositorio WakeDrive-Back (se ejecuta desde la carpeta `backend`: `psql -U postgres -d wakedrive -1 -v ON_ERROR_STOP=1 -f src/main/resources/update.sql`).
 
 ## Modelos
 
@@ -328,6 +330,8 @@ Cada tabla de auditoría (`audi_<tabla>`) guarda el estado de la fila antes (`st
 | Trigger | Regla | Script |
 |---|---|---|
 | `trg_validate_alert` | Solo un dispositivo ACTIVE, vinculado al mismo conductor y vehículo, puede registrar alertas. | [`triggers/trg_validate_alert.sql`](triggers/trg_validate_alert.sql) |
+| `trg_validate_vinculation` | Solo se pueden vincular un conductor, un vehículo y un dispositivo ACTIVE y de la misma empresa. | [`triggers/trg_validate_vinculation.sql`](triggers/trg_validate_vinculation.sql) |
+| `trg_protect_alerts` | Las alertas registradas son un historial inmutable: no se pueden modificar ni eliminar. | [`triggers/trg_protect_alerts.sql`](triggers/trg_protect_alerts.sql) |
 
 ## Datos de ejemplo
 
