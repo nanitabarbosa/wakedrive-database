@@ -33,6 +33,8 @@ wakedrive-database/
 │   ├── modelo_conceptual.png
 │   ├── modelo_fisico.png
 │   └── modelo_logico.png
+├── triggers/
+│   └── trg_validate_alert.sql
 ├── .gitignore
 └── README.md
 ```
@@ -42,6 +44,7 @@ wakedrive-database/
 | `docs/` | Diagramas del modelo (conceptual, lógico y físico) y de arquitectura (C4). |
 | `ddl/` | Una tabla por archivo (15 tablas) y `ddl_foreign_keys.sql` con todas las claves foráneas. Reflejan el esquema que genera Hibernate en el backend. |
 | `audit/ddl/` | Tablas `audi_<tabla>` de auditoría (2: users y vinculations). `audi_users` no guarda contraseñas ni tokens. |
+| `triggers/` | `trg_validate_alert` (regla de negocio sobre alertas). |
 
 ## Modelos
 
@@ -282,6 +285,12 @@ Cada tabla de auditoría (`audi_<tabla>`) está pensada para guardar el estado d
 |---|---|---|
 | users | audi_users | [`ddl`](audit/ddl/ddl_audi_users.sql) |
 | vinculations | audi_vinculations | [`ddl`](audit/ddl/ddl_audi_vinculations.sql) |
+
+## Triggers de negocio
+
+| Trigger | Regla | Script |
+|---|---|---|
+| `trg_validate_alert` | Solo un dispositivo ACTIVE, vinculado al mismo conductor y vehículo, puede registrar alertas. | [`triggers/trg_validate_alert.sql`](triggers/trg_validate_alert.sql) |
 
 ## Integrantes
 
