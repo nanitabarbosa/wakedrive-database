@@ -7,9 +7,12 @@ Scripts y documentación de la base de datos de **WakeDrive** (PostgreSQL): plat
 ```
 wakedrive-database/
 ├── audit/
-│   └── ddl/
-│       ├── ddl_audi_users.sql
-│       └── ddl_audi_vinculations.sql
+│   ├── ddl/
+│   │   ├── ddl_audi_users.sql
+│   │   └── ddl_audi_vinculations.sql
+│   └── triggers/
+│       ├── trg_audi_users.sql
+│       └── trg_audi_vinculations.sql
 ├── ddl/
 │   ├── ddl_access_requests.sql
 │   ├── ddl_alerts.sql
@@ -45,6 +48,7 @@ wakedrive-database/
 | `ddl/` | Una tabla por archivo (15 tablas) y `ddl_foreign_keys.sql` con todas las claves foráneas. Reflejan el esquema que genera Hibernate en el backend. |
 | `audit/ddl/` | Tablas `audi_<tabla>` de auditoría (2: users y vinculations). `audi_users` no guarda contraseñas ni tokens. |
 | `triggers/` | `trg_validate_alert` (regla de negocio sobre alertas). |
+| `audit/triggers/` | Un trigger de auditoría por cada tabla auditada. |
 
 ## Modelos
 
@@ -268,7 +272,7 @@ Script: [`ddl/ddl_notifications.sql`](ddl/ddl_notifications.sql)
 
 ## Auditoría
 
-Cada tabla de auditoría (`audi_<tabla>`) está pensada para guardar el estado de la fila antes (`state = OLD`) y después (`state = NEW`) de un INSERT, UPDATE o DELETE: un INSERT deja una fila NEW, un DELETE deja una fila OLD y un UPDATE deja una de cada una. `audi_users` no tiene las columnas `password`, `reset_token` ni `reset_token_expiry`, para no guardar secretos.
+Cada tabla de auditoría (`audi_<tabla>`) guarda el estado de la fila antes (`state = OLD`) y después (`state = NEW`) de un INSERT, UPDATE o DELETE: un INSERT deja una fila NEW, un DELETE deja una fila OLD y un UPDATE deja una de cada una. `audi_users` no tiene las columnas `password`, `reset_token` ni `reset_token_expiry`, para no guardar secretos.
 
 ### Tabla 16. AUDI_<TABLA> (estructura común)
 
@@ -281,10 +285,10 @@ Cada tabla de auditoría (`audi_<tabla>`) está pensada para guardar el estado d
 |  | * | changed_at | TIMESTAMP |  |
 |  | o | (columnas de la tabla auditada) | las mismas | las mismas |
 
-| Tabla auditada | Tabla de auditoría | Script |
-|---|---|---|
-| users | audi_users | [`ddl`](audit/ddl/ddl_audi_users.sql) |
-| vinculations | audi_vinculations | [`ddl`](audit/ddl/ddl_audi_vinculations.sql) |
+| Tabla auditada | Tabla de auditoría | Trigger | Scripts |
+|---|---|---|---|
+| users | audi_users | trg_audi_users | [`ddl`](audit/ddl/ddl_audi_users.sql) · [`trigger`](audit/triggers/trg_audi_users.sql) |
+| vinculations | audi_vinculations | trg_audi_vinculations | [`ddl`](audit/ddl/ddl_audi_vinculations.sql) · [`trigger`](audit/triggers/trg_audi_vinculations.sql) |
 
 ## Triggers de negocio
 
