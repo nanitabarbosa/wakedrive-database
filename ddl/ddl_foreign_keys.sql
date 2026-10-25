@@ -3,6 +3,7 @@
 
 ALTER TABLE public.users ADD CONSTRAINT fkin8gn4o1hpiwe6qe4ey7ykwq7 FOREIGN KEY (company_id) REFERENCES companies(company_id);
 ALTER TABLE public.users ADD CONSTRAINT fkp56c1712k691lhsyewcssf40f FOREIGN KEY (role_id) REFERENCES roles(role_id);
+ALTER TABLE public.companies ADD CONSTRAINT companies_city_id_fkey FOREIGN KEY (city_id) REFERENCES cities(city_id);
 ALTER TABLE public.refresh_token ADD CONSTRAINT fkjtx87i0jvq2svedphegvdwcuy FOREIGN KEY (user_id) REFERENCES users(user_id);
 ALTER TABLE public.access_requests ADD CONSTRAINT fkrmjpr2ufg4t9d26c0ft8tkp00 FOREIGN KEY (city_id) REFERENCES cities(city_id);
 ALTER TABLE public.vehicles ADD CONSTRAINT fkk3cs3vldlan30kg1x6b57i4fe FOREIGN KEY (vehicle_type_id) REFERENCES vehicle_types(vehicle_type_id);

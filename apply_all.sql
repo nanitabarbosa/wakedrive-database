@@ -22,6 +22,8 @@
 -- 2. Auditoría: una tabla audi_* por cada tabla maestra del negocio
 \i audit/ddl/ddl_audi_users.sql
 \i audit/ddl/ddl_audi_vinculations.sql
+\i audit/ddl/ddl_audi_companies.sql
+\i audit/ddl/ddl_audi_access_requests.sql
 
 -- 3. Triggers de negocio y de auditoría
 \i triggers/trg_validate_alert.sql
@@ -29,6 +31,8 @@
 \i triggers/trg_protect_alerts.sql
 \i audit/triggers/trg_audi_users.sql
 \i audit/triggers/trg_audi_vinculations.sql
+\i audit/triggers/trg_audi_companies.sql
+\i audit/triggers/trg_audi_access_requests.sql
 
 -- 4. Datos de ejemplo (DML)
 \i dml/dml_roles.sql
