@@ -8,12 +8,10 @@ Scripts de la base de datos de **WakeDrive** (PostgreSQL), plataforma de monitor
 wakedrive-database/
 ├── audit/
 │   ├── ddl/
-│   │   ├── ddl_audi_access_requests.sql
 │   │   ├── ddl_audi_companies.sql
 │   │   ├── ddl_audi_users.sql
 │   │   └── ddl_audi_vinculations.sql
 │   └── triggers/
-│       ├── trg_audi_access_requests.sql
 │       ├── trg_audi_companies.sql
 │       ├── trg_audi_users.sql
 │       └── trg_audi_vinculations.sql
@@ -70,7 +68,7 @@ wakedrive-database/
 | Carpeta o archivo | Contenido |
 |---|---|
 | `ddl/` | Una tabla por archivo (15) y `ddl_foreign_keys.sql` con las claves foráneas. |
-| `audit/` | Tablas de auditoría (`audi_users`, `audi_vinculations`, `audi_companies` y `audi_access_requests`) y sus triggers. |
+| `audit/` | Tablas de auditoría (`audi_users`, `audi_vinculations` y `audi_companies`) y sus triggers. |
 | `triggers/` | Triggers de reglas de negocio (alertas y vinculaciones). |
 | `dml/` | Datos de ejemplo. |
 | `indexes/` | Índices de la tabla `alerts`. |
