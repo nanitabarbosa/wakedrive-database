@@ -4,3 +4,10 @@ INSERT INTO public.devices (serial, status, last_connection, company_id, created
 ('WD-0003-B1', 'ACTIVE',   '2026-10-19 22:10:00', 2, '2026-09-12 09:10:00'),
 ('WD-0004-C1', 'ACTIVE',   '2026-10-20 06:55:00', 3, '2026-09-15 15:40:00'),
 ('WD-0005-D1', 'INACTIVE', '2026-09-30 12:00:00', 4, '2026-09-18 08:50:00');
+
+-- Filas 6 a 1250: un dispositivo por empresa.
+INSERT INTO public.devices (serial, status, last_connection, company_id, created_at)
+SELECT 'WD-' || lpad(g::text, 4, '0') || '-N1', 'ACTIVE',
+       TIMESTAMP '2026-10-20 06:00:00' + (g % 720 * interval '1 minute'), g,
+       TIMESTAMP '2026-09-20 08:00:00' + (g * interval '10 minutes')
+FROM generate_series(6, 1250) AS g;

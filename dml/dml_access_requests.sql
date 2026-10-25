@@ -4,3 +4,17 @@ INSERT INTO public.access_requests (company_name, nit, city_id, address, company
 ('CARGA SEGURA DEL NORTE S.A.', '800345678-3', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 2), 'AV 3 # 15-80 BUCARAMANGA', '3027778899', 'Marta Rincón',     'marta.rincon@ejemplo.com',    '3107778899', 'APPROVED', '2026-09-08 11:00:00'),
 ('TRANSPORTES DEL VALLE LTDA',  '901678901-6', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 3), 'CRA 4 # 20-15 CALI',       '3051112200', 'Julio Ramírez',    'julio.ramirez@ejemplo.com',   '3151112200', 'PENDING',  '2026-09-20 16:45:00'),
 ('EXPRESO PAMPLONA S.A.S.',     '900789012-7', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 4), 'CALLE 6 # 7-30 PAMPLONA',  '3063334455', 'Sandra Villamizar','sandra.v@ejemplo.com',        '3153334455', 'REJECTED', '2026-09-12 08:20:00');
+
+-- Filas 6 a 1250: una solicitud por empresa (la mayoría aprobadas).
+INSERT INTO public.access_requests (company_name, nit, city_id, address, company_phone, admin_name, admin_email, admin_phone, status, created_at)
+SELECT 'EMPRESA DE TRANSPORTE ' || g,
+       (900000000 + g)::text || '-' || (g % 10),
+       (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET (g % 10)),
+       'CALLE ' || (1 + g % 90) || ' # ' || (1 + g % 40) || '-' || (10 + g % 80),
+       '30' || lpad(g::text, 8, '0'),
+       (ARRAY['Laura','Carlos','Marta','Andrés','Camila','Julián','Sofía','Daniel','Valentina','Miguel','Paula','Sergio','Natalia','Felipe','Diana','Jorge','Luisa','Mateo','Carolina','Esteban'])[1 + (g % 20)] || ' ' || (ARRAY['Gómez','Pérez','Rincón','Quintero','Torres','Soto','Leal','Méndez','Díaz','Ortiz','Castro','Vargas','Rojas','Mora','Pacheco','Navarro','Suárez','Jiménez','Peña','Cárdenas'])[1 + ((g / 20) % 20)] || ' ' || (ARRAY['Gómez','Pérez','Rincón','Quintero','Torres','Soto','Leal','Méndez','Díaz','Ortiz','Castro','Vargas','Rojas','Mora','Pacheco','Navarro','Suárez','Jiménez','Peña','Cárdenas'])[1 + ((g / 400) % 20)],
+       'usuario' || g || '@ejemplo.com',
+       '31' || lpad(g::text, 8, '0'),
+       (ARRAY['APPROVED','APPROVED','APPROVED','PENDING','REJECTED'])[1 + (g % 5)],
+       TIMESTAMP '2026-09-20 08:00:00' + (g * interval '10 minutes')
+FROM generate_series(6, 1250) AS g;
