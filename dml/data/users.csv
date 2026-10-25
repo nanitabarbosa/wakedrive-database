@@ -1,7 +1,7 @@
 user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,password,reset_token
 1,f,,,1,superadmin@ejemplo.com,Super Administrador,$2a$10$hDSLAHDKxCZF7UunD.nAaum7gUkVPxMTZlSGHUmvRcNSWb2T4IGy2,
 2,f,1,,2,laura.gomez@ejemplo.com,Laura Gómez,$2a$10$Oqq39ZUfNCR7u7NCfQfqDeqh9hV0duA7IjmQcgdaOWXkSkKdhcSPK,
-3,t,2,2026-10-25 08:36:00,2,carlos.perez@ejemplo.com,Carlos Pérez,$2a$10$tuTKlkcTswJwiJ9eao8OsO86/LWb0L.bcRVaDtXW7i7UKZVtLnr9K,af714705-9334-6405-9c0c-9bbb6313e4d9
+3,t,2,2026-10-25 10:21:00,2,carlos.perez@ejemplo.com,Carlos Pérez,$2a$10$tuTKlkcTswJwiJ9eao8OsO86/LWb0L.bcRVaDtXW7i7UKZVtLnr9K,af714705-9334-4405-9c0c-9bbb6313e4d9
 4,f,3,,2,marta.rincon@ejemplo.com,Marta Rincón,$2a$10$YM2jr3NPSHR4BCHg1lNOJOwV6ABarEvBgjVL3X0EhCqvJcMWyORRi,
 5,t,4,,2,andres.quintero@ejemplo.com,Andrés Quintero,$2a$10$ogCMpkXfQs/GFj1QuVslZOakEdRE1dc8ui2bGlLKtffFwlrn0T5dy,
 6,f,5,,2,usuario6@ejemplo.com,Sofía Gómez Gómez,$2a$10$9joH44Q8EAoDb.ZLG6KE2OkPm6i1n5SgvErgKC5YdNsIt8V1lHbES,
@@ -21,7 +21,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 20,t,19,,2,usuario20@ejemplo.com,Laura Pérez Gómez,$2a$10$soOz.ul7jUjloifSFHyA0e0TnzhpYfvbgRMESIh979fLoKsb4Rqjm,
 21,f,20,,2,usuario21@ejemplo.com,Carlos Pérez Gómez,$2a$10$vllxH/1k7VjhkdjcPn0PleDIoD9LgA7X8R43eDHGDBL5R8dgHs3t.,
 22,f,21,,2,usuario22@ejemplo.com,Marta Pérez Gómez,$2a$10$tMwTbNq3neGCvGMQcZS.kueEtu0YXpPpqIrZWuqWAQWZllAMvBjWq,
-23,f,22,2026-10-25 10:56:00,2,usuario23@ejemplo.com,Andrés Pérez Gómez,$2a$10$yn77BxSaCotMliw.tLoD3Om1My5.Zy1oiVLBdNsN.rxfkbPlyPOHu,1d73f321-d6bf-ec5a-bcb7-1933811a09dc
+23,f,22,2026-10-25 12:41:00,2,usuario23@ejemplo.com,Andrés Pérez Gómez,$2a$10$yn77BxSaCotMliw.tLoD3Om1My5.Zy1oiVLBdNsN.rxfkbPlyPOHu,1d73f321-d6bf-4c5a-bcb7-1933811a09dc
 24,t,23,,2,usuario24@ejemplo.com,Camila Pérez Gómez,$2a$10$rwPDUZC6JxXL8hH3ZCTdSOQxyGzH5xLxorshqs1nkTXbC6MIRHGjq,
 25,f,24,,2,usuario25@ejemplo.com,Julián Pérez Gómez,$2a$10$ptU8.PXVHxBGKKJ/uC8IcOwqsq0fm7G3Tm.gPfUbbrLSb6GG0V4l2,
 26,f,25,,2,usuario26@ejemplo.com,Sofía Pérez Gómez,$2a$10$Q042nZIc.YLZ0VsaBYxBeuagj1eRHXGk0NeAwB6XVVR3jxCjbTJb6,
@@ -41,7 +41,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 40,t,39,,2,usuario40@ejemplo.com,Laura Rincón Gómez,$2a$10$Uv9RLgdT9HRYZ1Sf49Xe1.IXTp74wxXR6qEfeqY4dPy1v0kAESQla,
 41,f,40,,2,usuario41@ejemplo.com,Carlos Rincón Gómez,$2a$10$9V4kt5xPZZLcYjitHp2wy.g0s2UVessFcBg10tBLv2kNPAROTsMu.,
 42,f,41,,2,usuario42@ejemplo.com,Marta Rincón Gómez,$2a$10$ht7TSbKXKpybOPKjr9pkruaSVWTQ2c42.WqWdnMtc6G.3X3Cbz9I6,
-43,f,42,2026-10-25 13:16:00,2,usuario43@ejemplo.com,Andrés Rincón Gómez,$2a$10$CgIUr08YhUbW/YBErMGot.9Eqt0k2J8.DI5UOSbm/jJfVSLajqRgq,9af7c47c-1155-e5cd-628d-ac4b578ef071
+43,f,42,2026-10-25 15:01:00,2,usuario43@ejemplo.com,Andrés Rincón Gómez,$2a$10$CgIUr08YhUbW/YBErMGot.9Eqt0k2J8.DI5UOSbm/jJfVSLajqRgq,9af7c47c-1155-45cd-a28d-ac4b578ef071
 44,t,43,,2,usuario44@ejemplo.com,Camila Rincón Gómez,$2a$10$xPT2W9GqWO9faRkDGFjQjOyO98L5QWgjRH7Zx39aIyZ7XihO30SSa,
 45,f,44,,2,usuario45@ejemplo.com,Julián Rincón Gómez,$2a$10$x6h1XKKPviBMcqWj4d7RhOe4upCYwrEGMBVmIfeCzuKObRfGW3J1O,
 46,f,45,,2,usuario46@ejemplo.com,Sofía Rincón Gómez,$2a$10$LxvKT6N2/.mSW5hA3GItx.p.qXO84lwgbS1/mtd3YHOShMawau50W,
@@ -61,7 +61,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 60,t,59,,2,usuario60@ejemplo.com,Laura Quintero Gómez,$2a$10$cC1uFlN4ElquFRUmMgNYYOlIKWAQ2OK1vkPcwjc9.WFEyAARNR6wW,
 61,f,60,,2,usuario61@ejemplo.com,Carlos Quintero Gómez,$2a$10$Gci0bGMTUjtkyHI0YaHh3ugQbA4HaxhPp9ZfG.CX7Q/h15OzA835q,
 62,f,61,,2,usuario62@ejemplo.com,Marta Quintero Gómez,$2a$10$ItRc0A8NH/uEsGiJ5LxFQOkudym8xIJ7v1U2Pv4xuSMDHi4FRx8UG,
-63,f,62,2026-10-25 15:36:00,2,usuario63@ejemplo.com,Andrés Quintero Gómez,$2a$10$DpAE54e6sWznF5T8kkvwAujzvgfuYFeh.M4G49w.PGIjOSCJQcZey,4f6b6c46-87e9-9d6f-3b20-c00435eb827e
+63,f,62,2026-10-25 17:21:00,2,usuario63@ejemplo.com,Andrés Quintero Gómez,$2a$10$DpAE54e6sWznF5T8kkvwAujzvgfuYFeh.M4G49w.PGIjOSCJQcZey,4f6b6c46-87e9-4d6f-bb20-c00435eb827e
 64,t,63,,2,usuario64@ejemplo.com,Camila Quintero Gómez,$2a$10$DizNYWh1cmSIKTd3fkvzzOmdqOSmAPql8bvIsBrRlBtObV6kc5.8m,
 65,f,64,,2,usuario65@ejemplo.com,Julián Quintero Gómez,$2a$10$OoErfF8eJCaSDlX.EuV4WuEOLFkvayH02uPRMUQSce.cLOtEuyM1e,
 66,f,65,,2,usuario66@ejemplo.com,Sofía Quintero Gómez,$2a$10$wOzWSWD8tIbZ1efjiqPW/uUAbsiniGaK4wqd2771TTFzLptBhjmCe,
@@ -81,7 +81,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 80,t,79,,2,usuario80@ejemplo.com,Laura Torres Gómez,$2a$10$JLkBBVoEvGvtkYq0w2xzBevBeb752cqpXuSVFuFcn7PyG2KUnw6cS,
 81,f,80,,2,usuario81@ejemplo.com,Carlos Torres Gómez,$2a$10$BglmKxxto.YPEyhxPdjtVOGPYeynlGvNXGqPWRdCZeX1FhnP9joZO,
 82,f,81,,2,usuario82@ejemplo.com,Marta Torres Gómez,$2a$10$CizBo34Bj0SGS5ZgMDcjweYr99f/K80qfJ3S/mSjLdCm58PP.DWQi,
-83,f,82,2026-10-25 17:56:00,2,usuario83@ejemplo.com,Andrés Torres Gómez,$2a$10$8UR7MipBrUF4QlpyW5lC2uPBF7bkoHtibU1qtEODErTMXtPYOLzPG,cc6c517e-2242-9911-2a7d-1718f455f671
+83,f,82,2026-10-25 19:41:00,2,usuario83@ejemplo.com,Andrés Torres Gómez,$2a$10$8UR7MipBrUF4QlpyW5lC2uPBF7bkoHtibU1qtEODErTMXtPYOLzPG,cc6c517e-2242-4911-aa7d-1718f455f671
 84,t,83,,2,usuario84@ejemplo.com,Camila Torres Gómez,$2a$10$Bsqbdaf20ncMNrhnXlTwB.XQt1PpFJJSVTvaoHqWD9Bek77MDYgoG,
 85,f,84,,2,usuario85@ejemplo.com,Julián Torres Gómez,$2a$10$FjwLCXGnvvUksTOahvp5pe6QJIv11Sy7wnO1DeCen/3F3nuwL12KK,
 86,f,85,,2,usuario86@ejemplo.com,Sofía Torres Gómez,$2a$10$VmmH0hZHbZDZ1qNqCK7S2ejVWgcJmym15YpjMfContm1PmqzZRhtS,
@@ -101,7 +101,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 100,t,99,,2,usuario100@ejemplo.com,Laura Soto Gómez,$2a$10$JXR3Xj41yDpgSA0PVgCkHuxP4UdHfaK5XhdJKBmIJMNhsloKEi06W,
 101,f,100,,2,usuario101@ejemplo.com,Carlos Soto Gómez,$2a$10$9cH92zqeRnClCxYSuuDQKOeCqYF9yiwZzJfFN3CyuScvUpLBUjBHq,
 102,f,101,,2,usuario102@ejemplo.com,Marta Soto Gómez,$2a$10$1nUCFcTU.FYjG66T.C6RJeoBuVI5EtN0g1/QPR5jPvB7D2lMoHKeq,
-103,f,102,2026-10-25 10:16:00,2,usuario103@ejemplo.com,Andrés Soto Gómez,$2a$10$zaRBXOxWUNxFk.ft1GDCh./8Fm/g9sfnq37vhVbFGwZ622Ag1Avb6,eb963372-0c93-dd62-dc65-3072216b6cd0
+103,f,102,2026-10-25 12:01:00,2,usuario103@ejemplo.com,Andrés Soto Gómez,$2a$10$zaRBXOxWUNxFk.ft1GDCh./8Fm/g9sfnq37vhVbFGwZ622Ag1Avb6,eb963372-0c93-4d62-9c65-3072216b6cd0
 104,t,103,,2,usuario104@ejemplo.com,Camila Soto Gómez,$2a$10$6onu480aydhGzq1onHx/0OCkeyif.MrOCfGsvynA7c/IyVkNqh/Vy,
 105,f,104,,2,usuario105@ejemplo.com,Julián Soto Gómez,$2a$10$PknoxeNMoOSgCp4y2iJfeenLoHnAG0ZbBly4nKUawiFuD6COvqjPm,
 106,f,105,,2,usuario106@ejemplo.com,Sofía Soto Gómez,$2a$10$Xol8xgTaYUvXvNm.sBI0/Oo.YGngRO8TGbN5SRgRppi4KUaGHmJmu,
@@ -121,7 +121,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 120,t,119,,2,usuario120@ejemplo.com,Laura Leal Gómez,$2a$10$HmEBEEjjH6qGCKPul411wujXwHjlrFt8nA69MY0Uxmn3K75neHll6,
 121,f,120,,2,usuario121@ejemplo.com,Carlos Leal Gómez,$2a$10$wb/20rqsYH9NJVYJMZdSy.1rN3/f1mgM.rMQvLfKZx1PeVuDiVLKW,
 122,f,121,,2,usuario122@ejemplo.com,Marta Leal Gómez,$2a$10$zjW7yv9yyDFejk9xY7BXCOa7jk2BvRNZLWaHIlZvArNM1CHaDgVqK,
-123,f,122,2026-10-25 12:36:00,2,usuario123@ejemplo.com,Andrés Leal Gómez,$2a$10$zUeB3mU4529tNTuqV/0i5uLgDuimpXl9K3DXNHR4X1IFv5JNxoHEq,318d23e1-daa7-f73d-b7de-5c737121872b
+123,f,122,2026-10-25 14:21:00,2,usuario123@ejemplo.com,Andrés Leal Gómez,$2a$10$zUeB3mU4529tNTuqV/0i5uLgDuimpXl9K3DXNHR4X1IFv5JNxoHEq,318d23e1-daa7-473d-b7de-5c737121872b
 124,t,123,,2,usuario124@ejemplo.com,Camila Leal Gómez,$2a$10$aSE0xU9loQalwfFPfH2j6.6yPV8DyMMHGqN0KH6Lx6rPHYSkcyh9S,
 125,f,124,,2,usuario125@ejemplo.com,Julián Leal Gómez,$2a$10$vUWYgUzONXaKziOx2PGk1eQPr3OteuZE.pTJOqXnioZ2muLJKud7.,
 126,f,125,,2,usuario126@ejemplo.com,Sofía Leal Gómez,$2a$10$hGlR92f5.DW3chQZsasIpuCfp1kJu9PrXg/cJI4Cko8Z1YsPOREUS,
@@ -141,7 +141,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 140,t,139,,2,usuario140@ejemplo.com,Laura Méndez Gómez,$2a$10$EG7i0pobKfOhxyQvYNlkBef2gmD0b.gr6fx44w5ZB2M7eSfqf9VKi,
 141,f,140,,2,usuario141@ejemplo.com,Carlos Méndez Gómez,$2a$10$iSWf1mUdHGS8aQeV6stlleKn4R5u8d6JCEwjioFP4DMq/Z.LpTPoq,
 142,f,141,,2,usuario142@ejemplo.com,Marta Méndez Gómez,$2a$10$8RClCrKkIjWp0KROVtnZMuKd5Bn6hPp4EqdWfwqG7AnXNPInohoFK,
-143,f,142,2026-10-25 14:56:00,2,usuario143@ejemplo.com,Andrés Méndez Gómez,$2a$10$ITPrPR76kmC3t9iF0ZgmYuXg.b0XSIFCqVV1Cuz5RrvMK7qtw0qXC,e3eae767-d342-f69c-c97f-e39cafcd046c
+143,f,142,2026-10-25 16:41:00,2,usuario143@ejemplo.com,Andrés Méndez Gómez,$2a$10$ITPrPR76kmC3t9iF0ZgmYuXg.b0XSIFCqVV1Cuz5RrvMK7qtw0qXC,e3eae767-d342-469c-897f-e39cafcd046c
 144,t,143,,2,usuario144@ejemplo.com,Camila Méndez Gómez,$2a$10$krnDpaH/vAe/2DpQXrlXceVUJo.duG079I3t7oIr4hrFBmivZrWnC,
 145,f,144,,2,usuario145@ejemplo.com,Julián Méndez Gómez,$2a$10$TIJMj9zWpveqEkib99M./eTp10Q6hXhgdDzAwWedKd9qLxm4uq23m,
 146,f,145,,2,usuario146@ejemplo.com,Sofía Méndez Gómez,$2a$10$6W14u9TU.hirncDvBWmI3efhGBH8UT5PvZPGmxITw4Tp1x5PJwoQy,
@@ -161,7 +161,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 160,t,159,,2,usuario160@ejemplo.com,Laura Díaz Gómez,$2a$10$hnIv2UtHyWSaa.TaB.cLP.35TL8ziDcmRfvsk2mckM1sLoTDyEfzS,
 161,f,160,,2,usuario161@ejemplo.com,Carlos Díaz Gómez,$2a$10$g8E1BZ1igF/75iyb8SZb1u0ArbcNxf/tsnqfjwSCMuB1cWAZtH1sm,
 162,f,161,,2,usuario162@ejemplo.com,Marta Díaz Gómez,$2a$10$PUJTycRXEiXx6iG7iYOosOWpVqM6/QOcTjDHutLp9xLbFeasesJt.,
-163,f,162,2026-10-25 17:16:00,2,usuario163@ejemplo.com,Andrés Díaz Gómez,$2a$10$AzGPq7pr8JInq/xf5gFg8ehRg9vaajQIGFwWB1XgAKIRg0bpMW2kq,5c629a67-79b9-6491-5b00-7d79cacc638e
+163,f,162,2026-10-25 19:01:00,2,usuario163@ejemplo.com,Andrés Díaz Gómez,$2a$10$AzGPq7pr8JInq/xf5gFg8ehRg9vaajQIGFwWB1XgAKIRg0bpMW2kq,5c629a67-79b9-4491-9b00-7d79cacc638e
 164,t,163,,2,usuario164@ejemplo.com,Camila Díaz Gómez,$2a$10$PtWd86IHhRPXHSDN2yzItuJkmGm3O8x.q7t2rbG4o6HFD83sK3x5S,
 165,f,164,,2,usuario165@ejemplo.com,Julián Díaz Gómez,$2a$10$PsBRVr2CKhF0UoQfeQVEyODRWrtQ7W8mFfK7wFz9z4R0NKJ9vNHN6,
 166,f,165,,2,usuario166@ejemplo.com,Sofía Díaz Gómez,$2a$10$wyRcvf6JvM0VLJTN1f2YZuySI7wKxJ5Qmkg5YsD0T8AsId3ms4aIy,
@@ -181,7 +181,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 180,t,179,,2,usuario180@ejemplo.com,Laura Ortiz Gómez,$2a$10$kp1IRSQWldSviT9NaoUexehvtnEgpzAUJMQz1wj4qIUFWzka1kHAm,
 181,f,180,,2,usuario181@ejemplo.com,Carlos Ortiz Gómez,$2a$10$lqyirvLNa43LFsQFo9CeKuvnzBP9oEMG7w4Q2xS3UMp8q7ajdNIke,
 182,f,181,,2,usuario182@ejemplo.com,Marta Ortiz Gómez,$2a$10$uuxp1SH8CS4exkrA7Wa/f.9gfNOIVGSFUd8D6WBzBPA.nqz6zj8Xy,
-183,f,182,2026-10-25 09:36:00,2,usuario183@ejemplo.com,Andrés Ortiz Gómez,$2a$10$nNmLW5JzdDsXF4GU6CPnqeSxFPL1SCPuwvCK6yQy0DNRbFWzPFZqS,7a95c7bd-f83e-45b6-3b79-d74e429800a2
+183,f,182,2026-10-25 11:21:00,2,usuario183@ejemplo.com,Andrés Ortiz Gómez,$2a$10$nNmLW5JzdDsXF4GU6CPnqeSxFPL1SCPuwvCK6yQy0DNRbFWzPFZqS,7a95c7bd-f83e-45b6-bb79-d74e429800a2
 184,t,183,,2,usuario184@ejemplo.com,Camila Ortiz Gómez,$2a$10$M.mMfzSnlKmfn78STimOn.P3lGJgyGz6EcBQZJz5.ZZvKRIiI2Dve,
 185,f,184,,2,usuario185@ejemplo.com,Julián Ortiz Gómez,$2a$10$0HggKmIX0I0ERlxALUffXuINgCCT32riFKS2GEN1Y.ZOSm5UfYXp.,
 186,f,185,,2,usuario186@ejemplo.com,Sofía Ortiz Gómez,$2a$10$WIZzlJgSDJlZAhYqm8oGtOD1acjihaLNQpvoUf.t1x0wulGgAi.Fe,
@@ -201,7 +201,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 200,t,199,,2,usuario200@ejemplo.com,Laura Castro Gómez,$2a$10$PwIgiUqalWL5tViVLmN4a.K0SyicHYcMmgO1FhpkQaibzL9Njyd7G,
 201,f,200,,2,usuario201@ejemplo.com,Carlos Castro Gómez,$2a$10$uobXZ1ccuzYNMJXmc.ZaZuXYcN4EA2SU9/BHcb7y8qlHd8j1TI2w2,
 202,f,201,,2,usuario202@ejemplo.com,Marta Castro Gómez,$2a$10$Ywzi.NoBwX0dOAKZog2quOLCd7ouoHtXjSKQ.T8ZZGz4zHJK2FNd.,
-203,f,202,2026-10-25 11:56:00,2,usuario203@ejemplo.com,Andrés Castro Gómez,$2a$10$n5WOld38nYKgkJC1q6tbheJdEDXQek1c9ggVlQ6djAcFAHzjpFPB2,84144d3f-dfd2-f496-d342-52fb01546909
+203,f,202,2026-10-25 13:41:00,2,usuario203@ejemplo.com,Andrés Castro Gómez,$2a$10$n5WOld38nYKgkJC1q6tbheJdEDXQek1c9ggVlQ6djAcFAHzjpFPB2,84144d3f-dfd2-4496-9342-52fb01546909
 204,t,203,,2,usuario204@ejemplo.com,Camila Castro Gómez,$2a$10$hVREH5inRJDeSKU3ic5JDuLY1N7OYw8kGDAnjwP2Zy4XF0HZZPyU.,
 205,f,204,,2,usuario205@ejemplo.com,Julián Castro Gómez,$2a$10$wakoO/2i/NuR89L4SyoPDOuxigyFgFWqD3FlrK1tmOmiW38JJauB.,
 206,f,205,,2,usuario206@ejemplo.com,Sofía Castro Gómez,$2a$10$hfohvJOGg/jp1msVLt1UB.rFj2RqJQebbfkrilZDSfkR4BqjA0Zk6,
@@ -221,7 +221,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 220,t,219,,2,usuario220@ejemplo.com,Laura Vargas Gómez,$2a$10$.fDAXLdfhr5jpJ3Enbdej.wmZuOlr6YlXAOnA//wVHl0muztKUblm,
 221,f,220,,2,usuario221@ejemplo.com,Carlos Vargas Gómez,$2a$10$LgA/MetuEbknu0LAiwrwvuonskCLPLa5i9eBMc9pBn7WUHKL5UBcG,
 222,f,221,,2,usuario222@ejemplo.com,Marta Vargas Gómez,$2a$10$/zut1/8FDQcSFFbobEqfX.tCaydl.koxDxDfghz67Ft4iB5NPVvNG,
-223,f,222,2026-10-25 14:16:00,2,usuario223@ejemplo.com,Andrés Vargas Gómez,$2a$10$wninybU4eyCg9eJc4I3IyOuHxhXFrMtZq4sLXjz9m.Twkm4dTVAvq,218f24cc-cadb-3164-c4cf-0de2822e73c9
+223,f,222,2026-10-25 16:01:00,2,usuario223@ejemplo.com,Andrés Vargas Gómez,$2a$10$wninybU4eyCg9eJc4I3IyOuHxhXFrMtZq4sLXjz9m.Twkm4dTVAvq,218f24cc-cadb-4164-84cf-0de2822e73c9
 224,t,223,,2,usuario224@ejemplo.com,Camila Vargas Gómez,$2a$10$Z8TfExDM2DDhWOlQVqgddu4AXIHVEg3qUSBgeRm6jYUsIbFtvaU2y,
 225,f,224,,2,usuario225@ejemplo.com,Julián Vargas Gómez,$2a$10$4Tqc6BnKd8K//yZ7rM9B4O4RxhbbOJr.sclDRG5kw7nEQxvLfa7C6,
 226,f,225,,2,usuario226@ejemplo.com,Sofía Vargas Gómez,$2a$10$XCKQoR6gKNq1qUIsXXCkbu.eRZF27KAo3ZRkOhiexpEpJhzfeXnqC,
@@ -241,7 +241,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 240,t,239,,2,usuario240@ejemplo.com,Laura Rojas Gómez,$2a$10$NytX.KROZmnD4hUWfhIOjuQD9YtAmeaWbUVQkoRhiBRl9Q9ypxU6C,
 241,f,240,,2,usuario241@ejemplo.com,Carlos Rojas Gómez,$2a$10$7QDw7c2IZSISbKl97Nl4Ie8C3KAdvt4FTiYbi5LiDGlEIQbkOw43u,
 242,f,241,,2,usuario242@ejemplo.com,Marta Rojas Gómez,$2a$10$3hBJlwNDKcAxUnWYnucH5uC17VdGggGh9vfUKFJRL1IUW.QtzCoOi,
-243,f,242,2026-10-25 16:36:00,2,usuario243@ejemplo.com,Andrés Rojas Gómez,$2a$10$DcybLe9BK1.0ON3Z1gli5eLAbX8AMVrp4uJKr94YvSuOtc66H6msW,b231c834-c910-bc5e-924c-0cec20dcd9b5
+243,f,242,2026-10-25 18:21:00,2,usuario243@ejemplo.com,Andrés Rojas Gómez,$2a$10$DcybLe9BK1.0ON3Z1gli5eLAbX8AMVrp4uJKr94YvSuOtc66H6msW,b231c834-c910-4c5e-924c-0cec20dcd9b5
 244,t,243,,2,usuario244@ejemplo.com,Camila Rojas Gómez,$2a$10$mmUmFmOd1uv1t3qxHrDkc.zN0Lzyal7aaKnINomzT2wg5/umd9rQy,
 245,f,244,,2,usuario245@ejemplo.com,Julián Rojas Gómez,$2a$10$Iz8vvimREDRSteH4vKlJoOPr6hEqP3bkMAOvFjFaMZ0ltAIAXkbnO,
 246,f,245,,2,usuario246@ejemplo.com,Sofía Rojas Gómez,$2a$10$DumWJMz93Sh6qNRw1GvmOOip4bb2jH.hPp2O9D3s.sjFaxLwVhJIW,
@@ -261,7 +261,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 260,t,259,,2,usuario260@ejemplo.com,Laura Mora Gómez,$2a$10$CvP49XGreAIZP61lGV1Ut.bF6CKT/xEjz3n4blWyFLTrtlR2QEitm,
 261,f,260,,2,usuario261@ejemplo.com,Carlos Mora Gómez,$2a$10$2W61NA0MCbGlG9SpCXEbiOw9JPUW/vEm2GetptJmjIqxjpsk5jPAq,
 262,f,261,,2,usuario262@ejemplo.com,Marta Mora Gómez,$2a$10$qBExQn6mZFb2EQwh58scuep8tUr67QkWWAVvXrfdsZF0Rp/PzRGt6,
-263,f,262,2026-10-25 08:56:00,2,usuario263@ejemplo.com,Andrés Mora Gómez,$2a$10$HDM6Eqe/LjwzBU93vZSRGemurLMlf/2QdBRGcjdW5O6v.L4EES6Ym,5cf4dd54-2e7e-b102-9f87-024527b68bab
+263,f,262,2026-10-25 10:41:00,2,usuario263@ejemplo.com,Andrés Mora Gómez,$2a$10$HDM6Eqe/LjwzBU93vZSRGemurLMlf/2QdBRGcjdW5O6v.L4EES6Ym,5cf4dd54-2e7e-4102-9f87-024527b68bab
 264,t,263,,2,usuario264@ejemplo.com,Camila Mora Gómez,$2a$10$JoZpqrg2lkfAnfvgGIKRDe/kfaD7l91kkXn1/PrLk4A1Db/.5obpO,
 265,f,264,,2,usuario265@ejemplo.com,Julián Mora Gómez,$2a$10$FzD6EC2ZNcLvwdQY0pNwRuD7UuFTMwTcQdxo2Eravnfa6Ddz03GSO,
 266,f,265,,2,usuario266@ejemplo.com,Sofía Mora Gómez,$2a$10$Iol34jhevBN8szwDXcevNejI8IFGYWyFm1xe2FAKGHtnmqmLbojtC,
@@ -281,7 +281,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 280,t,279,,2,usuario280@ejemplo.com,Laura Pacheco Gómez,$2a$10$qkdQGmBQqkZEU/wMUf39zOlpWaDwz6aFc6Ju37yr/WoQ0W5DtR9yO,
 281,f,280,,2,usuario281@ejemplo.com,Carlos Pacheco Gómez,$2a$10$lqK2dEjpU3RtzDst43QXj.mB3xonkNpONRkLzioC7oe8ZZoJXP2t6,
 282,f,281,,2,usuario282@ejemplo.com,Marta Pacheco Gómez,$2a$10$A1gHhSxbossbcCgi.IU71uwNt3x3/h5OkiG5qby/IdajdX8d4C2sC,
-283,f,282,2026-10-25 11:16:00,2,usuario283@ejemplo.com,Andrés Pacheco Gómez,$2a$10$MVKeAUWf868mOy/7zOGCyON/x42BLwGagXHuPLw8sf3Q5Ja7y8xzm,872ec871-b545-43dc-d121-ded21f135b73
+283,f,282,2026-10-25 13:01:00,2,usuario283@ejemplo.com,Andrés Pacheco Gómez,$2a$10$MVKeAUWf868mOy/7zOGCyON/x42BLwGagXHuPLw8sf3Q5Ja7y8xzm,872ec871-b545-43dc-9121-ded21f135b73
 284,t,283,,2,usuario284@ejemplo.com,Camila Pacheco Gómez,$2a$10$WKH9kH5BmgUvFpGFbSquMuaCKbSe2X8nRBp90X4vS7iFJgRvLKjju,
 285,f,284,,2,usuario285@ejemplo.com,Julián Pacheco Gómez,$2a$10$fjsmdiCXiieC5N6ugkHx7ueEfjgb.lBp67hW/16e948KKlGas2zDK,
 286,f,285,,2,usuario286@ejemplo.com,Sofía Pacheco Gómez,$2a$10$dbuBK0.a5IUoM9zB5TKoDOxno8rCOA7AbZcpr0WYoWVdc8dpYIFp.,
@@ -301,7 +301,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 300,t,299,,2,usuario300@ejemplo.com,Laura Navarro Gómez,$2a$10$3c1lri3zaPITtEb83YeoweRvfcSsGThqOFhXkeDGOOOydUbhZ.pIG,
 301,f,300,,2,usuario301@ejemplo.com,Carlos Navarro Gómez,$2a$10$0pNymIiAzr8wXjXqw.Uwhe9FEBFiDYxc8nj36.Uhbq28o6xkVUp5.,
 302,f,301,,2,usuario302@ejemplo.com,Marta Navarro Gómez,$2a$10$V5y6jwlvwKJtqVaYgR.epudtwMNjJ/yNyVyFcWfqqDMW9y7QdLXou,
-303,f,302,2026-10-25 13:36:00,2,usuario303@ejemplo.com,Andrés Navarro Gómez,$2a$10$I.K9v3h4WgCYGHfFHWNuB.K3B80Kgwpc343T9T3dd7k.OsU4V/mbm,a5135513-68bc-e6fe-df62-597ad2c628bc
+303,f,302,2026-10-25 15:21:00,2,usuario303@ejemplo.com,Andrés Navarro Gómez,$2a$10$I.K9v3h4WgCYGHfFHWNuB.K3B80Kgwpc343T9T3dd7k.OsU4V/mbm,a5135513-68bc-46fe-9f62-597ad2c628bc
 304,t,303,,2,usuario304@ejemplo.com,Camila Navarro Gómez,$2a$10$Kfe1P8RN4t38ISA/2XGUJe4R2sYoRD9hAl4Mm.yn8oLRtlkJgRMcq,
 305,f,304,,2,usuario305@ejemplo.com,Julián Navarro Gómez,$2a$10$fQJRlCrLNLNcHM6hk1ZcPObbuCTTxK9gmHVqNHOYYxXv.BfLXKMbq,
 306,f,305,,2,usuario306@ejemplo.com,Sofía Navarro Gómez,$2a$10$3Tp7krg5z7EE.Oge/whCkO/XFSYbjSogxppg9i/LKQlP0zIhSRexe,
@@ -321,7 +321,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 320,t,319,,2,usuario320@ejemplo.com,Laura Suárez Gómez,$2a$10$zBA6edY6kWxXbUcSyhonvuvyT8ZXq8.coxRaPNItIVoaHAc33lLOW,
 321,f,320,,2,usuario321@ejemplo.com,Carlos Suárez Gómez,$2a$10$dYpFNlTncJiTW97reMmlUel76B77rrLrFbXkg5TCeudQIS0aC9CBm,
 322,f,321,,2,usuario322@ejemplo.com,Marta Suárez Gómez,$2a$10$s0opedvTNMENer49D1mNnOynSv915nSUi.zoxFnDxNtjWLAlIgGtC,
-323,f,322,2026-10-25 15:56:00,2,usuario323@ejemplo.com,Andrés Suárez Gómez,$2a$10$JhajPuOY5klpByITdh/cm.orwWzMYKVZY2JRgE/Xi0pRGQTUAI.Ea,a86f44c0-406f-c17a-f15b-6c63fe64ff75
+323,f,322,2026-10-25 17:41:00,2,usuario323@ejemplo.com,Andrés Suárez Gómez,$2a$10$JhajPuOY5klpByITdh/cm.orwWzMYKVZY2JRgE/Xi0pRGQTUAI.Ea,a86f44c0-406f-417a-b15b-6c63fe64ff75
 324,t,323,,2,usuario324@ejemplo.com,Camila Suárez Gómez,$2a$10$PkMY8hpsABDAONk1XqhvaO1BSd6bumrc0MWUxZ/Mks6yUUafEln5S,
 325,f,324,,2,usuario325@ejemplo.com,Julián Suárez Gómez,$2a$10$fONYjn/6RGXKjlDkAUPOiuhGz/.EhCKsOt5luiIYp/RMQIwg6MkAe,
 326,f,325,,2,usuario326@ejemplo.com,Sofía Suárez Gómez,$2a$10$F8Yl46UUmNsVDQqAMMelx.lShs48qCgJNHuXcxCIzpBqlx32WRbu.,
@@ -341,7 +341,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 340,t,339,,2,usuario340@ejemplo.com,Laura Jiménez Gómez,$2a$10$uutkK1JtAGCPJEg9yA7pnuLs2f02EazxlKeFrmR7WvFkpof2nD75y,
 341,f,340,,2,usuario341@ejemplo.com,Carlos Jiménez Gómez,$2a$10$iWZ6DuOTzggT/cYwOMi8xeizR6yImWt.a6h97Zt6Ry4URb.nbU7hy,
 342,f,341,,2,usuario342@ejemplo.com,Marta Jiménez Gómez,$2a$10$5LqgglolJ1DBpXKBNoeKXeu3C1tElENHjmw5biw4J8OKtrDNFV3d6,
-343,f,342,2026-10-25 08:16:00,2,usuario343@ejemplo.com,Andrés Jiménez Gómez,$2a$10$QRK03lfhbBYzLiuCIWIFiOqLgrZB/WqT.044hWFGnXyFxWEBgd0r.,2af2d6e6-38a4-fca4-4301-3561defbb32b
+343,f,342,2026-10-25 10:01:00,2,usuario343@ejemplo.com,Andrés Jiménez Gómez,$2a$10$QRK03lfhbBYzLiuCIWIFiOqLgrZB/WqT.044hWFGnXyFxWEBgd0r.,2af2d6e6-38a4-4ca4-8301-3561defbb32b
 344,t,343,,2,usuario344@ejemplo.com,Camila Jiménez Gómez,$2a$10$CzlRiRqpm37LnxdH9CXW/eLppMqgK6c6oINxTJyVWwBYzHB.b8y3S,
 345,f,344,,2,usuario345@ejemplo.com,Julián Jiménez Gómez,$2a$10$4mZXat1nmqzmGv.EjtO/meZylkOTp3QKnxb9Uqowoq6ykz2nb4.vW,
 346,f,345,,2,usuario346@ejemplo.com,Sofía Jiménez Gómez,$2a$10$twlybyHF2niXLIiUApBuhOLBtvlzdW416faUoGJOzaS9Y1gZRntfO,
@@ -361,7 +361,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 360,t,359,,2,usuario360@ejemplo.com,Laura Peña Gómez,$2a$10$goFbFfNHCiliG9QCVz43MO2zArtPkJZJFyi1G5m0CH3RJLFr/7gkC,
 361,f,360,,2,usuario361@ejemplo.com,Carlos Peña Gómez,$2a$10$mE41QWZMSXaxwWQF09FW1Ooj.lJ5yfYeS63pTsWrIIKTVq5kwM2ty,
 362,f,361,,2,usuario362@ejemplo.com,Marta Peña Gómez,$2a$10$EGTmIanfs6tmKJeidr.A7uk5br2em6JpAymKSe6Sg0Zi/Cuc/mR5u,
-363,f,362,2026-10-25 10:36:00,2,usuario363@ejemplo.com,Andrés Peña Gómez,$2a$10$ALc6PKr1pUc/jwFKVccPnumqygsx3EMT4gKVUsZG9HA4U6xAX.ep2,299de636-8805-40d9-a49c-7d808fc986b1
+363,f,362,2026-10-25 12:21:00,2,usuario363@ejemplo.com,Andrés Peña Gómez,$2a$10$ALc6PKr1pUc/jwFKVccPnumqygsx3EMT4gKVUsZG9HA4U6xAX.ep2,299de636-8805-40d9-a49c-7d808fc986b1
 364,t,363,,2,usuario364@ejemplo.com,Camila Peña Gómez,$2a$10$0LjzfS5aGdy7KNbf3yReOu6HBpyYOV8tgwE6fJPuzjMbBaxpKzeDi,
 365,f,364,,2,usuario365@ejemplo.com,Julián Peña Gómez,$2a$10$FF6ueiPpNNhkuI6ZEa9PeOoEzniUGlhd8wtPxQEtscqrIZacbjQo.,
 366,f,365,,2,usuario366@ejemplo.com,Sofía Peña Gómez,$2a$10$TWhPaqXMiv1bgzaZXXQ3COUN0xta84JrOHS8Mz7B8rRU0xizXgB.m,
@@ -381,7 +381,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 380,t,379,,2,usuario380@ejemplo.com,Laura Cárdenas Gómez,$2a$10$y/cRYM4y771m8LCRFE/r8OEYVhYCs1u16sYhcAv58u31VMuPxgdGy,
 381,f,380,,2,usuario381@ejemplo.com,Carlos Cárdenas Gómez,$2a$10$YU0CsPY5Y/vVaU.vVKFomu453a2kMA0C9SMEDt7LOIN.6zChoZWLG,
 382,f,381,,2,usuario382@ejemplo.com,Marta Cárdenas Gómez,$2a$10$uM4I/JmPGsCnu52Izqp.kORyu03vf2beBpB58h9TfVWevOBCAadeu,
-383,f,382,2026-10-25 12:56:00,2,usuario383@ejemplo.com,Andrés Cárdenas Gómez,$2a$10$Vvyxqoz.FJZDihymfDUVweIvhvvwIakAG8uFSCZlvF4JbdT6NLQxS,f15f8ba7-d393-1bf9-2929-4241571cecbc
+383,f,382,2026-10-25 14:41:00,2,usuario383@ejemplo.com,Andrés Cárdenas Gómez,$2a$10$Vvyxqoz.FJZDihymfDUVweIvhvvwIakAG8uFSCZlvF4JbdT6NLQxS,f15f8ba7-d393-4bf9-a929-4241571cecbc
 384,t,383,,2,usuario384@ejemplo.com,Camila Cárdenas Gómez,$2a$10$AwSo1kzDstrZWPn6PhMkZe6REsvGgtwE7X.hfjw83KJa8zIMVPv7i,
 385,f,384,,2,usuario385@ejemplo.com,Julián Cárdenas Gómez,$2a$10$WBSd3hdZqRIWeM6BchVxRuKs6mwqapaRFW6SQUIecZBuWp8oKKcZW,
 386,f,385,,2,usuario386@ejemplo.com,Sofía Cárdenas Gómez,$2a$10$3W2enNsnnwEsfh/Zc3PZAuvGLG0WVQeMkjWged/AERMHrWG5wvu9u,
@@ -401,7 +401,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 400,t,399,,2,usuario400@ejemplo.com,Laura Gómez Pérez,$2a$10$79fFSL34EoLimw.sK1KNg.k/4R2YRwatw2SHIRYS5dxnsaZ6AcEVi,
 401,f,400,,2,usuario401@ejemplo.com,Carlos Gómez Pérez,$2a$10$L0e1c.IPXx9Pqo0TcarUu..pMAhSCzhtHOODEBSh1jVgRH59lTRw.,
 402,f,401,,2,usuario402@ejemplo.com,Marta Gómez Pérez,$2a$10$HMvM9wScAObqx6MMR.zw6OoT0cyYNBlci81AWeuhi0vTQJ43Y5ujO,
-403,f,402,2026-10-25 15:16:00,2,usuario403@ejemplo.com,Andrés Gómez Pérez,$2a$10$HcS18lV9PGWAU5beQkejKuKSSAX1o15XXeAL/9Z3PRmD1blMlzOI2,216c38b4-48f1-edbf-7723-c55df6606a9c
+403,f,402,2026-10-25 17:01:00,2,usuario403@ejemplo.com,Andrés Gómez Pérez,$2a$10$HcS18lV9PGWAU5beQkejKuKSSAX1o15XXeAL/9Z3PRmD1blMlzOI2,216c38b4-48f1-4dbf-b723-c55df6606a9c
 404,t,403,,2,usuario404@ejemplo.com,Camila Gómez Pérez,$2a$10$UTPvq8awuKz9Jzm4BNFT6OWDpYIwpNwyClCMkSf0BjvzMdu9R4eu6,
 405,f,404,,2,usuario405@ejemplo.com,Julián Gómez Pérez,$2a$10$uEUjkLhut8BydFD31zbdhen8MibwAExL91Tx26lggS8hM5JIub6Y2,
 406,f,405,,2,usuario406@ejemplo.com,Sofía Gómez Pérez,$2a$10$Q8Kz13RNfGjnjshpkmq8DuoJZtUPwSVEvmlZ4H8C3pjeno.ECuMpG,
@@ -421,7 +421,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 420,t,419,,2,usuario420@ejemplo.com,Laura Pérez Pérez,$2a$10$En3L5Lt2kfWiqwM7Kx0dcOl77U5IwHiiFwMnj8oW7AfqUFtmmv.pK,
 421,f,420,,2,usuario421@ejemplo.com,Carlos Pérez Pérez,$2a$10$qaQhlLCcKNbHUdosV8nY6eQ7a9Pk1q8xum.BJto9rJAQcRBdHkkWq,
 422,f,421,,2,usuario422@ejemplo.com,Marta Pérez Pérez,$2a$10$haFmBJoG8xVEl10HMPApiOWQ5O5ugNjSNEUnrxd4qCnvzBO1/wsAq,
-423,f,422,2026-10-25 17:36:00,2,usuario423@ejemplo.com,Andrés Pérez Pérez,$2a$10$8y3p5PktDuv0/CTtwVBUpuM8g0AcZ38wt2NDc7EJ7cQRicBgJ0TEm,8c11b134-fa86-9b4e-7751-6a605dbda26a
+423,f,422,2026-10-25 19:21:00,2,usuario423@ejemplo.com,Andrés Pérez Pérez,$2a$10$8y3p5PktDuv0/CTtwVBUpuM8g0AcZ38wt2NDc7EJ7cQRicBgJ0TEm,8c11b134-fa86-4b4e-b751-6a605dbda26a
 424,t,423,,2,usuario424@ejemplo.com,Camila Pérez Pérez,$2a$10$gGRb23inL6CZE4wo.6cJauWLZ74IFU0Gf5vbeTTZPJb6Ps1tlqmVS,
 425,f,424,,2,usuario425@ejemplo.com,Julián Pérez Pérez,$2a$10$76Zl6YZVayxrEuhLH81QWOJ1akpdZeOcHfvyGFOusTItW28QXZCFC,
 426,f,425,,2,usuario426@ejemplo.com,Sofía Pérez Pérez,$2a$10$fCJGsIlHrJV6B4CA7xXB5eCIqKsi7WPIE2D2uIuWm04svThdqjHl6,
@@ -441,7 +441,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 440,t,439,,2,usuario440@ejemplo.com,Laura Rincón Pérez,$2a$10$ZMx6mnMVwtx.HONYCVT.JeRBBhWDu1GuBYk3l2Tn/cAWawo0iIScW,
 441,f,440,,2,usuario441@ejemplo.com,Carlos Rincón Pérez,$2a$10$ztoBUcDI6YpGQaBrMe30T.R61BeUz0IDPEE3cxev75wW0XFCViTA2,
 442,f,441,,2,usuario442@ejemplo.com,Marta Rincón Pérez,$2a$10$yYQtpzOK6hAsReun74ScLOOjBFx7WwR1wScKRGG2N8Ujg0uUZvwxm,
-443,f,442,2026-10-25 09:56:00,2,usuario443@ejemplo.com,Andrés Rincón Pérez,$2a$10$a6DpEI/Y7nPxgwJRtUxjz.7sfo6vxazkwxfLXpZ.4ACWsM1YwNsHq,af0b9241-dd6c-edd2-1331-f0a7300c3330
+443,f,442,2026-10-25 11:41:00,2,usuario443@ejemplo.com,Andrés Rincón Pérez,$2a$10$a6DpEI/Y7nPxgwJRtUxjz.7sfo6vxazkwxfLXpZ.4ACWsM1YwNsHq,af0b9241-dd6c-4dd2-9331-f0a7300c3330
 444,t,443,,2,usuario444@ejemplo.com,Camila Rincón Pérez,$2a$10$7CTDjxC9JYEAfasA7JgoOeP4oSAzkZTvpSqyHYaT2ILpit1Eckkua,
 445,f,444,,2,usuario445@ejemplo.com,Julián Rincón Pérez,$2a$10$zJoxfr8b5wHl0jXJC.L8g.HCDVxMcqIi78xvGoauawhgb3sT0Wpzm,
 446,f,445,,2,usuario446@ejemplo.com,Sofía Rincón Pérez,$2a$10$dGeHuLNY36u32lzlslMMM.75NfsFUasPdCUVJ1iIOgw4G12c4ktWq,
@@ -461,7 +461,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 460,t,459,,2,usuario460@ejemplo.com,Laura Quintero Pérez,$2a$10$4Nb/VDLusRtyBT55h4Mgue53Q4JSv8mKUjjZmHG4VGp6YhnaWvFP6,
 461,f,460,,2,usuario461@ejemplo.com,Carlos Quintero Pérez,$2a$10$axHFx.fiO9UNTlGxs5XzfOl4T5WgU2CQCzvhdQ6HBPBmC..fSwFWy,
 462,f,461,,2,usuario462@ejemplo.com,Marta Quintero Pérez,$2a$10$eIv5keVsR7rJg7OR9yvL5enp.Sdh7wwPLHds6BxL3YLna2jjKU7be,
-463,f,462,2026-10-25 12:16:00,2,usuario463@ejemplo.com,Andrés Quintero Pérez,$2a$10$Cn.yxiw.fyOHM/HZi7Y/4uC9bp0kUaV5blB2lyMkR60zG80uu0YlC,0302ae02-6b25-4f88-b9af-75d554dd00c1
+463,f,462,2026-10-25 14:01:00,2,usuario463@ejemplo.com,Andrés Quintero Pérez,$2a$10$Cn.yxiw.fyOHM/HZi7Y/4uC9bp0kUaV5blB2lyMkR60zG80uu0YlC,0302ae02-6b25-4f88-b9af-75d554dd00c1
 464,t,463,,2,usuario464@ejemplo.com,Camila Quintero Pérez,$2a$10$UM2Ye8rFnKkoROrFqFH7KOqR2KSicTpX8ZfbmVYwka9HzPp1O4zzi,
 465,f,464,,2,usuario465@ejemplo.com,Julián Quintero Pérez,$2a$10$4vniyP57XuNyw0KRZWoiNu5wY87T4uTDBzoubeTCCdRL3czmMNT9i,
 466,f,465,,2,usuario466@ejemplo.com,Sofía Quintero Pérez,$2a$10$qz6iIf86E.hf0T4xsVV94.O5GvalDpy2t5QWxKANBFcX6n8Dm.JgC,
@@ -481,7 +481,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 480,t,479,,2,usuario480@ejemplo.com,Laura Torres Pérez,$2a$10$unAmNCe8pmJOD5cEJWwZCekjixqzj2YWca133Pec22h9TMiug5zd2,
 481,f,480,,2,usuario481@ejemplo.com,Carlos Torres Pérez,$2a$10$qZGXS4sL3kAqlDCBMi8QMe/Wd42emBSjeSIa5o4aq6F80tjs.cYE2,
 482,f,481,,2,usuario482@ejemplo.com,Marta Torres Pérez,$2a$10$ousrUj7cuZvZxu.4rPJ5dOVWGAYNSqykXye.ECUPXpRml80cmvSza,
-483,f,482,2026-10-25 14:36:00,2,usuario483@ejemplo.com,Andrés Torres Pérez,$2a$10$OO6actadxL4UoECzVRUrbuxLhm2eDnAA3e0UdY12HLEf30S7JfUrq,2344f1b9-446b-c2a3-1a59-6500625363f6
+483,f,482,2026-10-25 16:21:00,2,usuario483@ejemplo.com,Andrés Torres Pérez,$2a$10$OO6actadxL4UoECzVRUrbuxLhm2eDnAA3e0UdY12HLEf30S7JfUrq,2344f1b9-446b-42a3-9a59-6500625363f6
 484,t,483,,2,usuario484@ejemplo.com,Camila Torres Pérez,$2a$10$baNN292GplhfxW6UdAa8suhOouz9Uis4Q/cQf6UewBIE8IqmFNcnC,
 485,f,484,,2,usuario485@ejemplo.com,Julián Torres Pérez,$2a$10$SolnbXBFHdEVKGpIvrnXs.4Ptu5SC7on/VyiEVsKmnZQ2PmfpkpJC,
 486,f,485,,2,usuario486@ejemplo.com,Sofía Torres Pérez,$2a$10$OIk5IKGY1TW66zkh2EY.pug7nrSM7I6snIZoCvXLzKll651vCrjtu,
@@ -501,7 +501,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 500,t,499,,2,usuario500@ejemplo.com,Laura Soto Pérez,$2a$10$YQR6v5m9OFTzQTYK2Y9EP.pc1L0RpMYszsJ5vNPhjIsEoIplTAIgW,
 501,f,500,,2,usuario501@ejemplo.com,Carlos Soto Pérez,$2a$10$qg5aFtGyFWdkoip0p2dqSefgr70e0zzs5Hx92doxJvsU7ehE9OZKa,
 502,f,501,,2,usuario502@ejemplo.com,Marta Soto Pérez,$2a$10$e7L3lvFEn9AhzD7fPZ0un.WgBYvzQLDZGk2OI6GS6CQ.VnzavYeFW,
-503,f,502,2026-10-25 16:56:00,2,usuario503@ejemplo.com,Andrés Soto Pérez,$2a$10$oMyB166kNelM6A4hVaTFWeObM57KMAsPA7vfPUGZqTYrK3NNkEWv6,7d2a18dd-7125-0a24-081d-0ed3d9a187bd
+503,f,502,2026-10-25 18:41:00,2,usuario503@ejemplo.com,Andrés Soto Pérez,$2a$10$oMyB166kNelM6A4hVaTFWeObM57KMAsPA7vfPUGZqTYrK3NNkEWv6,7d2a18dd-7125-4a24-881d-0ed3d9a187bd
 504,t,503,,2,usuario504@ejemplo.com,Camila Soto Pérez,$2a$10$FU5bwAFL/bcpjdgjXZJcI.glhAmQxQGW8cPTPuaMZorFrdcinQCmO,
 505,f,504,,2,usuario505@ejemplo.com,Julián Soto Pérez,$2a$10$uwZfeTbwOba9X70ygrFhRel9Yq2FFePjkbIsGXcBvTkJRHs7ImgjW,
 506,f,505,,2,usuario506@ejemplo.com,Sofía Soto Pérez,$2a$10$bDljWFZBr2G5ZMhmTGz01.HYP8CRZfwXo7MzyxHkPX/OSOTVLysfu,
@@ -521,7 +521,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 520,t,519,,2,usuario520@ejemplo.com,Laura Leal Pérez,$2a$10$TzbfLxiZ6avaOdAHeVDrx.YQtKCWIenia/ikU4/gzNjD.IqyG7uoW,
 521,f,520,,2,usuario521@ejemplo.com,Carlos Leal Pérez,$2a$10$3Sxy6B4L9lKCBO72EpjEHum6Q1lVc6bXfzlQgyPCwyvlWwYMuB3gG,
 522,f,521,,2,usuario522@ejemplo.com,Marta Leal Pérez,$2a$10$PP8jKAg8HebAdyFVyZx.OOWHwdkN51l30kZAXtNUxKCtxSwr.j7Ky,
-523,f,522,2026-10-25 09:16:00,2,usuario523@ejemplo.com,Andrés Leal Pérez,$2a$10$48TdnAZgABBUbjHVhC86/u.FO2/KJDKge3hkweRXqX64wwS4wTqNC,c755f620-4a01-94bb-9136-ffb14c4877ca
+523,f,522,2026-10-25 11:01:00,2,usuario523@ejemplo.com,Andrés Leal Pérez,$2a$10$48TdnAZgABBUbjHVhC86/u.FO2/KJDKge3hkweRXqX64wwS4wTqNC,c755f620-4a01-44bb-9136-ffb14c4877ca
 524,t,523,,2,usuario524@ejemplo.com,Camila Leal Pérez,$2a$10$gBjeN600cdKDqhhUqv5m0ucXOZjOZwauXpFmE5bBwMa1iFdtSAGvC,
 525,f,524,,2,usuario525@ejemplo.com,Julián Leal Pérez,$2a$10$eNIlwf8cY7uLbNrRW924PuEpujxgva9siiLD30ERaqIOxQd6IVCHO,
 526,f,525,,2,usuario526@ejemplo.com,Sofía Leal Pérez,$2a$10$6FlUtPEEecl4G6e79U/kvOn4cA5dR73y5NlEVv20E9lfdHgRE3dPu,
@@ -541,7 +541,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 540,t,539,,2,usuario540@ejemplo.com,Laura Méndez Pérez,$2a$10$4CgxwHE/peRVJkxbt3guGOpCeScTsSaIwALa4qiwU00RyRQB0B14W,
 541,f,540,,2,usuario541@ejemplo.com,Carlos Méndez Pérez,$2a$10$CB9LLrI7B52qW26I7k493uAQ.pmIZdnDZr4aLuAj2hfsY9ZtEiYZ6,
 542,f,541,,2,usuario542@ejemplo.com,Marta Méndez Pérez,$2a$10$QpQ7UfRAWF/p273GNK2sPeNXFJ1UwChi5Gf8h6eCad.V//sRRhzDu,
-543,f,542,2026-10-25 11:36:00,2,usuario543@ejemplo.com,Andrés Méndez Pérez,$2a$10$d5aMgOMA/mK2oiLd0ucZhex/5Q6GSsQ46rFVPjk12loRwwrTlwcbm,b39f1b31-e2d2-2018-d9cf-0296a2b89926
+543,f,542,2026-10-25 13:21:00,2,usuario543@ejemplo.com,Andrés Méndez Pérez,$2a$10$d5aMgOMA/mK2oiLd0ucZhex/5Q6GSsQ46rFVPjk12loRwwrTlwcbm,b39f1b31-e2d2-4018-99cf-0296a2b89926
 544,t,543,,2,usuario544@ejemplo.com,Camila Méndez Pérez,$2a$10$enjpNPOxb4x9eyQEjNoUAuJ4jg.R62KZ/aNSGS6bPiWj/YOPwL1JG,
 545,f,544,,2,usuario545@ejemplo.com,Julián Méndez Pérez,$2a$10$QJ/2M4r.EOtWKtQK/4zHJuUYsrHvQhH/30zI0gF9NrZzb71KK4C5C,
 546,f,545,,2,usuario546@ejemplo.com,Sofía Méndez Pérez,$2a$10$eXiyRatCK0HFCjhJazFMoOdjznJnPiWCStAYsoBMrVxqFmsTaufr2,
@@ -561,7 +561,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 560,t,559,,2,usuario560@ejemplo.com,Laura Díaz Pérez,$2a$10$pxV8J2pKyCJ4z1c.ct0jpeFoDosqOUblAiqRpBWjQX84HU/.d31tG,
 561,f,560,,2,usuario561@ejemplo.com,Carlos Díaz Pérez,$2a$10$ViMZyJtW3dZLP1VaIukmTu.gE5Gqs1jqVjIFysGLA/60zH6OtQVm2,
 562,f,561,,2,usuario562@ejemplo.com,Marta Díaz Pérez,$2a$10$E7Jtiw9lAAuEYwIzjOxXseTZQdO08d9mACZgSy/OM9zWcglAbfjXW,
-563,f,562,2026-10-25 13:56:00,2,usuario563@ejemplo.com,Andrés Díaz Pérez,$2a$10$MsByw6jxjMVgD0qohvKefuekhUYWJYFE6qozLVNmmfDmXHcgpIT9C,531798b9-ee23-9aeb-25b5-570103c3ea84
+563,f,562,2026-10-25 15:41:00,2,usuario563@ejemplo.com,Andrés Díaz Pérez,$2a$10$MsByw6jxjMVgD0qohvKefuekhUYWJYFE6qozLVNmmfDmXHcgpIT9C,531798b9-ee23-4aeb-a5b5-570103c3ea84
 564,t,563,,2,usuario564@ejemplo.com,Camila Díaz Pérez,$2a$10$5TowkBIVuix0p6wybeQOku4G5pW.4GafGH5APmlHpVKfmwQ06GvfK,
 565,f,564,,2,usuario565@ejemplo.com,Julián Díaz Pérez,$2a$10$PFBglp3OQ6Dw5nQZE3.nluNpU4fxi7x0RzrQOzloj8FBdMrV4t50e,
 566,f,565,,2,usuario566@ejemplo.com,Sofía Díaz Pérez,$2a$10$1.HD6O0R2CbXBLgm7pMp6OuPzt4Zre3Zxd1pVLximV0KMUE4lf/k2,
@@ -581,7 +581,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 580,t,579,,2,usuario580@ejemplo.com,Laura Ortiz Pérez,$2a$10$XV5vGRahfkFT9xucG5PdHOzc64VJ7MCAc7/kD1sR2VsHMWn.WMT2a,
 581,f,580,,2,usuario581@ejemplo.com,Carlos Ortiz Pérez,$2a$10$s27qWhtJC59g1P1phC0PKOKX37hgeH9p31ns.PgQzLK2JIGXKV.tK,
 582,f,581,,2,usuario582@ejemplo.com,Marta Ortiz Pérez,$2a$10$IYmkqbpE1CZHs3kNKuxv2eDKx4Qj0I6CjclkWk/I4T.7NpdWNxU2y,
-583,f,582,2026-10-25 16:16:00,2,usuario583@ejemplo.com,Andrés Ortiz Pérez,$2a$10$pLFXNF74xvkk/IwhN08NKOdCDLCFjHItx2tuu9sVdDQJPx2Ck8PLy,bf94946c-e2a7-c217-9fc4-c166b574a9c4
+583,f,582,2026-10-25 18:01:00,2,usuario583@ejemplo.com,Andrés Ortiz Pérez,$2a$10$pLFXNF74xvkk/IwhN08NKOdCDLCFjHItx2tuu9sVdDQJPx2Ck8PLy,bf94946c-e2a7-4217-9fc4-c166b574a9c4
 584,t,583,,2,usuario584@ejemplo.com,Camila Ortiz Pérez,$2a$10$oiTeZf05X2kIKMjNtMbyVevv98O3hXR4mCwJ0L0z3FGK4BKjRoAdW,
 585,f,584,,2,usuario585@ejemplo.com,Julián Ortiz Pérez,$2a$10$TAcHNkUOODu/.OB9aiKYKOc8DfwkryTDuP.lRtvubq7d2IaTkw7xK,
 586,f,585,,2,usuario586@ejemplo.com,Sofía Ortiz Pérez,$2a$10$16VEncb/83bI4vol2ellH.1QLXlGnmXfRU9HTu1vEtwvEPcFB99sm,
@@ -601,7 +601,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 600,t,599,,2,usuario600@ejemplo.com,Laura Castro Pérez,$2a$10$gTa8l6fHyU5wrvBBG5nXRujS5/gF3R036eB5nwyv0kg8EoXknsUYO,
 601,f,600,,2,usuario601@ejemplo.com,Carlos Castro Pérez,$2a$10$9hGFVOjPpG/ShP1rW870XehAPXHZgMlYI8diwIND2J2SSpIpIHSkW,
 602,f,601,,2,usuario602@ejemplo.com,Marta Castro Pérez,$2a$10$dfyYgLJNRTu8wFhEdRaB0umaEcYQ0OQxoPJQDcTwFLiiRsDcG.D/q,
-603,f,602,2026-10-25 08:36:00,2,usuario603@ejemplo.com,Andrés Castro Pérez,$2a$10$qvupv0dZcfWKXGrM1lFHgeRQJkVvtsed6npY7ylvONhVYhPJGenaK,fe7e1c3e-2b80-905e-8480-cacc9cc19c04
+603,f,602,2026-10-25 10:21:00,2,usuario603@ejemplo.com,Andrés Castro Pérez,$2a$10$qvupv0dZcfWKXGrM1lFHgeRQJkVvtsed6npY7ylvONhVYhPJGenaK,fe7e1c3e-2b80-405e-8480-cacc9cc19c04
 604,t,603,,2,usuario604@ejemplo.com,Camila Castro Pérez,$2a$10$fl.8yzQlaBtmUQurwpPiqOhd468ujuZSArzL5MfDf9oxEEgdyfiZi,
 605,f,604,,2,usuario605@ejemplo.com,Julián Castro Pérez,$2a$10$LAUsImsiy/yaNJvtkoZXD.cog7KvFbOlL4fWf./uRY3Q/zkL1Gbpa,
 606,f,605,,2,usuario606@ejemplo.com,Sofía Castro Pérez,$2a$10$Pt0nfmdZcWnqBLSA1JJ/hefzS13Cazwgo8EPA4b1WDS0lLS4sfkZC,
@@ -621,7 +621,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 620,t,619,,2,usuario620@ejemplo.com,Laura Vargas Pérez,$2a$10$NugzzSYQoXk9AlcLDnQyReOkSF.1KU8GSvugmBn2P/dHQ7PI7GYta,
 621,f,620,,2,usuario621@ejemplo.com,Carlos Vargas Pérez,$2a$10$Hlml0N7bHLoKw6q/ANysfOyniyqwCGDvgyNLEXvdAgOoiKRVS609C,
 622,f,621,,2,usuario622@ejemplo.com,Marta Vargas Pérez,$2a$10$n.6/wcfUKmea923wmoCmMe1fDTbGX6r0uOX0aX8sM5iRu0ynAGCXC,
-623,f,622,2026-10-25 10:56:00,2,usuario623@ejemplo.com,Andrés Vargas Pérez,$2a$10$BsojHGhcTRRqoFjVsnnhPeMxx6lTIpsOy/IFepdf81hNfUHIsI1zi,d964112f-c5c8-9bba-5f34-fe5ace811da0
+623,f,622,2026-10-25 12:41:00,2,usuario623@ejemplo.com,Andrés Vargas Pérez,$2a$10$BsojHGhcTRRqoFjVsnnhPeMxx6lTIpsOy/IFepdf81hNfUHIsI1zi,d964112f-c5c8-4bba-9f34-fe5ace811da0
 624,t,623,,2,usuario624@ejemplo.com,Camila Vargas Pérez,$2a$10$cfGXfzlGFJKZe6TySdbOdOt.qcH2MK5ddvR7CbvI5pI/PyEmjLpuu,
 625,f,624,,2,usuario625@ejemplo.com,Julián Vargas Pérez,$2a$10$IEiM4Qi0hSSuJUTMZ0qO9eik261q7ARBLFqo8MEvfJDgy7rMY97VC,
 626,f,625,,2,usuario626@ejemplo.com,Sofía Vargas Pérez,$2a$10$qzlm1C4FUHb9D6S6HWyZEekqEULyMntp0K/B/a8fUs7hrMDUUo7am,
@@ -641,7 +641,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 640,t,639,,2,usuario640@ejemplo.com,Laura Rojas Pérez,$2a$10$cfiacRQejN55NvnfyhT87ObBbLP64RPIeq5d2CW8BP94KtIjbxJy2,
 641,f,640,,2,usuario641@ejemplo.com,Carlos Rojas Pérez,$2a$10$9OfFf3lDUCvmQYz34SozPuQ1b7IYLuU.MkvuTbxmFdzBGuVAWDqNG,
 642,f,641,,2,usuario642@ejemplo.com,Marta Rojas Pérez,$2a$10$ILaAihEc5ZfUwxnjJGkxher7qtuEsum1mt/IduLPd9KzIhNg.E/9q,
-643,f,642,2026-10-25 13:16:00,2,usuario643@ejemplo.com,Andrés Rojas Pérez,$2a$10$ZkYXDvswpkpXHwJoapC/c.XaqQHz3Y3KNbhhz1XIJRpCCTmZGbdJm,b25044d1-3c41-8f4f-208c-2317cecca1b8
+643,f,642,2026-10-25 15:01:00,2,usuario643@ejemplo.com,Andrés Rojas Pérez,$2a$10$ZkYXDvswpkpXHwJoapC/c.XaqQHz3Y3KNbhhz1XIJRpCCTmZGbdJm,b25044d1-3c41-4f4f-a08c-2317cecca1b8
 644,t,643,,2,usuario644@ejemplo.com,Camila Rojas Pérez,$2a$10$GJDE.YXGUyiBKTD3HbdxheBF8Vc8rLnsg9fXVbMqY7SCCc40kC9cm,
 645,f,644,,2,usuario645@ejemplo.com,Julián Rojas Pérez,$2a$10$Hb20DUnXVIpyEVoeXo59lef6G2OpGxCjLDTojjmqIl45kTZ99ltWW,
 646,f,645,,2,usuario646@ejemplo.com,Sofía Rojas Pérez,$2a$10$wii1P5fJc4/P2Fp26eAzIuMNwwFAx4PSF4SCbJWfV/3zfmnrBRJNm,
@@ -661,7 +661,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 660,t,659,,2,usuario660@ejemplo.com,Laura Mora Pérez,$2a$10$Yj5FKO4MH0pPchhZPysVQ.qngnjLZ.Vs0.PCAmO/Brq8Jta8wNCom,
 661,f,660,,2,usuario661@ejemplo.com,Carlos Mora Pérez,$2a$10$4shOk9fozuxedlLWTiGGDuVy0dwFWkKwuAp4xnUEO6Jx6EEq6YxCO,
 662,f,661,,2,usuario662@ejemplo.com,Marta Mora Pérez,$2a$10$acthXpe6hJvM6DC9/Y/hdeCZzJ5NL/lgPkMVhxwuNh1LECvAiftle,
-663,f,662,2026-10-25 15:36:00,2,usuario663@ejemplo.com,Andrés Mora Pérez,$2a$10$NLxybErvEgoI21f.Dykb/OdeBo1zdCui05ovENjsOidEyE4uDMeeG,1d2f7719-5e89-5576-53c8-5f8b178f6c94
+663,f,662,2026-10-25 17:21:00,2,usuario663@ejemplo.com,Andrés Mora Pérez,$2a$10$NLxybErvEgoI21f.Dykb/OdeBo1zdCui05ovENjsOidEyE4uDMeeG,1d2f7719-5e89-4576-93c8-5f8b178f6c94
 664,t,663,,2,usuario664@ejemplo.com,Camila Mora Pérez,$2a$10$pCqDrsu6iIo25D9CB.qSsucIrQ7Fxx.risj4uoV3AoRmpwnHR6UZ.,
 665,f,664,,2,usuario665@ejemplo.com,Julián Mora Pérez,$2a$10$kwB2oArxcTiqsiauliR.s.EyJupsqiKTWtqk.AapKpA0bK1gDjQ22,
 666,f,665,,2,usuario666@ejemplo.com,Sofía Mora Pérez,$2a$10$.s.w8xqQsFEg2X7YX1JjwuJixzDSNm1fu7Z3vqli26MkrXS/v85US,
@@ -681,7 +681,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 680,t,679,,2,usuario680@ejemplo.com,Laura Pacheco Pérez,$2a$10$QFfTKR6Gnbu5nZPDez1Hqe3.V35ooJqT0jyc5TamKzi5Se6hk2TGW,
 681,f,680,,2,usuario681@ejemplo.com,Carlos Pacheco Pérez,$2a$10$A3cjHQSMWVudwjxDur/OWOGnouyfnkJOoEz8d3PmACw21lntLcUzu,
 682,f,681,,2,usuario682@ejemplo.com,Marta Pacheco Pérez,$2a$10$C9uAbhnj7anMyLfzKVXqk.pfVIC6aimLkTW/zyHtTuh1aevs7kh3G,
-683,f,682,2026-10-25 17:56:00,2,usuario683@ejemplo.com,Andrés Pacheco Pérez,$2a$10$i2rKFWBl0h1Q6/eG1LzOPOnpmZQYWXLTyN1D1JZAy/i4kJieU5l.q,cecd830c-a151-dc36-bbc1-e277a68984b7
+683,f,682,2026-10-25 19:41:00,2,usuario683@ejemplo.com,Andrés Pacheco Pérez,$2a$10$i2rKFWBl0h1Q6/eG1LzOPOnpmZQYWXLTyN1D1JZAy/i4kJieU5l.q,cecd830c-a151-4c36-bbc1-e277a68984b7
 684,t,683,,2,usuario684@ejemplo.com,Camila Pacheco Pérez,$2a$10$cowMHRInjBl/IWPPDv.cKuBCSyUPyBDTFTEHHT5nPhcIjUJA//C8m,
 685,f,684,,2,usuario685@ejemplo.com,Julián Pacheco Pérez,$2a$10$z9cbolNQyLs0o3ehctV0kuGuTXc/h1yqcfMfoyWJdcN977F8/7lji,
 686,f,685,,2,usuario686@ejemplo.com,Sofía Pacheco Pérez,$2a$10$AxQY5P1raUqnhYJgylH4q.laeUrK9BhhD4Ma3ptEl2dAmBLnmtVn6,
@@ -701,7 +701,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 700,t,699,,2,usuario700@ejemplo.com,Laura Navarro Pérez,$2a$10$.iLCGtwVf5UKUak7F9KgGujdmjCMs22mW2NCInRSLPBlen8XTVaHS,
 701,f,700,,2,usuario701@ejemplo.com,Carlos Navarro Pérez,$2a$10$WIzHAYMJN3IMfURXmKIQzOi/u3D9Nu0NrPlZ80zdEG1VO9WjWFmga,
 702,f,701,,2,usuario702@ejemplo.com,Marta Navarro Pérez,$2a$10$uiWaoO5PtvvXTJy.ZkQdIOjAGFj/jpQWZ8DQvRpTMDVrcLX01uzBq,
-703,f,702,2026-10-25 10:16:00,2,usuario703@ejemplo.com,Andrés Navarro Pérez,$2a$10$8fMaFskruPe2LS85UpjQhOhD2Z0AVsYmLDyMkgkIhYHV5138MWsk2,bcb7fb6a-3692-2495-2486-4c433deab547
+703,f,702,2026-10-25 12:01:00,2,usuario703@ejemplo.com,Andrés Navarro Pérez,$2a$10$8fMaFskruPe2LS85UpjQhOhD2Z0AVsYmLDyMkgkIhYHV5138MWsk2,bcb7fb6a-3692-4495-a486-4c433deab547
 704,t,703,,2,usuario704@ejemplo.com,Camila Navarro Pérez,$2a$10$Z1.b3OpXqYhQCTxWjvLnsekpK1.fvXbnqXMPgtICR..EmGrcSkNDG,
 705,f,704,,2,usuario705@ejemplo.com,Julián Navarro Pérez,$2a$10$CHvSLTMFVwqWSj03QUYgHOeGgbNWKHwiOLboKfGRH09XJWQrBu47e,
 706,f,705,,2,usuario706@ejemplo.com,Sofía Navarro Pérez,$2a$10$e7il/4UjQVcwDXLUw2Vie.I86vhAvZZHBCddXpNn5pnfhY2FKI4a6,
@@ -721,7 +721,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 720,t,719,,2,usuario720@ejemplo.com,Laura Suárez Pérez,$2a$10$yGYtQ7wUBhfKtxls3H7zoODnb5PzCf3dCv8GgnluE29fB85LDwYDq,
 721,f,720,,2,usuario721@ejemplo.com,Carlos Suárez Pérez,$2a$10$qHVCEKG9abByjM8xuhU/wuz6B1rtvl2Bhj6KquvhX6MYzioYXFJOe,
 722,f,721,,2,usuario722@ejemplo.com,Marta Suárez Pérez,$2a$10$fUKU1unL7zVyBk7b/vz0G.RdHOztv9htou2GR0xlh3WZL9q/ZIzxi,
-723,f,722,2026-10-25 12:36:00,2,usuario723@ejemplo.com,Andrés Suárez Pérez,$2a$10$AFJ.C5ejXsbRx8kExPUEcuAnoD1Cq5swtNQSoZGLjVAkfYc0lOim.,1e549683-0b3c-32d9-04f3-03968a2c5ac5
+723,f,722,2026-10-25 14:21:00,2,usuario723@ejemplo.com,Andrés Suárez Pérez,$2a$10$AFJ.C5ejXsbRx8kExPUEcuAnoD1Cq5swtNQSoZGLjVAkfYc0lOim.,1e549683-0b3c-42d9-84f3-03968a2c5ac5
 724,t,723,,2,usuario724@ejemplo.com,Camila Suárez Pérez,$2a$10$PITRtDnJKOeMH36Vo.iV5eJXjrszTsfBwafPob2MZaTRaBNO8ACCW,
 725,f,724,,2,usuario725@ejemplo.com,Julián Suárez Pérez,$2a$10$wi1IwYEV6Ybs254JRwPgzurjtkl/ZSD00Us8PMDI1XyPv9xR2NoIy,
 726,f,725,,2,usuario726@ejemplo.com,Sofía Suárez Pérez,$2a$10$zlc6kzqj3KcFkL8NWMQsNulupwb92wJQVyrbQU5UNG9hnB6Kst/5O,
@@ -741,7 +741,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 740,t,739,,2,usuario740@ejemplo.com,Laura Jiménez Pérez,$2a$10$8xEIKvUOm66egMmIgpGmMeWat9m4EUc0bSO3pllfMf27cWWLM/JvK,
 741,f,740,,2,usuario741@ejemplo.com,Carlos Jiménez Pérez,$2a$10$NJ9VGwCbtBzR0/b1lRmHfONzfYzq57m0KgqrC06Xw6a3jk25FscPC,
 742,f,741,,2,usuario742@ejemplo.com,Marta Jiménez Pérez,$2a$10$M0YZAkDbs7yIAyiD9oT/WuY12JlLCX/x8SbeXGtGe/CkrXErAEIGC,
-743,f,742,2026-10-25 14:56:00,2,usuario743@ejemplo.com,Andrés Jiménez Pérez,$2a$10$dyM.3IIMhj2bxU.M2fGUHOOjCk3p4Q1sjmFMutErpC1Oeq.rtqXXi,30f2556e-20bf-007c-7be1-89e7ec6541b1
+743,f,742,2026-10-25 16:41:00,2,usuario743@ejemplo.com,Andrés Jiménez Pérez,$2a$10$dyM.3IIMhj2bxU.M2fGUHOOjCk3p4Q1sjmFMutErpC1Oeq.rtqXXi,30f2556e-20bf-407c-bbe1-89e7ec6541b1
 744,t,743,,2,usuario744@ejemplo.com,Camila Jiménez Pérez,$2a$10$P1bAKfAWPn6MHlEI.y6zbOZureKLkZDEaU3v.duEBaCrIkMuSH7cC,
 745,f,744,,2,usuario745@ejemplo.com,Julián Jiménez Pérez,$2a$10$Hw1El9HbSChWqCZx/tzVb.afIpqarDJKvh39.m2Bo0meQ/oonJH2q,
 746,f,745,,2,usuario746@ejemplo.com,Sofía Jiménez Pérez,$2a$10$4k4jukpvjqwLhmPXIeXyfOBoon2.H1pq3Fq/SB/jDoIk9UtsDXzki,
@@ -761,7 +761,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 760,t,759,,2,usuario760@ejemplo.com,Laura Peña Pérez,$2a$10$PMIzZfWbElrsKYxCmm2I1OmyH1rA1Wb3q1ETsW4iXcLGUcQvU/ptG,
 761,f,760,,2,usuario761@ejemplo.com,Carlos Peña Pérez,$2a$10$v2cBeACRDT0rrBqGdf.bGuTT6nJgeEZMAjwlNGFUYUAx6FWHJru6q,
 762,f,761,,2,usuario762@ejemplo.com,Marta Peña Pérez,$2a$10$w2Ku35PhiMxEY8WFYhaYZu2CD50dxi/a3XnMl0exFwuKuirG01/pK,
-763,f,762,2026-10-25 17:16:00,2,usuario763@ejemplo.com,Andrés Peña Pérez,$2a$10$kueUNbmaFeNd0kIYPLl6le2bVPrK33eO3W745whdgXjtdFeAN8U4.,82fa874a-baf9-bbe1-8886-9ed232e8874b
+763,f,762,2026-10-25 19:01:00,2,usuario763@ejemplo.com,Andrés Peña Pérez,$2a$10$kueUNbmaFeNd0kIYPLl6le2bVPrK33eO3W745whdgXjtdFeAN8U4.,82fa874a-baf9-4be1-8886-9ed232e8874b
 764,t,763,,2,usuario764@ejemplo.com,Camila Peña Pérez,$2a$10$wUnnMVTq69FZaVd.sMmO9.7YV/gRUs.uWvRiNAzchVvZM4h8VSOu.,
 765,f,764,,2,usuario765@ejemplo.com,Julián Peña Pérez,$2a$10$W8jEh5a09/PINMyM4Szz/.HHnDlCfCVOghXFnUMwuNcETHJ7VF2Lu,
 766,f,765,,2,usuario766@ejemplo.com,Sofía Peña Pérez,$2a$10$KJYZ9P6ff4RBqB61PoBtFuTVEa.tlHBQXVf0rkGo1nH6OlhOqaRiS,
@@ -781,7 +781,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 780,t,779,,2,usuario780@ejemplo.com,Laura Cárdenas Pérez,$2a$10$HI8EeGMn0cWT2eZlZqeXROrjmJk1MjCnQR3sjKUTPXwfL9vQPhBQ6,
 781,f,780,,2,usuario781@ejemplo.com,Carlos Cárdenas Pérez,$2a$10$g1PTEsEMtjizNS.KCUI/Hu.r07MPUDGLAxo4JhgtDVlX/g1TevUca,
 782,f,781,,2,usuario782@ejemplo.com,Marta Cárdenas Pérez,$2a$10$y.VAzmxWIHAkZ3ZjoGHknO4uRJresdSIAHuBeF.ONTv8ZshUER20e,
-783,f,782,2026-10-25 09:36:00,2,usuario783@ejemplo.com,Andrés Cárdenas Pérez,$2a$10$jJ/8yeONav50sgPQoNwDSufhlRl3HhuO0sGI8gtzY5aP7we0Jqi/q,fd882c27-c3fc-8c1c-3665-f08bc68be24e
+783,f,782,2026-10-25 11:21:00,2,usuario783@ejemplo.com,Andrés Cárdenas Pérez,$2a$10$jJ/8yeONav50sgPQoNwDSufhlRl3HhuO0sGI8gtzY5aP7we0Jqi/q,fd882c27-c3fc-4c1c-b665-f08bc68be24e
 784,t,783,,2,usuario784@ejemplo.com,Camila Cárdenas Pérez,$2a$10$ZXzNhHFUwotEYSUhsORqI.IOCIGLDj9NAOhIsJ8Ar.M/mDFJIjNd2,
 785,f,784,,2,usuario785@ejemplo.com,Julián Cárdenas Pérez,$2a$10$Mmjafy6Fh64MW7KbTro4cesSf32RBch8P9l7r.MstEC3XAg/1UAJq,
 786,f,785,,2,usuario786@ejemplo.com,Sofía Cárdenas Pérez,$2a$10$UyECBsWf/abc8Egb6cpmlev4zRr.pD07j4dXRAwHTCcUbtUw/crH.,
@@ -801,7 +801,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 800,t,799,,2,usuario800@ejemplo.com,Laura Gómez Rincón,$2a$10$qq9odcqN0IZoOqHaObpc4ehh0.0ueyn4afo4dToCfauxzJkH1Py7G,
 801,f,800,,2,usuario801@ejemplo.com,Carlos Gómez Rincón,$2a$10$Q3BM5IB0LvP.PZ4vAQz/teJWZ3cUd1mosrWLIzwZEvWN4qo7daO..,
 802,f,801,,2,usuario802@ejemplo.com,Marta Gómez Rincón,$2a$10$oLdoKWbnJVC.5THiRB1aq.P2qiE6psuKDYumbJO1lvBimagYZjTfC,
-803,f,802,2026-10-25 11:56:00,2,usuario803@ejemplo.com,Andrés Gómez Rincón,$2a$10$h2SUFG5LY.YJjQ72PcZx0u9potVu8xkReqwsPBPm5gW11YRnbh0V6,f22e43be-cdf9-c207-5325-09c72d03aa67
+803,f,802,2026-10-25 13:41:00,2,usuario803@ejemplo.com,Andrés Gómez Rincón,$2a$10$h2SUFG5LY.YJjQ72PcZx0u9potVu8xkReqwsPBPm5gW11YRnbh0V6,f22e43be-cdf9-4207-9325-09c72d03aa67
 804,t,803,,2,usuario804@ejemplo.com,Camila Gómez Rincón,$2a$10$SA4aW9uZk.fW86NBDUE8C.gUKM73cOlemTK8Zpa8r/aiZjQ21hBKS,
 805,f,804,,2,usuario805@ejemplo.com,Julián Gómez Rincón,$2a$10$oUBWMRRPg0yeiOPYYpxJWOItUqCQ.0PAH/4it9xicUIAjhpAFba5u,
 806,f,805,,2,usuario806@ejemplo.com,Sofía Gómez Rincón,$2a$10$Zk.tB.au69DfeuiBb47wz.SjmalAP9JxncQZXziXmvj8oRr3YE80e,
@@ -821,7 +821,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 820,t,819,,2,usuario820@ejemplo.com,Laura Pérez Rincón,$2a$10$Xb838cfsRS1K9UegnlCv9.hjFs7p7ZrUX5K4YCmZX0VXR9Sdtnr4m,
 821,f,820,,2,usuario821@ejemplo.com,Carlos Pérez Rincón,$2a$10$6YIVyKgenPdW5UReVQfG4.SY38Sb5eKsWc4V/Mz062IirXlAKUPdG,
 822,f,821,,2,usuario822@ejemplo.com,Marta Pérez Rincón,$2a$10$ZVwfuiprpcuqkSsfno30/ezpjW7Lo4LJXr3HwV2CrMTZNAdUBLoFW,
-823,f,822,2026-10-25 14:16:00,2,usuario823@ejemplo.com,Andrés Pérez Rincón,$2a$10$6vjigbAd/RcFm4B06/aI3e9bg8tOFctoWPaPuWbDm15o9uDAXy1G6,a33709e3-4f45-850c-5a55-fcfbf0fad9d3
+823,f,822,2026-10-25 16:01:00,2,usuario823@ejemplo.com,Andrés Pérez Rincón,$2a$10$6vjigbAd/RcFm4B06/aI3e9bg8tOFctoWPaPuWbDm15o9uDAXy1G6,a33709e3-4f45-450c-9a55-fcfbf0fad9d3
 824,t,823,,2,usuario824@ejemplo.com,Camila Pérez Rincón,$2a$10$LRouFEGLdxp6EtyBIbA2u.f6JWXyXZ7qcGkFkHflqi4mIjci4jKpu,
 825,f,824,,2,usuario825@ejemplo.com,Julián Pérez Rincón,$2a$10$SN/zqXL2E6ltaNpYFkhm5OOV9Tt1O.h1yLpDPkHaAMO3.6Mq4TpWO,
 826,f,825,,2,usuario826@ejemplo.com,Sofía Pérez Rincón,$2a$10$u4m7Lpci4asQT86tnTdRcub4GFDpfLuJ1iYjjckDiw1odBE0KF4/S,
@@ -841,7 +841,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 840,t,839,,2,usuario840@ejemplo.com,Laura Rincón Rincón,$2a$10$ICuqR42P1L6lPkwMOidX5eFJpjf3iyYcSsrprsON.RubbJamyya0u,
 841,f,840,,2,usuario841@ejemplo.com,Carlos Rincón Rincón,$2a$10$72GlvkV3efhD6JALU4e9SO6Q9vv97NjtrWovKqli6ByvUj813mWjS,
 842,f,841,,2,usuario842@ejemplo.com,Marta Rincón Rincón,$2a$10$47jsSq1.N8kqr4iaOcEfBOPDUfLDHKOpi1bRA12MYInsoxZIa/1Hu,
-843,f,842,2026-10-25 16:36:00,2,usuario843@ejemplo.com,Andrés Rincón Rincón,$2a$10$f/PsVbs9hrMcKqHqn10KZ.61OmSsp6Ka.ouu05.MUUfI0U3y5qqZq,bca525df-17af-e87d-c991-0dd7819e19d8
+843,f,842,2026-10-25 18:21:00,2,usuario843@ejemplo.com,Andrés Rincón Rincón,$2a$10$f/PsVbs9hrMcKqHqn10KZ.61OmSsp6Ka.ouu05.MUUfI0U3y5qqZq,bca525df-17af-487d-8991-0dd7819e19d8
 844,t,843,,2,usuario844@ejemplo.com,Camila Rincón Rincón,$2a$10$k.B1//xsRS7J1ue9lXfzqOR2HwIsdDDhSM6h.yoTRbJhMB9ENU9Ty,
 845,f,844,,2,usuario845@ejemplo.com,Julián Rincón Rincón,$2a$10$YRLPnN29FAxYawPergfkTOPsctu8IXFNpoalWNu9jHk9DUTp6iKyK,
 846,f,845,,2,usuario846@ejemplo.com,Sofía Rincón Rincón,$2a$10$RifeTYZu32Klk2YImDReeuOq63fei0myCIlnooVwM5Elr9165lb/S,
@@ -861,7 +861,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 860,t,859,,2,usuario860@ejemplo.com,Laura Quintero Rincón,$2a$10$49ow.wPVI9BFHNTHSj/k/.PJrnh1vy0AoVL3u/1teu8Gd1ELbnity,
 861,f,860,,2,usuario861@ejemplo.com,Carlos Quintero Rincón,$2a$10$zONscUpdGig0OT1Z/zItPu9WD8ZFbAyOWuFAbH62c8km8Ij35jxYy,
 862,f,861,,2,usuario862@ejemplo.com,Marta Quintero Rincón,$2a$10$J.3BEcMwnsmCcctc7vPn9uIfxx0w4tYLP27taXY7R4w9IQxpbmUI6,
-863,f,862,2026-10-25 08:56:00,2,usuario863@ejemplo.com,Andrés Quintero Rincón,$2a$10$eFjRY5fzNxz.S8Oor.rsL.u5ERWZE55gwC1WuNpqorx4ppCqOJO1e,c65dc7db-82c7-82ea-0367-dc55defcb854
+863,f,862,2026-10-25 10:41:00,2,usuario863@ejemplo.com,Andrés Quintero Rincón,$2a$10$eFjRY5fzNxz.S8Oor.rsL.u5ERWZE55gwC1WuNpqorx4ppCqOJO1e,c65dc7db-82c7-42ea-8367-dc55defcb854
 864,t,863,,2,usuario864@ejemplo.com,Camila Quintero Rincón,$2a$10$1WgOlj198xq5V4mgkJumG.sxUU8RqY2StS3gfYiXUIq22Xu2pwkZq,
 865,f,864,,2,usuario865@ejemplo.com,Julián Quintero Rincón,$2a$10$p1TU9esdsZNPI9NktlPabu0Zsf9UvG2QvFH7Em/AGsTXbWFAh1h/K,
 866,f,865,,2,usuario866@ejemplo.com,Sofía Quintero Rincón,$2a$10$3idbBsmlgg8kKeF1B77touwVGOpZ1UWXB7nl7i78rQ7mWoLZsf0pG,
@@ -881,7 +881,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 880,t,879,,2,usuario880@ejemplo.com,Laura Torres Rincón,$2a$10$9gFQjDHfERjjpv.v2IfF8Oy2tWGkKP38/jhNPDJ6YApGRtj/ObbKy,
 881,f,880,,2,usuario881@ejemplo.com,Carlos Torres Rincón,$2a$10$6MWh.bbbNVzcGvXrE0792OsTcitmbRTSQ.IDaqYxDsI3Q2LyFvITO,
 882,f,881,,2,usuario882@ejemplo.com,Marta Torres Rincón,$2a$10$vO43ui6cw9nPU9M8Nz2TYO0GIwfqdxN51MwQQzsi525Y5NAS/g7Ie,
-883,f,882,2026-10-25 11:16:00,2,usuario883@ejemplo.com,Andrés Torres Rincón,$2a$10$pwcQZLxOg.kf/.OXozRe7O1rvB3WKukoSkIYN3LvKbfzyouoJzWBm,4aacde24-2e33-2424-4ccb-d7ed00eae902
+883,f,882,2026-10-25 13:01:00,2,usuario883@ejemplo.com,Andrés Torres Rincón,$2a$10$pwcQZLxOg.kf/.OXozRe7O1rvB3WKukoSkIYN3LvKbfzyouoJzWBm,4aacde24-2e33-4424-8ccb-d7ed00eae902
 884,t,883,,2,usuario884@ejemplo.com,Camila Torres Rincón,$2a$10$Sl7XNASx2DC5rZLU4l2.YeLUkfrW5dLtxin2o2P.7ckBr1du9N7zq,
 885,f,884,,2,usuario885@ejemplo.com,Julián Torres Rincón,$2a$10$h1vrcLi2O4fRhYkSCFCGKuoE4tY592hSRARc6c70CzDOhMRQPN796,
 886,f,885,,2,usuario886@ejemplo.com,Sofía Torres Rincón,$2a$10$R1/HXjUQVY53SInnaISpee5JCk//VH.jg/JgYrkGs0HSCpv4PhsVe,
@@ -901,7 +901,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 900,t,899,,2,usuario900@ejemplo.com,Laura Soto Rincón,$2a$10$joPaj3.FU4jYGdY3UPJLNOtkD8iyZbtbHTP6ODg6qHz.HRJkSoFC2,
 901,f,900,,2,usuario901@ejemplo.com,Carlos Soto Rincón,$2a$10$C7eEzJkDiVAJy89ufh/XJOB4mWSeIqBW5LK22Pn77iKOeh9ZFPmo.,
 902,f,901,,2,usuario902@ejemplo.com,Marta Soto Rincón,$2a$10$HFEk3er9v4bsOjA.d3/LhOiJKVWPojnIYosEcU3cI0bkaJ8isZmcG,
-903,f,902,2026-10-25 13:36:00,2,usuario903@ejemplo.com,Andrés Soto Rincón,$2a$10$JOPU.Y.O2sxojFLW1KyFLembntaobYXde4L4TfHNm6Q7vyK3sfMQ.,cdd16076-a6ff-35b2-5b5d-75f77935b077
+903,f,902,2026-10-25 15:21:00,2,usuario903@ejemplo.com,Andrés Soto Rincón,$2a$10$JOPU.Y.O2sxojFLW1KyFLembntaobYXde4L4TfHNm6Q7vyK3sfMQ.,cdd16076-a6ff-45b2-9b5d-75f77935b077
 904,t,903,,2,usuario904@ejemplo.com,Camila Soto Rincón,$2a$10$mynwnBW1Wku/x7NItlwYh.iAuHbx9JmEN8FDxkdb/cZ1kepxQ4iYW,
 905,f,904,,2,usuario905@ejemplo.com,Julián Soto Rincón,$2a$10$.I4HyxVoXcc4toxsB1JyA.DssrsxPG7Uagyn43cPTxUfLrcsFpJNy,
 906,f,905,,2,usuario906@ejemplo.com,Sofía Soto Rincón,$2a$10$in.MxuQhA5FPz..HzuMB8eeHigSplto0W9seJode.PWGCFMLTYTpe,
@@ -921,7 +921,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 920,t,919,,2,usuario920@ejemplo.com,Laura Leal Rincón,$2a$10$Rzp8dLGI1vDpmjocQWs6zuZ3KQxxyYyppPd4surgyj2L/tQ9wsFwa,
 921,f,920,,2,usuario921@ejemplo.com,Carlos Leal Rincón,$2a$10$6cMCI5TOKgH4/mldXOg1BOWOsjcEj5pdAAh49ACbV1wi53ZVgDQOa,
 922,f,921,,2,usuario922@ejemplo.com,Marta Leal Rincón,$2a$10$86eSnjnhH64SNUyYn4WbBurmUokyMyErDFGIuEkchk4Qrfb8dwj1u,
-923,f,922,2026-10-25 15:56:00,2,usuario923@ejemplo.com,Andrés Leal Rincón,$2a$10$NeP3X8aYvdomrBvQn8kaDOtxEhVsR1qdWiXm0mZUeWI1LLHo3Cnre,3309878a-5fe4-15f3-0b80-29c17faf23fd
+923,f,922,2026-10-25 17:41:00,2,usuario923@ejemplo.com,Andrés Leal Rincón,$2a$10$NeP3X8aYvdomrBvQn8kaDOtxEhVsR1qdWiXm0mZUeWI1LLHo3Cnre,3309878a-5fe4-45f3-8b80-29c17faf23fd
 924,t,923,,2,usuario924@ejemplo.com,Camila Leal Rincón,$2a$10$9H1wdcOZEi054ziNvcClcOnk2SBhPavTNHMwCP.eXH3tGCd40DYKu,
 925,f,924,,2,usuario925@ejemplo.com,Julián Leal Rincón,$2a$10$DLK/SOvPDZm3BhSMzgNGWuCMiom8xL1..6EYVeUYXC.GeoEmKms4m,
 926,f,925,,2,usuario926@ejemplo.com,Sofía Leal Rincón,$2a$10$h20KwIb6cJba4b6PhPAoxeuwgojiA3cxNrhL34FvqO0CPCVbgDzdK,
@@ -941,7 +941,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 940,t,939,,2,usuario940@ejemplo.com,Laura Méndez Rincón,$2a$10$3LjupmuK/EqOW7WA1JHdK.9ufdnNDr5L.gEgmNBeHMU6EjKty7Dwm,
 941,f,940,,2,usuario941@ejemplo.com,Carlos Méndez Rincón,$2a$10$P0pZoIo2b2Fm0jNX/k1t2elQBbuwogyaSbpkYqe2JJYkOyfjO0qoi,
 942,f,941,,2,usuario942@ejemplo.com,Marta Méndez Rincón,$2a$10$7TIAOiwhWFF0mm0kt9qPWe0nAn03Th5kwD8Z/o.EhdcTwodia1Djq,
-943,f,942,2026-10-25 08:16:00,2,usuario943@ejemplo.com,Andrés Méndez Rincón,$2a$10$QCGY.MRkGtzV5P/Ek0dO1.K5zQKNTwWpYzXaYInBFwU6uLeSA6MLK,6e2c0258-df1a-f049-4600-e94b71d492da
+943,f,942,2026-10-25 10:01:00,2,usuario943@ejemplo.com,Andrés Méndez Rincón,$2a$10$QCGY.MRkGtzV5P/Ek0dO1.K5zQKNTwWpYzXaYInBFwU6uLeSA6MLK,6e2c0258-df1a-4049-8600-e94b71d492da
 944,t,943,,2,usuario944@ejemplo.com,Camila Méndez Rincón,$2a$10$pArz26/llhCjZ07u2k7CceCVrQd26wpB7fsErJn75kiiDLNpJUFKS,
 945,f,944,,2,usuario945@ejemplo.com,Julián Méndez Rincón,$2a$10$YPL3NoMJSTHi0SdE/oM3OuqJQmS0tB1ZLyJ0aPNebVez4HDOZPrIC,
 946,f,945,,2,usuario946@ejemplo.com,Sofía Méndez Rincón,$2a$10$1qQ35Pvt.JbwIP.1X9Hlm.94FxNjBxx702b66YKXv7aI4npFWA5eu,
@@ -961,7 +961,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 960,t,959,,2,usuario960@ejemplo.com,Laura Díaz Rincón,$2a$10$xKhd6YKYidmYbshezbbxqusZSQVSbE.4pS1fKngh2p/FxTl9wljAS,
 961,f,960,,2,usuario961@ejemplo.com,Carlos Díaz Rincón,$2a$10$FIh4Vl4XlX4rf2dxAHwpfeXaxWqo1RKYMSY9q1cOga8eaaMnVXWby,
 962,f,961,,2,usuario962@ejemplo.com,Marta Díaz Rincón,$2a$10$q8xzs3467JRRrFts1Meh0.92Jyud1orrSJ2d.Awi841tpvcblRN2q,
-963,f,962,2026-10-25 10:36:00,2,usuario963@ejemplo.com,Andrés Díaz Rincón,$2a$10$qAWTcvG6bHBJfmB9VxqfjeeKM675sxC177zGMN17RPbcK.Apq3.mC,a63d49d3-870a-c689-4648-500becb03346
+963,f,962,2026-10-25 12:21:00,2,usuario963@ejemplo.com,Andrés Díaz Rincón,$2a$10$qAWTcvG6bHBJfmB9VxqfjeeKM675sxC177zGMN17RPbcK.Apq3.mC,a63d49d3-870a-4689-8648-500becb03346
 964,t,963,,2,usuario964@ejemplo.com,Camila Díaz Rincón,$2a$10$EVno2HCrU4dK6N8y1HgFpOoyVhef.XrhftfSfr6ckjDf4SG4ry7my,
 965,f,964,,2,usuario965@ejemplo.com,Julián Díaz Rincón,$2a$10$g71KykR4A6Upn6fpsqN8n.D52za3T40z9fuoD8jKCWdOpUSKIbu82,
 966,f,965,,2,usuario966@ejemplo.com,Sofía Díaz Rincón,$2a$10$2sFPgouG.iTv7u5J1Q/YE.6w/yRrUou.RpmRtbDsEBc93mYmE2dFm,
@@ -981,7 +981,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 980,t,979,,2,usuario980@ejemplo.com,Laura Ortiz Rincón,$2a$10$7ujI7m0FbSrJNDrB8fReseFvORZR/zPiuvnKe12sT6/nXAuhXCScW,
 981,f,980,,2,usuario981@ejemplo.com,Carlos Ortiz Rincón,$2a$10$3TAX1r.IlHMFwFZGb49xKurPvQMcfsbV.nNFyN1XpaLttwIifBYAW,
 982,f,981,,2,usuario982@ejemplo.com,Marta Ortiz Rincón,$2a$10$lIsSSY4e7AFPs2VWNG4nRe92IBRBcM7AqJgUtoalGhlJxdlZqsyli,
-983,f,982,2026-10-25 12:56:00,2,usuario983@ejemplo.com,Andrés Ortiz Rincón,$2a$10$5P1nfMuWpmX2Q00Ic3mQ3.QfWMnriMe/TU6Cw6.W3NQU.qHB9mWGS,bf8930ff-5bb6-5f22-6cdc-89a641455ef1
+983,f,982,2026-10-25 14:41:00,2,usuario983@ejemplo.com,Andrés Ortiz Rincón,$2a$10$5P1nfMuWpmX2Q00Ic3mQ3.QfWMnriMe/TU6Cw6.W3NQU.qHB9mWGS,bf8930ff-5bb6-4f22-acdc-89a641455ef1
 984,t,983,,2,usuario984@ejemplo.com,Camila Ortiz Rincón,$2a$10$pu.IcgX.jzBCE3UDf7Ow7OM1q6nzx5zq5eMtpfGtTO5/3Gytxl3O.,
 985,f,984,,2,usuario985@ejemplo.com,Julián Ortiz Rincón,$2a$10$F7TNomn86EAvb2qPkbyFG.UrFgF/ZI334sjmgp6WdJmJ1KkPfrPuy,
 986,f,985,,2,usuario986@ejemplo.com,Sofía Ortiz Rincón,$2a$10$mWit6L.526a3Tnqii.sfqecLLnFi49Mswhk3Cr69AUiQARrVEw6Ji,
@@ -1001,7 +1001,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1000,t,999,,2,usuario1000@ejemplo.com,Laura Castro Rincón,$2a$10$FD4DKFseCQvrybGeGFHeV.DeqC0DJGkMnLf1crQXQrQ8yMiffs0Xm,
 1001,f,1000,,2,usuario1001@ejemplo.com,Carlos Castro Rincón,$2a$10$88x3CM8bhJKdZLvVYE2Fee.tzWuAPr9uc1B/hwNWBf0GyAmyNoLGa,
 1002,f,1001,,2,usuario1002@ejemplo.com,Marta Castro Rincón,$2a$10$4iTrT5lniqX0Fiekzkjx6.75i1Mx21wVHa2ouTnZcRHImNSVa09je,
-1003,f,1002,2026-10-25 15:16:00,2,usuario1003@ejemplo.com,Andrés Castro Rincón,$2a$10$dDSS/rF7TDZe9n4H..KovODTaAWHv4Y6V84I3d.yooIFGFGXXAocS,bd94dd4a-22ab-fb65-2e67-14fcf73caa20
+1003,f,1002,2026-10-25 17:01:00,2,usuario1003@ejemplo.com,Andrés Castro Rincón,$2a$10$dDSS/rF7TDZe9n4H..KovODTaAWHv4Y6V84I3d.yooIFGFGXXAocS,bd94dd4a-22ab-4b65-ae67-14fcf73caa20
 1004,t,1003,,2,usuario1004@ejemplo.com,Camila Castro Rincón,$2a$10$mdJEzaNK1sSfQ9X5TP3JU.0D3nS9E/Y/4c2SXlVtrPVo8uTXSTkRO,
 1005,f,1004,,2,usuario1005@ejemplo.com,Julián Castro Rincón,$2a$10$KPexVRNaK.CC5u5lFx/EcOlDzIY0/YYB/7so0/aU9x9eszAcxEFk.,
 1006,f,1005,,2,usuario1006@ejemplo.com,Sofía Castro Rincón,$2a$10$dfaEKt7lj1kXssOIkcRoIepll5ZwqhTp88h9aOyAL9f6rHePdMaZq,
@@ -1021,7 +1021,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1020,t,1019,,2,usuario1020@ejemplo.com,Laura Vargas Rincón,$2a$10$g13KQHcBBYyS1ZdyHgvIyOUVL50cLNcJoFnb9yeH2XlvJ.XwGosTi,
 1021,f,1020,,2,usuario1021@ejemplo.com,Carlos Vargas Rincón,$2a$10$XQSJos4GhkhgzobQ/DgtKOkQb.JYYrLyDbSxflQfo3IT8sUoqkd9q,
 1022,f,1021,,2,usuario1022@ejemplo.com,Marta Vargas Rincón,$2a$10$ZNEWsf4HJk8Jye.8ZYRaN.kehqT1m.vE7tgHqIIWzrTl2taM5H9Fi,
-1023,f,1022,2026-10-25 17:36:00,2,usuario1023@ejemplo.com,Andrés Vargas Rincón,$2a$10$plfOj96NUB4Q0NaerJVJEuS0bm0uuBx6f2D/RKf4bswxKPj2fit5q,f7695349-d7a5-077d-84b5-fe51fabf5b7e
+1023,f,1022,2026-10-25 19:21:00,2,usuario1023@ejemplo.com,Andrés Vargas Rincón,$2a$10$plfOj96NUB4Q0NaerJVJEuS0bm0uuBx6f2D/RKf4bswxKPj2fit5q,f7695349-d7a5-477d-84b5-fe51fabf5b7e
 1024,t,1023,,2,usuario1024@ejemplo.com,Camila Vargas Rincón,$2a$10$.X4y6sxXW0whOq0v2PGv3udKddX8QFonRx7nN4HS8pQjmNvvYEizy,
 1025,f,1024,,2,usuario1025@ejemplo.com,Julián Vargas Rincón,$2a$10$OJ8ayKmTEuyNFTmLRBsOvOA/R9YqBDvddjsg20U3PT5w5YBo7AVXu,
 1026,f,1025,,2,usuario1026@ejemplo.com,Sofía Vargas Rincón,$2a$10$DSLfcPiPVWjOut1eXm7R5Oe3chT.ZZzjrVASRswE2ePlwXv85kCym,
@@ -1041,7 +1041,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1040,t,1039,,2,usuario1040@ejemplo.com,Laura Rojas Rincón,$2a$10$BTZByBEZBqNDCysf0dbnkO/v1vcGCQNlqVCPmPgPqOZbgen8WeI1u,
 1041,f,1040,,2,usuario1041@ejemplo.com,Carlos Rojas Rincón,$2a$10$GSeyzNEqMB3it7Mif2RGM.6QUjBCy4HASeLmlhAOnovjcdOvSRm0i,
 1042,f,1041,,2,usuario1042@ejemplo.com,Marta Rojas Rincón,$2a$10$kaiuwH7vkMSGC3KtSFW96.lhw0UN85hXxV8IcKDUotAgWKo5ROiQS,
-1043,f,1042,2026-10-25 09:56:00,2,usuario1043@ejemplo.com,Andrés Rojas Rincón,$2a$10$7WoqsEXl/ZkHQkVMzRGdou0Y10KnozkkJFu0mwQeIBQTzgDF4gAGu,fd11f95b-7fa3-3637-9fec-b3230e01ca5d
+1043,f,1042,2026-10-25 11:41:00,2,usuario1043@ejemplo.com,Andrés Rojas Rincón,$2a$10$7WoqsEXl/ZkHQkVMzRGdou0Y10KnozkkJFu0mwQeIBQTzgDF4gAGu,fd11f95b-7fa3-4637-9fec-b3230e01ca5d
 1044,t,1043,,2,usuario1044@ejemplo.com,Camila Rojas Rincón,$2a$10$uMKwtyruc42h8y5GkD92ROAR34EyNU5wcWf7SlBCLcEfXkkLsy8Tq,
 1045,f,1044,,2,usuario1045@ejemplo.com,Julián Rojas Rincón,$2a$10$peEATqlTG5AJT2TuxNBlLu.bdNiD.GS8eCfLLqc6UDSyD6S7T4Y6G,
 1046,f,1045,,2,usuario1046@ejemplo.com,Sofía Rojas Rincón,$2a$10$DGQZRPq41tR0cFxHmG1tc.SXRJeyN0oUxtrnUJY7GhRfjPILVPzsC,
@@ -1061,7 +1061,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1060,t,1059,,2,usuario1060@ejemplo.com,Laura Mora Rincón,$2a$10$G.rK87KCQnCHJtns1sZzneE1S87GgVRmw50SbxO6COCkSSP8sk7Z2,
 1061,f,1060,,2,usuario1061@ejemplo.com,Carlos Mora Rincón,$2a$10$a8RNrCHv8gxi0sfyomd.AuZ6YCygDXKsruUfySqNNR4kOiPXrfYxK,
 1062,f,1061,,2,usuario1062@ejemplo.com,Marta Mora Rincón,$2a$10$6QwLHAfEgy8bR1Wi1l0kE.zVnmRexx9TooL0pXCxIvJQLEoHADwpO,
-1063,f,1062,2026-10-25 12:16:00,2,usuario1063@ejemplo.com,Andrés Mora Rincón,$2a$10$ZarlastVX3veAl6TNgR04eatALkTW589gWosKmQLEtiQwAQtCa4oO,6b5084f6-e724-1e90-d462-3fbb9d797458
+1063,f,1062,2026-10-25 14:01:00,2,usuario1063@ejemplo.com,Andrés Mora Rincón,$2a$10$ZarlastVX3veAl6TNgR04eatALkTW589gWosKmQLEtiQwAQtCa4oO,6b5084f6-e724-4e90-9462-3fbb9d797458
 1064,t,1063,,2,usuario1064@ejemplo.com,Camila Mora Rincón,$2a$10$rhcdHmAdOIq/8TLyZIfdGeElurMgjBRH8WBrHyJyWlXnNoGHSfFpm,
 1065,f,1064,,2,usuario1065@ejemplo.com,Julián Mora Rincón,$2a$10$JkBGp/sJB7grF/ltC9B4Weo2gEQ1x51KmzpkF3v8gZ1JtjHixHR..,
 1066,f,1065,,2,usuario1066@ejemplo.com,Sofía Mora Rincón,$2a$10$TEWegcP2lLD9P0XnCxZMKeIj445WgCYN16tOiPOXqYjiUAlMusBmi,
@@ -1081,7 +1081,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1080,t,1079,,2,usuario1080@ejemplo.com,Laura Pacheco Rincón,$2a$10$Byssrnc11CojPs5AbNyxquzXOhLxqiCW1L3w6fdRXfk8dTxd00ndi,
 1081,f,1080,,2,usuario1081@ejemplo.com,Carlos Pacheco Rincón,$2a$10$bA7NyfDfF6ZKw2uKEa3l..NV7JGhUbQj0pek9OzUh9Ce.wbvcAmwW,
 1082,f,1081,,2,usuario1082@ejemplo.com,Marta Pacheco Rincón,$2a$10$EU8CSxww2Ryxqf7t1J4.9.jAtWxRT6gipuQC0BjEH1KFDvvJVOoeK,
-1083,f,1082,2026-10-25 14:36:00,2,usuario1083@ejemplo.com,Andrés Pacheco Rincón,$2a$10$PTAoHLSMCPWEDHgQBORIJ.VotPqeF/oNqpm3QRb226KWx./RnHl2q,fab60518-62f3-18a4-3fc7-50d9e545f6f0
+1083,f,1082,2026-10-25 16:21:00,2,usuario1083@ejemplo.com,Andrés Pacheco Rincón,$2a$10$PTAoHLSMCPWEDHgQBORIJ.VotPqeF/oNqpm3QRb226KWx./RnHl2q,fab60518-62f3-48a4-bfc7-50d9e545f6f0
 1084,t,1083,,2,usuario1084@ejemplo.com,Camila Pacheco Rincón,$2a$10$CK8HE.7OSgvNAycxOGCnr.wDa9fk01/HooWWXNC46MVI8PhQXgNOW,
 1085,f,1084,,2,usuario1085@ejemplo.com,Julián Pacheco Rincón,$2a$10$S9afT8j9tL6iXSUL4sYMcOj/6oAevn4E00.PsXUzwtoO5c38Fh.sa,
 1086,f,1085,,2,usuario1086@ejemplo.com,Sofía Pacheco Rincón,$2a$10$VCYSWZCp/7VaK6f2BdN/0eFNb1rt5kD.dxzaTGtdk8ZBQUsEvJrjC,
@@ -1101,7 +1101,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1100,t,1099,,2,usuario1100@ejemplo.com,Laura Navarro Rincón,$2a$10$y1CHPydMa3X8zMlC1NUt.eXGIK.2nlsrSuFRgEix/OUnA7lIVLuM.,
 1101,f,1100,,2,usuario1101@ejemplo.com,Carlos Navarro Rincón,$2a$10$sS6dNm0WdYltY5c4h1QeKOaLm7lQxg7kzU5IXLt9Agz9fQSWqIvOi,
 1102,f,1101,,2,usuario1102@ejemplo.com,Marta Navarro Rincón,$2a$10$0ikfIgKQe/JlRQWWmACwrOr5BHsXWea7sVUsu6hbhoN3Iouqy3VvO,
-1103,f,1102,2026-10-25 16:56:00,2,usuario1103@ejemplo.com,Andrés Navarro Rincón,$2a$10$7UcBwlbClXnXjnEGqPyT5.Fc227XqpU29Bch2.n8GFhEyN9MaJANe,e3ee7758-c942-ed06-e51f-6703d2e12227
+1103,f,1102,2026-10-25 18:41:00,2,usuario1103@ejemplo.com,Andrés Navarro Rincón,$2a$10$7UcBwlbClXnXjnEGqPyT5.Fc227XqpU29Bch2.n8GFhEyN9MaJANe,e3ee7758-c942-4d06-a51f-6703d2e12227
 1104,t,1103,,2,usuario1104@ejemplo.com,Camila Navarro Rincón,$2a$10$xChG0vj/6v4B/49wGbKsXO.BkymMkFrhdr.f2iaaGmwKgJhMNC9da,
 1105,f,1104,,2,usuario1105@ejemplo.com,Julián Navarro Rincón,$2a$10$eyH17AsYldUQOeffqZmK3etJnIWgOgr5FYHvrnFLWdgsnontqtrqu,
 1106,f,1105,,2,usuario1106@ejemplo.com,Sofía Navarro Rincón,$2a$10$qWfa7w2CZ7V65DwZPvztXOLIvZrl/aEClUHVa.EqUpeijxGcUje0S,
@@ -1121,7 +1121,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1120,t,1119,,2,usuario1120@ejemplo.com,Laura Suárez Rincón,$2a$10$61.e1jw0gtfXa4Rl7eSJJOKw14upijjUsmUA5Bj/7aO1QJ3jmya8m,
 1121,f,1120,,2,usuario1121@ejemplo.com,Carlos Suárez Rincón,$2a$10$6MQmTGKKKiQPfWUdukraouTMAlwYyN5LHhVbt3LqF1SAWajY.h15i,
 1122,f,1121,,2,usuario1122@ejemplo.com,Marta Suárez Rincón,$2a$10$U4R3zFNec58P15CXh1aVNOaoa0KW8SWgfnineFMWeCKHgjfuqPADm,
-1123,f,1122,2026-10-25 09:16:00,2,usuario1123@ejemplo.com,Andrés Suárez Rincón,$2a$10$1JcWxNZbDhp6QYW3GH.aDe8I.mfz1/hHCL5wmXoDQ0Vyca4.bgh9W,3d892c9f-a058-0db6-6881-bb11f8d36083
+1123,f,1122,2026-10-25 11:01:00,2,usuario1123@ejemplo.com,Andrés Suárez Rincón,$2a$10$1JcWxNZbDhp6QYW3GH.aDe8I.mfz1/hHCL5wmXoDQ0Vyca4.bgh9W,3d892c9f-a058-4db6-a881-bb11f8d36083
 1124,t,1123,,2,usuario1124@ejemplo.com,Camila Suárez Rincón,$2a$10$M/PWqe.PSze4pK.7p2OjQeaBwgp73ZAgvFsLNMupcf8SVpd43NZ5e,
 1125,f,1124,,2,usuario1125@ejemplo.com,Julián Suárez Rincón,$2a$10$sg7rHG7wSZ9tkH/wNT2VKu4FKGLC9DSZGHBKm.XuhioJHQgF.BKPW,
 1126,f,1125,,2,usuario1126@ejemplo.com,Sofía Suárez Rincón,$2a$10$UwIBB10XZyv92mV79V8aTuFfPzRtzKlAoRNuejmKThybYPPwEpj1m,
@@ -1141,7 +1141,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1140,t,1139,,2,usuario1140@ejemplo.com,Laura Jiménez Rincón,$2a$10$T7YniBFTviCHbWaZZNN0.eWIY0U.fLXlHB5Fke3BRhpxKcLovSkuy,
 1141,f,1140,,2,usuario1141@ejemplo.com,Carlos Jiménez Rincón,$2a$10$qzLfUfIdg/O1cHsHVhJXweKIXH5lyNuVzViKcc8OVCZlGr3fOKuVK,
 1142,f,1141,,2,usuario1142@ejemplo.com,Marta Jiménez Rincón,$2a$10$cOIHwpa.OPRxt4S8JBzer.VWXzOKH.IFvWDlYugEcIKZ.9bYcByHO,
-1143,f,1142,2026-10-25 11:36:00,2,usuario1143@ejemplo.com,Andrés Jiménez Rincón,$2a$10$CdvezXje0fl0TCAJi4syhu7glwrkGrWrfWYkT5WOJOTus5lQDwSpG,e4d4976e-25c5-1a7f-c310-6da31e1ad3f4
+1143,f,1142,2026-10-25 13:21:00,2,usuario1143@ejemplo.com,Andrés Jiménez Rincón,$2a$10$CdvezXje0fl0TCAJi4syhu7glwrkGrWrfWYkT5WOJOTus5lQDwSpG,e4d4976e-25c5-4a7f-8310-6da31e1ad3f4
 1144,t,1143,,2,usuario1144@ejemplo.com,Camila Jiménez Rincón,$2a$10$rls/MqVa2K2vUfPoE8YVb.ktVK0prPPgaaEbb9z.QbQRcEHy4jeR6,
 1145,f,1144,,2,usuario1145@ejemplo.com,Julián Jiménez Rincón,$2a$10$zE4xDwr5BcAa5aJQ9v7TVu2ZIDWXHKkaY96auzcoGyAUHeTXY3KkG,
 1146,f,1145,,2,usuario1146@ejemplo.com,Sofía Jiménez Rincón,$2a$10$dRqr1gqcScRW7q84kOEb/.hGkzddSrMBTrqxcff.sLYMVrlRTUis6,
@@ -1161,7 +1161,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1160,t,1159,,2,usuario1160@ejemplo.com,Laura Peña Rincón,$2a$10$WA3IQAcg694Nn4hO36oWheDPnSL4Iipf92bQaNtmpnN9wehcNcxLK,
 1161,f,1160,,2,usuario1161@ejemplo.com,Carlos Peña Rincón,$2a$10$BXWJpA9jMNMaW3OWxsLqce8J8eJqxDg75Q8RpT8dUSRcM3HAd2qLu,
 1162,f,1161,,2,usuario1162@ejemplo.com,Marta Peña Rincón,$2a$10$a2LAZH0DkZCh00JfbxSF2OdKLX9jyZXwYAu9NUKKrCnN2qjT8DFCm,
-1163,f,1162,2026-10-25 13:56:00,2,usuario1163@ejemplo.com,Andrés Peña Rincón,$2a$10$9.90it9s5gOkNSUTIMYjX..xljrH50/lRKJilgILAahJ5biBn1IzO,9459e4b4-2d63-199b-36d2-1d98a93925e2
+1163,f,1162,2026-10-25 15:41:00,2,usuario1163@ejemplo.com,Andrés Peña Rincón,$2a$10$9.90it9s5gOkNSUTIMYjX..xljrH50/lRKJilgILAahJ5biBn1IzO,9459e4b4-2d63-499b-b6d2-1d98a93925e2
 1164,t,1163,,2,usuario1164@ejemplo.com,Camila Peña Rincón,$2a$10$xHghS86AWWddGgQJ//zmIOvQlolbXenM.8JPHmmLTlHFxToii/h5G,
 1165,f,1164,,2,usuario1165@ejemplo.com,Julián Peña Rincón,$2a$10$nys.EcfrTHaDWpPrYWW9fOKus525otj7lJXqwtXHd/9H/VX9DXZru,
 1166,f,1165,,2,usuario1166@ejemplo.com,Sofía Peña Rincón,$2a$10$uPgHpFMwqmzrDhyzP.tDfui.JKi1A30cBg4AXmyVgJXW9QmctX9Zm,
@@ -1181,7 +1181,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1180,t,1179,,2,usuario1180@ejemplo.com,Laura Cárdenas Rincón,$2a$10$VqePJ5ni3gevN6hyVzQoE.yCh3.K9GaNDReV/WSO8z7RSU62i..DK,
 1181,f,1180,,2,usuario1181@ejemplo.com,Carlos Cárdenas Rincón,$2a$10$hYD/6C9ItwzI9VNsa5f49OF5k2hNt3w38o7uPBy8LjknYlFb1ILSi,
 1182,f,1181,,2,usuario1182@ejemplo.com,Marta Cárdenas Rincón,$2a$10$aQ7b.CzKwbzSYRm1n76LX.Jqvmlv6OCqb0hPjw8jijoMXrt60sucS,
-1183,f,1182,2026-10-25 16:16:00,2,usuario1183@ejemplo.com,Andrés Cárdenas Rincón,$2a$10$gPNMVlQq8WivhbDrF/8aQu6Qh2x9FrPYiOl/HI/XA0BSKaPc22Bxm,72fa5ae2-8e55-7f6e-e0b7-a17b5dc3c03a
+1183,f,1182,2026-10-25 18:01:00,2,usuario1183@ejemplo.com,Andrés Cárdenas Rincón,$2a$10$gPNMVlQq8WivhbDrF/8aQu6Qh2x9FrPYiOl/HI/XA0BSKaPc22Bxm,72fa5ae2-8e55-4f6e-a0b7-a17b5dc3c03a
 1184,t,1183,,2,usuario1184@ejemplo.com,Camila Cárdenas Rincón,$2a$10$ytpzd7stLulwK.2550n.7.tLrqOUuogsIagqz47peESFdU4lbEm0G,
 1185,f,1184,,2,usuario1185@ejemplo.com,Julián Cárdenas Rincón,$2a$10$cHzI5sdq7VAtK1VOAtgbeuq/xU3FTxsbxFZjaRzFsgqkxLBB4GqCW,
 1186,f,1185,,2,usuario1186@ejemplo.com,Sofía Cárdenas Rincón,$2a$10$7rL8UqEjrWgo1ehQKPuPdeQj8NtbivHkW/JWGFO2yay.mXRNrR2Ru,
@@ -1201,7 +1201,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1200,t,1199,,2,usuario1200@ejemplo.com,Laura Gómez Quintero,$2a$10$wbu.gVMbs0K.eQHRWCavRO4nqIS8NxNlUnpIlBSZ9HLT1Ss/Eo7M.,
 1201,f,1200,,2,usuario1201@ejemplo.com,Carlos Gómez Quintero,$2a$10$VSItdBb9OaMQeGnZtMWodeW9EPysL6abyWKbnSJ.rJ7r6rUTCccBe,
 1202,f,1201,,2,usuario1202@ejemplo.com,Marta Gómez Quintero,$2a$10$fRJGYQV/XeyVRaHXpV.EDuIPwMVwGNthq8wPEZPVm5Cuvtn1gEjY2,
-1203,f,1202,2026-10-25 08:36:00,2,usuario1203@ejemplo.com,Andrés Gómez Quintero,$2a$10$u1edq.GBZoHf9qwMPzv7veKbGnMr7HmCUKWqjZrXUtmqSHZI5lNA6,860e00f8-ffdb-7d09-db6f-9ead22cc9b92
+1203,f,1202,2026-10-25 10:21:00,2,usuario1203@ejemplo.com,Andrés Gómez Quintero,$2a$10$u1edq.GBZoHf9qwMPzv7veKbGnMr7HmCUKWqjZrXUtmqSHZI5lNA6,860e00f8-ffdb-4d09-9b6f-9ead22cc9b92
 1204,t,1203,,2,usuario1204@ejemplo.com,Camila Gómez Quintero,$2a$10$XicgV.ILQoszubbjh9BBtO3vbydwjjDEVfktT0I6VS0qsA5fX.n4y,
 1205,f,1204,,2,usuario1205@ejemplo.com,Julián Gómez Quintero,$2a$10$9EG1gtRjnvVcnpzPfcN5LuEZota9yVMZo68BUgFf3/AFQUwN1Mt.i,
 1206,f,1205,,2,usuario1206@ejemplo.com,Sofía Gómez Quintero,$2a$10$IdTk6kYIjvyTRTCySI8oqOCD.X7gj9W./WUmNNTuRwgcese04BueC,
@@ -1221,7 +1221,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1220,t,1219,,2,usuario1220@ejemplo.com,Laura Pérez Quintero,$2a$10$3JRh3xwh6mrIl18Vp4q0Z.viNJlisaA3kJiF6oT/C7TrHrbqABCgm,
 1221,f,1220,,2,usuario1221@ejemplo.com,Carlos Pérez Quintero,$2a$10$Talrn4lFi78tRcMSIs/ctO4gqCdJssEOXe.iGQz.8Vkhh.Q6mnVhK,
 1222,f,1221,,2,usuario1222@ejemplo.com,Marta Pérez Quintero,$2a$10$Cq7ynmO/OXouCuGjKiMy3e0KSN7/hLa1JOHJ1Ux0.K8bh3LPqUFN.,
-1223,f,1222,2026-10-25 10:56:00,2,usuario1223@ejemplo.com,Andrés Pérez Quintero,$2a$10$AwYbSmSZTACTfs/gyjyJZOLIF7/ZuM/8Z54Xb/C0CfNxnFxbtZhWO,9d52b773-09e8-4deb-572f-78b8ce56bb26
+1223,f,1222,2026-10-25 12:41:00,2,usuario1223@ejemplo.com,Andrés Pérez Quintero,$2a$10$AwYbSmSZTACTfs/gyjyJZOLIF7/ZuM/8Z54Xb/C0CfNxnFxbtZhWO,9d52b773-09e8-4deb-972f-78b8ce56bb26
 1224,t,1223,,2,usuario1224@ejemplo.com,Camila Pérez Quintero,$2a$10$twDsa2yjSfqJoVvyGJxmLOi0pb5Hda4VUYOslEUzyrH.8qpkogcC2,
 1225,f,1224,,2,usuario1225@ejemplo.com,Julián Pérez Quintero,$2a$10$JW7KpyjU4ePGHg4bvHr3b.2RBOauLMxS689jfs3hFKwGu5/WMAtlm,
 1226,f,1225,,2,usuario1226@ejemplo.com,Sofía Pérez Quintero,$2a$10$moea3h3pjy5eHUg0K4pvI./kuJwk384SDoBbzu7gyH25XnwTnbECO,
@@ -1241,7 +1241,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1240,t,1239,,2,usuario1240@ejemplo.com,Laura Rincón Quintero,$2a$10$ntHCpSrupIEni01aYOX8cO8ZUbO7OhDOCzsRvdKGEwZfOBEu3gA76,
 1241,f,1240,,2,usuario1241@ejemplo.com,Carlos Rincón Quintero,$2a$10$9sxwP6wBxxqMKaV4qskc.e6i0lxOiD/r1A2Ye2FEPzPC0VH96NxWu,
 1242,f,1241,,2,usuario1242@ejemplo.com,Marta Rincón Quintero,$2a$10$QerT1CiVBdMCIz1vy6ydLuKSoUjC00.SKkKd8Twcll8yZdB1Bxory,
-1243,f,1242,2026-10-25 13:16:00,2,usuario1243@ejemplo.com,Andrés Rincón Quintero,$2a$10$Tci9b7rB.O5HPrgO07iNx.pwUmpnFKYYlXY6tl0.h9XjU1BSOE/2m,95dad93e-6d2f-f487-c769-6416c612b1cd
+1243,f,1242,2026-10-25 15:01:00,2,usuario1243@ejemplo.com,Andrés Rincón Quintero,$2a$10$Tci9b7rB.O5HPrgO07iNx.pwUmpnFKYYlXY6tl0.h9XjU1BSOE/2m,95dad93e-6d2f-4487-8769-6416c612b1cd
 1244,t,1243,,2,usuario1244@ejemplo.com,Camila Rincón Quintero,$2a$10$Wl.3VnCAcVX0gABbDKkkru7MZEcjvZW1605J95R.TKcVePpI6rUfy,
 1245,f,1244,,2,usuario1245@ejemplo.com,Julián Rincón Quintero,$2a$10$1tD7VH.9niKywhakN/xRVujCDhNyEcAUg72ovTC9WFuXspINEDVGS,
 1246,f,1245,,2,usuario1246@ejemplo.com,Sofía Rincón Quintero,$2a$10$SgoVrPvKGJnTsX6FAGTKYeOUduobdwvmT6S8WvNa9sKi05q0u2kla,
