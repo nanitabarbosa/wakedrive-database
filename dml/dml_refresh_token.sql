@@ -1,12 +1,6 @@
--- Tokens de ejemplo (los reales los genera la API al iniciar sesión).
-INSERT INTO public.refresh_token (user_id, token, expires_at) VALUES
-(1, 'token-ejemplo-0001', '2026-10-28 08:00:00'),
-(2, 'token-ejemplo-0002', '2026-10-28 09:15:00'),
-(3, 'token-ejemplo-0003', '2026-10-28 10:30:00'),
-(4, 'token-ejemplo-0004', '2026-10-29 07:45:00'),
-(5, 'token-ejemplo-0005', '2026-10-29 11:20:00');
+-- Datos de ejemplo de tokens de sesión (1 249 filas), cargados con COPY desde dml/data/refresh_token.csv.
+-- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
+\copy public.refresh_token (id, expires_at, user_id, token) FROM 'dml/data/refresh_token.csv' WITH (FORMAT csv, HEADER)
 
--- Filas 6 a 1250: un token por usuario.
-INSERT INTO public.refresh_token (user_id, token, expires_at)
-SELECT g, 'token-ejemplo-' || lpad(g::text, 4, '0'), TIMESTAMP '2026-10-28 08:00:00' + (g * interval '5 minutes')
-FROM generate_series(6, 1250) AS g;
+-- Las filas se cargan con su id: se ajusta la secuencia para que los nuevos registros continúen desde el último.
+SELECT setval(pg_get_serial_sequence('public.refresh_token', 'id'), (SELECT max(id) FROM public.refresh_token));

@@ -1,13 +1,6 @@
-INSERT INTO public.devices (serial, status, last_connection, company_id, created_at) VALUES
-('WD-0001-A1', 'ACTIVE',   '2026-10-20 18:05:00', 1, '2026-09-10 10:10:00'),
-('WD-0002-A2', 'ACTIVE',   '2026-10-20 17:40:00', 1, '2026-09-10 10:12:00'),
-('WD-0003-B1', 'ACTIVE',   '2026-10-19 22:10:00', 2, '2026-09-12 09:10:00'),
-('WD-0004-C1', 'ACTIVE',   '2026-10-20 06:55:00', 3, '2026-09-15 15:40:00'),
-('WD-0005-D1', 'INACTIVE', '2026-09-30 12:00:00', 4, '2026-09-18 08:50:00');
+-- Datos de ejemplo de dispositivos (1 250 filas), cargados con COPY desde dml/data/devices.csv.
+-- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
+\copy public.devices (device_id, company_id, created_at, last_connection, status, serial) FROM 'dml/data/devices.csv' WITH (FORMAT csv, HEADER)
 
--- Filas 6 a 1250: un dispositivo por empresa.
-INSERT INTO public.devices (serial, status, last_connection, company_id, created_at)
-SELECT 'WD-' || lpad(g::text, 4, '0') || '-N1', 'ACTIVE',
-       TIMESTAMP '2026-10-20 06:00:00' + (g % 720 * interval '1 minute'), g,
-       TIMESTAMP '2026-09-20 08:00:00' + (g * interval '10 minutes')
-FROM generate_series(6, 1250) AS g;
+-- Las filas se cargan con su id: se ajusta la secuencia para que los nuevos registros continúen desde el último.
+SELECT setval(pg_get_serial_sequence('public.devices', 'device_id'), (SELECT max(device_id) FROM public.devices));

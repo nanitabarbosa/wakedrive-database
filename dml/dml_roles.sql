@@ -1,3 +1,3 @@
 INSERT INTO public.roles (name) VALUES
-('ADMIN'),
-('SUPER_ADMIN');
+('SUPER_ADMIN'),
+('ADMIN');

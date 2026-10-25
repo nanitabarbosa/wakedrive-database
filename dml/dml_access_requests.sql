@@ -1,20 +1,6 @@
-INSERT INTO public.access_requests (company_name, nit, city_id, address, company_phone, admin_name, admin_email, admin_phone, status, created_at) VALUES
-('TRANSPORTES OCAÑA S.A.S.',    '900123456-1', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 0), 'CRA 12 # 8-40 OCAÑA',      '3001112233', 'Laura Gómez',      'laura.gomez@ejemplo.com',     '3101112233', 'APPROVED', '2026-09-02 09:15:00'),
-('FLOTA ANDINA LTDA',           '901234567-2', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 1), 'CALLE 10 # 5-22 CUCUTA',   '3014445566', 'Carlos Pérez',     'carlos.perez@ejemplo.com',    '3104445566', 'APPROVED', '2026-09-05 14:30:00'),
-('CARGA SEGURA DEL NORTE S.A.', '800345678-3', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 2), 'AV 3 # 15-80 BUCARAMANGA', '3027778899', 'Marta Rincón',     'marta.rincon@ejemplo.com',    '3107778899', 'APPROVED', '2026-09-08 11:00:00'),
-('TRANSPORTES DEL VALLE LTDA',  '901678901-6', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 3), 'CRA 4 # 20-15 CALI',       '3051112200', 'Julio Ramírez',    'julio.ramirez@ejemplo.com',   '3151112200', 'PENDING',  '2026-09-20 16:45:00'),
-('EXPRESO PAMPLONA S.A.S.',     '900789012-7', (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET 4), 'CALLE 6 # 7-30 PAMPLONA',  '3063334455', 'Sandra Villamizar','sandra.v@ejemplo.com',        '3153334455', 'REJECTED', '2026-09-12 08:20:00');
+-- Datos de ejemplo de solicitudes de acceso (1 250 filas), cargados con COPY desde dml/data/access_requests.csv.
+-- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
+\copy public.access_requests (access_request_id, city_id, created_at, admin_phone, company_phone, nit, status, admin_email, admin_name, company_name, address) FROM 'dml/data/access_requests.csv' WITH (FORMAT csv, HEADER)
 
--- Filas 6 a 1250: una solicitud por empresa (la mayoría aprobadas).
-INSERT INTO public.access_requests (company_name, nit, city_id, address, company_phone, admin_name, admin_email, admin_phone, status, created_at)
-SELECT 'EMPRESA DE TRANSPORTE ' || g,
-       (900000000 + g)::text || '-' || (g % 10),
-       (SELECT city_id FROM public.cities ORDER BY city_id LIMIT 1 OFFSET (g % 10)),
-       'CALLE ' || (1 + g % 90) || ' # ' || (1 + g % 40) || '-' || (10 + g % 80),
-       '30' || lpad(g::text, 8, '0'),
-       (ARRAY['Laura','Carlos','Marta','Andrés','Camila','Julián','Sofía','Daniel','Valentina','Miguel','Paula','Sergio','Natalia','Felipe','Diana','Jorge','Luisa','Mateo','Carolina','Esteban'])[1 + (g % 20)] || ' ' || (ARRAY['Gómez','Pérez','Rincón','Quintero','Torres','Soto','Leal','Méndez','Díaz','Ortiz','Castro','Vargas','Rojas','Mora','Pacheco','Navarro','Suárez','Jiménez','Peña','Cárdenas'])[1 + ((g / 20) % 20)] || ' ' || (ARRAY['Gómez','Pérez','Rincón','Quintero','Torres','Soto','Leal','Méndez','Díaz','Ortiz','Castro','Vargas','Rojas','Mora','Pacheco','Navarro','Suárez','Jiménez','Peña','Cárdenas'])[1 + ((g / 400) % 20)],
-       'usuario' || g || '@ejemplo.com',
-       '31' || lpad(g::text, 8, '0'),
-       (ARRAY['APPROVED','APPROVED','APPROVED','PENDING','REJECTED'])[1 + (g % 5)],
-       TIMESTAMP '2026-09-20 08:00:00' + (g * interval '10 minutes')
-FROM generate_series(6, 1250) AS g;
+-- Las filas se cargan con su id: se ajusta la secuencia para que los nuevos registros continúen desde el último.
+SELECT setval(pg_get_serial_sequence('public.access_requests', 'access_request_id'), (SELECT max(access_request_id) FROM public.access_requests));

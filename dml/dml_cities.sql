@@ -1,11 +1,11 @@
 INSERT INTO public.cities (name) VALUES
-('Barranquilla'),
 ('Bogotá'),
-('Bucaramanga'),
-('Cali'),
-('Cartagena'),
-('Cúcuta'),
-('Manizales'),
 ('Medellín'),
+('Cali'),
+('Barranquilla'),
+('Cartagena'),
+('Bucaramanga'),
 ('Pereira'),
-('Santa Marta');
+('Santa Marta'),
+('Manizales'),
+('Cúcuta');
