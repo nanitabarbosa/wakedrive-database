@@ -1,7 +1,7 @@
 user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,password,reset_token
 1,f,,,1,superadmin@ejemplo.com,Super Administrador,HASH_DE_EJEMPLO_1,
 2,f,1,,2,laura.gomez@ejemplo.com,Laura Gómez,HASH_DE_EJEMPLO_2,
-3,t,2,,2,carlos.perez@ejemplo.com,Carlos Pérez,HASH_DE_EJEMPLO_3,
+3,t,2,2026-10-25 08:36:00,2,carlos.perez@ejemplo.com,Carlos Pérez,HASH_DE_EJEMPLO_3,af714705-9334-6405-9c0c-9bbb6313e4d9
 4,f,3,,2,marta.rincon@ejemplo.com,Marta Rincón,HASH_DE_EJEMPLO_4,
 5,t,4,,2,andres.quintero@ejemplo.com,Andrés Quintero,HASH_DE_EJEMPLO_5,
 6,f,5,,2,usuario6@ejemplo.com,Sofía Gómez Gómez,HASH_DE_EJEMPLO_6,
@@ -21,7 +21,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 20,t,19,,2,usuario20@ejemplo.com,Laura Pérez Gómez,HASH_DE_EJEMPLO_20,
 21,f,20,,2,usuario21@ejemplo.com,Carlos Pérez Gómez,HASH_DE_EJEMPLO_21,
 22,f,21,,2,usuario22@ejemplo.com,Marta Pérez Gómez,HASH_DE_EJEMPLO_22,
-23,f,22,,2,usuario23@ejemplo.com,Andrés Pérez Gómez,HASH_DE_EJEMPLO_23,
+23,f,22,2026-10-25 10:56:00,2,usuario23@ejemplo.com,Andrés Pérez Gómez,HASH_DE_EJEMPLO_23,1d73f321-d6bf-ec5a-bcb7-1933811a09dc
 24,t,23,,2,usuario24@ejemplo.com,Camila Pérez Gómez,HASH_DE_EJEMPLO_24,
 25,f,24,,2,usuario25@ejemplo.com,Julián Pérez Gómez,HASH_DE_EJEMPLO_25,
 26,f,25,,2,usuario26@ejemplo.com,Sofía Pérez Gómez,HASH_DE_EJEMPLO_26,
@@ -41,7 +41,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 40,t,39,,2,usuario40@ejemplo.com,Laura Rincón Gómez,HASH_DE_EJEMPLO_40,
 41,f,40,,2,usuario41@ejemplo.com,Carlos Rincón Gómez,HASH_DE_EJEMPLO_41,
 42,f,41,,2,usuario42@ejemplo.com,Marta Rincón Gómez,HASH_DE_EJEMPLO_42,
-43,f,42,,2,usuario43@ejemplo.com,Andrés Rincón Gómez,HASH_DE_EJEMPLO_43,
+43,f,42,2026-10-25 13:16:00,2,usuario43@ejemplo.com,Andrés Rincón Gómez,HASH_DE_EJEMPLO_43,9af7c47c-1155-e5cd-628d-ac4b578ef071
 44,t,43,,2,usuario44@ejemplo.com,Camila Rincón Gómez,HASH_DE_EJEMPLO_44,
 45,f,44,,2,usuario45@ejemplo.com,Julián Rincón Gómez,HASH_DE_EJEMPLO_45,
 46,f,45,,2,usuario46@ejemplo.com,Sofía Rincón Gómez,HASH_DE_EJEMPLO_46,
@@ -61,7 +61,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 60,t,59,,2,usuario60@ejemplo.com,Laura Quintero Gómez,HASH_DE_EJEMPLO_60,
 61,f,60,,2,usuario61@ejemplo.com,Carlos Quintero Gómez,HASH_DE_EJEMPLO_61,
 62,f,61,,2,usuario62@ejemplo.com,Marta Quintero Gómez,HASH_DE_EJEMPLO_62,
-63,f,62,,2,usuario63@ejemplo.com,Andrés Quintero Gómez,HASH_DE_EJEMPLO_63,
+63,f,62,2026-10-25 15:36:00,2,usuario63@ejemplo.com,Andrés Quintero Gómez,HASH_DE_EJEMPLO_63,4f6b6c46-87e9-9d6f-3b20-c00435eb827e
 64,t,63,,2,usuario64@ejemplo.com,Camila Quintero Gómez,HASH_DE_EJEMPLO_64,
 65,f,64,,2,usuario65@ejemplo.com,Julián Quintero Gómez,HASH_DE_EJEMPLO_65,
 66,f,65,,2,usuario66@ejemplo.com,Sofía Quintero Gómez,HASH_DE_EJEMPLO_66,
@@ -81,7 +81,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 80,t,79,,2,usuario80@ejemplo.com,Laura Torres Gómez,HASH_DE_EJEMPLO_80,
 81,f,80,,2,usuario81@ejemplo.com,Carlos Torres Gómez,HASH_DE_EJEMPLO_81,
 82,f,81,,2,usuario82@ejemplo.com,Marta Torres Gómez,HASH_DE_EJEMPLO_82,
-83,f,82,,2,usuario83@ejemplo.com,Andrés Torres Gómez,HASH_DE_EJEMPLO_83,
+83,f,82,2026-10-25 17:56:00,2,usuario83@ejemplo.com,Andrés Torres Gómez,HASH_DE_EJEMPLO_83,cc6c517e-2242-9911-2a7d-1718f455f671
 84,t,83,,2,usuario84@ejemplo.com,Camila Torres Gómez,HASH_DE_EJEMPLO_84,
 85,f,84,,2,usuario85@ejemplo.com,Julián Torres Gómez,HASH_DE_EJEMPLO_85,
 86,f,85,,2,usuario86@ejemplo.com,Sofía Torres Gómez,HASH_DE_EJEMPLO_86,
@@ -101,7 +101,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 100,t,99,,2,usuario100@ejemplo.com,Laura Soto Gómez,HASH_DE_EJEMPLO_100,
 101,f,100,,2,usuario101@ejemplo.com,Carlos Soto Gómez,HASH_DE_EJEMPLO_101,
 102,f,101,,2,usuario102@ejemplo.com,Marta Soto Gómez,HASH_DE_EJEMPLO_102,
-103,f,102,,2,usuario103@ejemplo.com,Andrés Soto Gómez,HASH_DE_EJEMPLO_103,
+103,f,102,2026-10-25 10:16:00,2,usuario103@ejemplo.com,Andrés Soto Gómez,HASH_DE_EJEMPLO_103,eb963372-0c93-dd62-dc65-3072216b6cd0
 104,t,103,,2,usuario104@ejemplo.com,Camila Soto Gómez,HASH_DE_EJEMPLO_104,
 105,f,104,,2,usuario105@ejemplo.com,Julián Soto Gómez,HASH_DE_EJEMPLO_105,
 106,f,105,,2,usuario106@ejemplo.com,Sofía Soto Gómez,HASH_DE_EJEMPLO_106,
@@ -121,7 +121,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 120,t,119,,2,usuario120@ejemplo.com,Laura Leal Gómez,HASH_DE_EJEMPLO_120,
 121,f,120,,2,usuario121@ejemplo.com,Carlos Leal Gómez,HASH_DE_EJEMPLO_121,
 122,f,121,,2,usuario122@ejemplo.com,Marta Leal Gómez,HASH_DE_EJEMPLO_122,
-123,f,122,,2,usuario123@ejemplo.com,Andrés Leal Gómez,HASH_DE_EJEMPLO_123,
+123,f,122,2026-10-25 12:36:00,2,usuario123@ejemplo.com,Andrés Leal Gómez,HASH_DE_EJEMPLO_123,318d23e1-daa7-f73d-b7de-5c737121872b
 124,t,123,,2,usuario124@ejemplo.com,Camila Leal Gómez,HASH_DE_EJEMPLO_124,
 125,f,124,,2,usuario125@ejemplo.com,Julián Leal Gómez,HASH_DE_EJEMPLO_125,
 126,f,125,,2,usuario126@ejemplo.com,Sofía Leal Gómez,HASH_DE_EJEMPLO_126,
@@ -141,7 +141,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 140,t,139,,2,usuario140@ejemplo.com,Laura Méndez Gómez,HASH_DE_EJEMPLO_140,
 141,f,140,,2,usuario141@ejemplo.com,Carlos Méndez Gómez,HASH_DE_EJEMPLO_141,
 142,f,141,,2,usuario142@ejemplo.com,Marta Méndez Gómez,HASH_DE_EJEMPLO_142,
-143,f,142,,2,usuario143@ejemplo.com,Andrés Méndez Gómez,HASH_DE_EJEMPLO_143,
+143,f,142,2026-10-25 14:56:00,2,usuario143@ejemplo.com,Andrés Méndez Gómez,HASH_DE_EJEMPLO_143,e3eae767-d342-f69c-c97f-e39cafcd046c
 144,t,143,,2,usuario144@ejemplo.com,Camila Méndez Gómez,HASH_DE_EJEMPLO_144,
 145,f,144,,2,usuario145@ejemplo.com,Julián Méndez Gómez,HASH_DE_EJEMPLO_145,
 146,f,145,,2,usuario146@ejemplo.com,Sofía Méndez Gómez,HASH_DE_EJEMPLO_146,
@@ -161,7 +161,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 160,t,159,,2,usuario160@ejemplo.com,Laura Díaz Gómez,HASH_DE_EJEMPLO_160,
 161,f,160,,2,usuario161@ejemplo.com,Carlos Díaz Gómez,HASH_DE_EJEMPLO_161,
 162,f,161,,2,usuario162@ejemplo.com,Marta Díaz Gómez,HASH_DE_EJEMPLO_162,
-163,f,162,,2,usuario163@ejemplo.com,Andrés Díaz Gómez,HASH_DE_EJEMPLO_163,
+163,f,162,2026-10-25 17:16:00,2,usuario163@ejemplo.com,Andrés Díaz Gómez,HASH_DE_EJEMPLO_163,5c629a67-79b9-6491-5b00-7d79cacc638e
 164,t,163,,2,usuario164@ejemplo.com,Camila Díaz Gómez,HASH_DE_EJEMPLO_164,
 165,f,164,,2,usuario165@ejemplo.com,Julián Díaz Gómez,HASH_DE_EJEMPLO_165,
 166,f,165,,2,usuario166@ejemplo.com,Sofía Díaz Gómez,HASH_DE_EJEMPLO_166,
@@ -181,7 +181,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 180,t,179,,2,usuario180@ejemplo.com,Laura Ortiz Gómez,HASH_DE_EJEMPLO_180,
 181,f,180,,2,usuario181@ejemplo.com,Carlos Ortiz Gómez,HASH_DE_EJEMPLO_181,
 182,f,181,,2,usuario182@ejemplo.com,Marta Ortiz Gómez,HASH_DE_EJEMPLO_182,
-183,f,182,,2,usuario183@ejemplo.com,Andrés Ortiz Gómez,HASH_DE_EJEMPLO_183,
+183,f,182,2026-10-25 09:36:00,2,usuario183@ejemplo.com,Andrés Ortiz Gómez,HASH_DE_EJEMPLO_183,7a95c7bd-f83e-45b6-3b79-d74e429800a2
 184,t,183,,2,usuario184@ejemplo.com,Camila Ortiz Gómez,HASH_DE_EJEMPLO_184,
 185,f,184,,2,usuario185@ejemplo.com,Julián Ortiz Gómez,HASH_DE_EJEMPLO_185,
 186,f,185,,2,usuario186@ejemplo.com,Sofía Ortiz Gómez,HASH_DE_EJEMPLO_186,
@@ -201,7 +201,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 200,t,199,,2,usuario200@ejemplo.com,Laura Castro Gómez,HASH_DE_EJEMPLO_200,
 201,f,200,,2,usuario201@ejemplo.com,Carlos Castro Gómez,HASH_DE_EJEMPLO_201,
 202,f,201,,2,usuario202@ejemplo.com,Marta Castro Gómez,HASH_DE_EJEMPLO_202,
-203,f,202,,2,usuario203@ejemplo.com,Andrés Castro Gómez,HASH_DE_EJEMPLO_203,
+203,f,202,2026-10-25 11:56:00,2,usuario203@ejemplo.com,Andrés Castro Gómez,HASH_DE_EJEMPLO_203,84144d3f-dfd2-f496-d342-52fb01546909
 204,t,203,,2,usuario204@ejemplo.com,Camila Castro Gómez,HASH_DE_EJEMPLO_204,
 205,f,204,,2,usuario205@ejemplo.com,Julián Castro Gómez,HASH_DE_EJEMPLO_205,
 206,f,205,,2,usuario206@ejemplo.com,Sofía Castro Gómez,HASH_DE_EJEMPLO_206,
@@ -221,7 +221,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 220,t,219,,2,usuario220@ejemplo.com,Laura Vargas Gómez,HASH_DE_EJEMPLO_220,
 221,f,220,,2,usuario221@ejemplo.com,Carlos Vargas Gómez,HASH_DE_EJEMPLO_221,
 222,f,221,,2,usuario222@ejemplo.com,Marta Vargas Gómez,HASH_DE_EJEMPLO_222,
-223,f,222,,2,usuario223@ejemplo.com,Andrés Vargas Gómez,HASH_DE_EJEMPLO_223,
+223,f,222,2026-10-25 14:16:00,2,usuario223@ejemplo.com,Andrés Vargas Gómez,HASH_DE_EJEMPLO_223,218f24cc-cadb-3164-c4cf-0de2822e73c9
 224,t,223,,2,usuario224@ejemplo.com,Camila Vargas Gómez,HASH_DE_EJEMPLO_224,
 225,f,224,,2,usuario225@ejemplo.com,Julián Vargas Gómez,HASH_DE_EJEMPLO_225,
 226,f,225,,2,usuario226@ejemplo.com,Sofía Vargas Gómez,HASH_DE_EJEMPLO_226,
@@ -241,7 +241,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 240,t,239,,2,usuario240@ejemplo.com,Laura Rojas Gómez,HASH_DE_EJEMPLO_240,
 241,f,240,,2,usuario241@ejemplo.com,Carlos Rojas Gómez,HASH_DE_EJEMPLO_241,
 242,f,241,,2,usuario242@ejemplo.com,Marta Rojas Gómez,HASH_DE_EJEMPLO_242,
-243,f,242,,2,usuario243@ejemplo.com,Andrés Rojas Gómez,HASH_DE_EJEMPLO_243,
+243,f,242,2026-10-25 16:36:00,2,usuario243@ejemplo.com,Andrés Rojas Gómez,HASH_DE_EJEMPLO_243,b231c834-c910-bc5e-924c-0cec20dcd9b5
 244,t,243,,2,usuario244@ejemplo.com,Camila Rojas Gómez,HASH_DE_EJEMPLO_244,
 245,f,244,,2,usuario245@ejemplo.com,Julián Rojas Gómez,HASH_DE_EJEMPLO_245,
 246,f,245,,2,usuario246@ejemplo.com,Sofía Rojas Gómez,HASH_DE_EJEMPLO_246,
@@ -261,7 +261,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 260,t,259,,2,usuario260@ejemplo.com,Laura Mora Gómez,HASH_DE_EJEMPLO_260,
 261,f,260,,2,usuario261@ejemplo.com,Carlos Mora Gómez,HASH_DE_EJEMPLO_261,
 262,f,261,,2,usuario262@ejemplo.com,Marta Mora Gómez,HASH_DE_EJEMPLO_262,
-263,f,262,,2,usuario263@ejemplo.com,Andrés Mora Gómez,HASH_DE_EJEMPLO_263,
+263,f,262,2026-10-25 08:56:00,2,usuario263@ejemplo.com,Andrés Mora Gómez,HASH_DE_EJEMPLO_263,5cf4dd54-2e7e-b102-9f87-024527b68bab
 264,t,263,,2,usuario264@ejemplo.com,Camila Mora Gómez,HASH_DE_EJEMPLO_264,
 265,f,264,,2,usuario265@ejemplo.com,Julián Mora Gómez,HASH_DE_EJEMPLO_265,
 266,f,265,,2,usuario266@ejemplo.com,Sofía Mora Gómez,HASH_DE_EJEMPLO_266,
@@ -281,7 +281,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 280,t,279,,2,usuario280@ejemplo.com,Laura Pacheco Gómez,HASH_DE_EJEMPLO_280,
 281,f,280,,2,usuario281@ejemplo.com,Carlos Pacheco Gómez,HASH_DE_EJEMPLO_281,
 282,f,281,,2,usuario282@ejemplo.com,Marta Pacheco Gómez,HASH_DE_EJEMPLO_282,
-283,f,282,,2,usuario283@ejemplo.com,Andrés Pacheco Gómez,HASH_DE_EJEMPLO_283,
+283,f,282,2026-10-25 11:16:00,2,usuario283@ejemplo.com,Andrés Pacheco Gómez,HASH_DE_EJEMPLO_283,872ec871-b545-43dc-d121-ded21f135b73
 284,t,283,,2,usuario284@ejemplo.com,Camila Pacheco Gómez,HASH_DE_EJEMPLO_284,
 285,f,284,,2,usuario285@ejemplo.com,Julián Pacheco Gómez,HASH_DE_EJEMPLO_285,
 286,f,285,,2,usuario286@ejemplo.com,Sofía Pacheco Gómez,HASH_DE_EJEMPLO_286,
@@ -301,7 +301,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 300,t,299,,2,usuario300@ejemplo.com,Laura Navarro Gómez,HASH_DE_EJEMPLO_300,
 301,f,300,,2,usuario301@ejemplo.com,Carlos Navarro Gómez,HASH_DE_EJEMPLO_301,
 302,f,301,,2,usuario302@ejemplo.com,Marta Navarro Gómez,HASH_DE_EJEMPLO_302,
-303,f,302,,2,usuario303@ejemplo.com,Andrés Navarro Gómez,HASH_DE_EJEMPLO_303,
+303,f,302,2026-10-25 13:36:00,2,usuario303@ejemplo.com,Andrés Navarro Gómez,HASH_DE_EJEMPLO_303,a5135513-68bc-e6fe-df62-597ad2c628bc
 304,t,303,,2,usuario304@ejemplo.com,Camila Navarro Gómez,HASH_DE_EJEMPLO_304,
 305,f,304,,2,usuario305@ejemplo.com,Julián Navarro Gómez,HASH_DE_EJEMPLO_305,
 306,f,305,,2,usuario306@ejemplo.com,Sofía Navarro Gómez,HASH_DE_EJEMPLO_306,
@@ -321,7 +321,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 320,t,319,,2,usuario320@ejemplo.com,Laura Suárez Gómez,HASH_DE_EJEMPLO_320,
 321,f,320,,2,usuario321@ejemplo.com,Carlos Suárez Gómez,HASH_DE_EJEMPLO_321,
 322,f,321,,2,usuario322@ejemplo.com,Marta Suárez Gómez,HASH_DE_EJEMPLO_322,
-323,f,322,,2,usuario323@ejemplo.com,Andrés Suárez Gómez,HASH_DE_EJEMPLO_323,
+323,f,322,2026-10-25 15:56:00,2,usuario323@ejemplo.com,Andrés Suárez Gómez,HASH_DE_EJEMPLO_323,a86f44c0-406f-c17a-f15b-6c63fe64ff75
 324,t,323,,2,usuario324@ejemplo.com,Camila Suárez Gómez,HASH_DE_EJEMPLO_324,
 325,f,324,,2,usuario325@ejemplo.com,Julián Suárez Gómez,HASH_DE_EJEMPLO_325,
 326,f,325,,2,usuario326@ejemplo.com,Sofía Suárez Gómez,HASH_DE_EJEMPLO_326,
@@ -341,7 +341,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 340,t,339,,2,usuario340@ejemplo.com,Laura Jiménez Gómez,HASH_DE_EJEMPLO_340,
 341,f,340,,2,usuario341@ejemplo.com,Carlos Jiménez Gómez,HASH_DE_EJEMPLO_341,
 342,f,341,,2,usuario342@ejemplo.com,Marta Jiménez Gómez,HASH_DE_EJEMPLO_342,
-343,f,342,,2,usuario343@ejemplo.com,Andrés Jiménez Gómez,HASH_DE_EJEMPLO_343,
+343,f,342,2026-10-25 08:16:00,2,usuario343@ejemplo.com,Andrés Jiménez Gómez,HASH_DE_EJEMPLO_343,2af2d6e6-38a4-fca4-4301-3561defbb32b
 344,t,343,,2,usuario344@ejemplo.com,Camila Jiménez Gómez,HASH_DE_EJEMPLO_344,
 345,f,344,,2,usuario345@ejemplo.com,Julián Jiménez Gómez,HASH_DE_EJEMPLO_345,
 346,f,345,,2,usuario346@ejemplo.com,Sofía Jiménez Gómez,HASH_DE_EJEMPLO_346,
@@ -361,7 +361,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 360,t,359,,2,usuario360@ejemplo.com,Laura Peña Gómez,HASH_DE_EJEMPLO_360,
 361,f,360,,2,usuario361@ejemplo.com,Carlos Peña Gómez,HASH_DE_EJEMPLO_361,
 362,f,361,,2,usuario362@ejemplo.com,Marta Peña Gómez,HASH_DE_EJEMPLO_362,
-363,f,362,,2,usuario363@ejemplo.com,Andrés Peña Gómez,HASH_DE_EJEMPLO_363,
+363,f,362,2026-10-25 10:36:00,2,usuario363@ejemplo.com,Andrés Peña Gómez,HASH_DE_EJEMPLO_363,299de636-8805-40d9-a49c-7d808fc986b1
 364,t,363,,2,usuario364@ejemplo.com,Camila Peña Gómez,HASH_DE_EJEMPLO_364,
 365,f,364,,2,usuario365@ejemplo.com,Julián Peña Gómez,HASH_DE_EJEMPLO_365,
 366,f,365,,2,usuario366@ejemplo.com,Sofía Peña Gómez,HASH_DE_EJEMPLO_366,
@@ -381,7 +381,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 380,t,379,,2,usuario380@ejemplo.com,Laura Cárdenas Gómez,HASH_DE_EJEMPLO_380,
 381,f,380,,2,usuario381@ejemplo.com,Carlos Cárdenas Gómez,HASH_DE_EJEMPLO_381,
 382,f,381,,2,usuario382@ejemplo.com,Marta Cárdenas Gómez,HASH_DE_EJEMPLO_382,
-383,f,382,,2,usuario383@ejemplo.com,Andrés Cárdenas Gómez,HASH_DE_EJEMPLO_383,
+383,f,382,2026-10-25 12:56:00,2,usuario383@ejemplo.com,Andrés Cárdenas Gómez,HASH_DE_EJEMPLO_383,f15f8ba7-d393-1bf9-2929-4241571cecbc
 384,t,383,,2,usuario384@ejemplo.com,Camila Cárdenas Gómez,HASH_DE_EJEMPLO_384,
 385,f,384,,2,usuario385@ejemplo.com,Julián Cárdenas Gómez,HASH_DE_EJEMPLO_385,
 386,f,385,,2,usuario386@ejemplo.com,Sofía Cárdenas Gómez,HASH_DE_EJEMPLO_386,
@@ -401,7 +401,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 400,t,399,,2,usuario400@ejemplo.com,Laura Gómez Pérez,HASH_DE_EJEMPLO_400,
 401,f,400,,2,usuario401@ejemplo.com,Carlos Gómez Pérez,HASH_DE_EJEMPLO_401,
 402,f,401,,2,usuario402@ejemplo.com,Marta Gómez Pérez,HASH_DE_EJEMPLO_402,
-403,f,402,,2,usuario403@ejemplo.com,Andrés Gómez Pérez,HASH_DE_EJEMPLO_403,
+403,f,402,2026-10-25 15:16:00,2,usuario403@ejemplo.com,Andrés Gómez Pérez,HASH_DE_EJEMPLO_403,216c38b4-48f1-edbf-7723-c55df6606a9c
 404,t,403,,2,usuario404@ejemplo.com,Camila Gómez Pérez,HASH_DE_EJEMPLO_404,
 405,f,404,,2,usuario405@ejemplo.com,Julián Gómez Pérez,HASH_DE_EJEMPLO_405,
 406,f,405,,2,usuario406@ejemplo.com,Sofía Gómez Pérez,HASH_DE_EJEMPLO_406,
@@ -421,7 +421,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 420,t,419,,2,usuario420@ejemplo.com,Laura Pérez Pérez,HASH_DE_EJEMPLO_420,
 421,f,420,,2,usuario421@ejemplo.com,Carlos Pérez Pérez,HASH_DE_EJEMPLO_421,
 422,f,421,,2,usuario422@ejemplo.com,Marta Pérez Pérez,HASH_DE_EJEMPLO_422,
-423,f,422,,2,usuario423@ejemplo.com,Andrés Pérez Pérez,HASH_DE_EJEMPLO_423,
+423,f,422,2026-10-25 17:36:00,2,usuario423@ejemplo.com,Andrés Pérez Pérez,HASH_DE_EJEMPLO_423,8c11b134-fa86-9b4e-7751-6a605dbda26a
 424,t,423,,2,usuario424@ejemplo.com,Camila Pérez Pérez,HASH_DE_EJEMPLO_424,
 425,f,424,,2,usuario425@ejemplo.com,Julián Pérez Pérez,HASH_DE_EJEMPLO_425,
 426,f,425,,2,usuario426@ejemplo.com,Sofía Pérez Pérez,HASH_DE_EJEMPLO_426,
@@ -441,7 +441,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 440,t,439,,2,usuario440@ejemplo.com,Laura Rincón Pérez,HASH_DE_EJEMPLO_440,
 441,f,440,,2,usuario441@ejemplo.com,Carlos Rincón Pérez,HASH_DE_EJEMPLO_441,
 442,f,441,,2,usuario442@ejemplo.com,Marta Rincón Pérez,HASH_DE_EJEMPLO_442,
-443,f,442,,2,usuario443@ejemplo.com,Andrés Rincón Pérez,HASH_DE_EJEMPLO_443,
+443,f,442,2026-10-25 09:56:00,2,usuario443@ejemplo.com,Andrés Rincón Pérez,HASH_DE_EJEMPLO_443,af0b9241-dd6c-edd2-1331-f0a7300c3330
 444,t,443,,2,usuario444@ejemplo.com,Camila Rincón Pérez,HASH_DE_EJEMPLO_444,
 445,f,444,,2,usuario445@ejemplo.com,Julián Rincón Pérez,HASH_DE_EJEMPLO_445,
 446,f,445,,2,usuario446@ejemplo.com,Sofía Rincón Pérez,HASH_DE_EJEMPLO_446,
@@ -461,7 +461,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 460,t,459,,2,usuario460@ejemplo.com,Laura Quintero Pérez,HASH_DE_EJEMPLO_460,
 461,f,460,,2,usuario461@ejemplo.com,Carlos Quintero Pérez,HASH_DE_EJEMPLO_461,
 462,f,461,,2,usuario462@ejemplo.com,Marta Quintero Pérez,HASH_DE_EJEMPLO_462,
-463,f,462,,2,usuario463@ejemplo.com,Andrés Quintero Pérez,HASH_DE_EJEMPLO_463,
+463,f,462,2026-10-25 12:16:00,2,usuario463@ejemplo.com,Andrés Quintero Pérez,HASH_DE_EJEMPLO_463,0302ae02-6b25-4f88-b9af-75d554dd00c1
 464,t,463,,2,usuario464@ejemplo.com,Camila Quintero Pérez,HASH_DE_EJEMPLO_464,
 465,f,464,,2,usuario465@ejemplo.com,Julián Quintero Pérez,HASH_DE_EJEMPLO_465,
 466,f,465,,2,usuario466@ejemplo.com,Sofía Quintero Pérez,HASH_DE_EJEMPLO_466,
@@ -481,7 +481,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 480,t,479,,2,usuario480@ejemplo.com,Laura Torres Pérez,HASH_DE_EJEMPLO_480,
 481,f,480,,2,usuario481@ejemplo.com,Carlos Torres Pérez,HASH_DE_EJEMPLO_481,
 482,f,481,,2,usuario482@ejemplo.com,Marta Torres Pérez,HASH_DE_EJEMPLO_482,
-483,f,482,,2,usuario483@ejemplo.com,Andrés Torres Pérez,HASH_DE_EJEMPLO_483,
+483,f,482,2026-10-25 14:36:00,2,usuario483@ejemplo.com,Andrés Torres Pérez,HASH_DE_EJEMPLO_483,2344f1b9-446b-c2a3-1a59-6500625363f6
 484,t,483,,2,usuario484@ejemplo.com,Camila Torres Pérez,HASH_DE_EJEMPLO_484,
 485,f,484,,2,usuario485@ejemplo.com,Julián Torres Pérez,HASH_DE_EJEMPLO_485,
 486,f,485,,2,usuario486@ejemplo.com,Sofía Torres Pérez,HASH_DE_EJEMPLO_486,
@@ -501,7 +501,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 500,t,499,,2,usuario500@ejemplo.com,Laura Soto Pérez,HASH_DE_EJEMPLO_500,
 501,f,500,,2,usuario501@ejemplo.com,Carlos Soto Pérez,HASH_DE_EJEMPLO_501,
 502,f,501,,2,usuario502@ejemplo.com,Marta Soto Pérez,HASH_DE_EJEMPLO_502,
-503,f,502,,2,usuario503@ejemplo.com,Andrés Soto Pérez,HASH_DE_EJEMPLO_503,
+503,f,502,2026-10-25 16:56:00,2,usuario503@ejemplo.com,Andrés Soto Pérez,HASH_DE_EJEMPLO_503,7d2a18dd-7125-0a24-081d-0ed3d9a187bd
 504,t,503,,2,usuario504@ejemplo.com,Camila Soto Pérez,HASH_DE_EJEMPLO_504,
 505,f,504,,2,usuario505@ejemplo.com,Julián Soto Pérez,HASH_DE_EJEMPLO_505,
 506,f,505,,2,usuario506@ejemplo.com,Sofía Soto Pérez,HASH_DE_EJEMPLO_506,
@@ -521,7 +521,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 520,t,519,,2,usuario520@ejemplo.com,Laura Leal Pérez,HASH_DE_EJEMPLO_520,
 521,f,520,,2,usuario521@ejemplo.com,Carlos Leal Pérez,HASH_DE_EJEMPLO_521,
 522,f,521,,2,usuario522@ejemplo.com,Marta Leal Pérez,HASH_DE_EJEMPLO_522,
-523,f,522,,2,usuario523@ejemplo.com,Andrés Leal Pérez,HASH_DE_EJEMPLO_523,
+523,f,522,2026-10-25 09:16:00,2,usuario523@ejemplo.com,Andrés Leal Pérez,HASH_DE_EJEMPLO_523,c755f620-4a01-94bb-9136-ffb14c4877ca
 524,t,523,,2,usuario524@ejemplo.com,Camila Leal Pérez,HASH_DE_EJEMPLO_524,
 525,f,524,,2,usuario525@ejemplo.com,Julián Leal Pérez,HASH_DE_EJEMPLO_525,
 526,f,525,,2,usuario526@ejemplo.com,Sofía Leal Pérez,HASH_DE_EJEMPLO_526,
@@ -541,7 +541,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 540,t,539,,2,usuario540@ejemplo.com,Laura Méndez Pérez,HASH_DE_EJEMPLO_540,
 541,f,540,,2,usuario541@ejemplo.com,Carlos Méndez Pérez,HASH_DE_EJEMPLO_541,
 542,f,541,,2,usuario542@ejemplo.com,Marta Méndez Pérez,HASH_DE_EJEMPLO_542,
-543,f,542,,2,usuario543@ejemplo.com,Andrés Méndez Pérez,HASH_DE_EJEMPLO_543,
+543,f,542,2026-10-25 11:36:00,2,usuario543@ejemplo.com,Andrés Méndez Pérez,HASH_DE_EJEMPLO_543,b39f1b31-e2d2-2018-d9cf-0296a2b89926
 544,t,543,,2,usuario544@ejemplo.com,Camila Méndez Pérez,HASH_DE_EJEMPLO_544,
 545,f,544,,2,usuario545@ejemplo.com,Julián Méndez Pérez,HASH_DE_EJEMPLO_545,
 546,f,545,,2,usuario546@ejemplo.com,Sofía Méndez Pérez,HASH_DE_EJEMPLO_546,
@@ -561,7 +561,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 560,t,559,,2,usuario560@ejemplo.com,Laura Díaz Pérez,HASH_DE_EJEMPLO_560,
 561,f,560,,2,usuario561@ejemplo.com,Carlos Díaz Pérez,HASH_DE_EJEMPLO_561,
 562,f,561,,2,usuario562@ejemplo.com,Marta Díaz Pérez,HASH_DE_EJEMPLO_562,
-563,f,562,,2,usuario563@ejemplo.com,Andrés Díaz Pérez,HASH_DE_EJEMPLO_563,
+563,f,562,2026-10-25 13:56:00,2,usuario563@ejemplo.com,Andrés Díaz Pérez,HASH_DE_EJEMPLO_563,531798b9-ee23-9aeb-25b5-570103c3ea84
 564,t,563,,2,usuario564@ejemplo.com,Camila Díaz Pérez,HASH_DE_EJEMPLO_564,
 565,f,564,,2,usuario565@ejemplo.com,Julián Díaz Pérez,HASH_DE_EJEMPLO_565,
 566,f,565,,2,usuario566@ejemplo.com,Sofía Díaz Pérez,HASH_DE_EJEMPLO_566,
@@ -581,7 +581,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 580,t,579,,2,usuario580@ejemplo.com,Laura Ortiz Pérez,HASH_DE_EJEMPLO_580,
 581,f,580,,2,usuario581@ejemplo.com,Carlos Ortiz Pérez,HASH_DE_EJEMPLO_581,
 582,f,581,,2,usuario582@ejemplo.com,Marta Ortiz Pérez,HASH_DE_EJEMPLO_582,
-583,f,582,,2,usuario583@ejemplo.com,Andrés Ortiz Pérez,HASH_DE_EJEMPLO_583,
+583,f,582,2026-10-25 16:16:00,2,usuario583@ejemplo.com,Andrés Ortiz Pérez,HASH_DE_EJEMPLO_583,bf94946c-e2a7-c217-9fc4-c166b574a9c4
 584,t,583,,2,usuario584@ejemplo.com,Camila Ortiz Pérez,HASH_DE_EJEMPLO_584,
 585,f,584,,2,usuario585@ejemplo.com,Julián Ortiz Pérez,HASH_DE_EJEMPLO_585,
 586,f,585,,2,usuario586@ejemplo.com,Sofía Ortiz Pérez,HASH_DE_EJEMPLO_586,
@@ -601,7 +601,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 600,t,599,,2,usuario600@ejemplo.com,Laura Castro Pérez,HASH_DE_EJEMPLO_600,
 601,f,600,,2,usuario601@ejemplo.com,Carlos Castro Pérez,HASH_DE_EJEMPLO_601,
 602,f,601,,2,usuario602@ejemplo.com,Marta Castro Pérez,HASH_DE_EJEMPLO_602,
-603,f,602,,2,usuario603@ejemplo.com,Andrés Castro Pérez,HASH_DE_EJEMPLO_603,
+603,f,602,2026-10-25 08:36:00,2,usuario603@ejemplo.com,Andrés Castro Pérez,HASH_DE_EJEMPLO_603,fe7e1c3e-2b80-905e-8480-cacc9cc19c04
 604,t,603,,2,usuario604@ejemplo.com,Camila Castro Pérez,HASH_DE_EJEMPLO_604,
 605,f,604,,2,usuario605@ejemplo.com,Julián Castro Pérez,HASH_DE_EJEMPLO_605,
 606,f,605,,2,usuario606@ejemplo.com,Sofía Castro Pérez,HASH_DE_EJEMPLO_606,
@@ -621,7 +621,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 620,t,619,,2,usuario620@ejemplo.com,Laura Vargas Pérez,HASH_DE_EJEMPLO_620,
 621,f,620,,2,usuario621@ejemplo.com,Carlos Vargas Pérez,HASH_DE_EJEMPLO_621,
 622,f,621,,2,usuario622@ejemplo.com,Marta Vargas Pérez,HASH_DE_EJEMPLO_622,
-623,f,622,,2,usuario623@ejemplo.com,Andrés Vargas Pérez,HASH_DE_EJEMPLO_623,
+623,f,622,2026-10-25 10:56:00,2,usuario623@ejemplo.com,Andrés Vargas Pérez,HASH_DE_EJEMPLO_623,d964112f-c5c8-9bba-5f34-fe5ace811da0
 624,t,623,,2,usuario624@ejemplo.com,Camila Vargas Pérez,HASH_DE_EJEMPLO_624,
 625,f,624,,2,usuario625@ejemplo.com,Julián Vargas Pérez,HASH_DE_EJEMPLO_625,
 626,f,625,,2,usuario626@ejemplo.com,Sofía Vargas Pérez,HASH_DE_EJEMPLO_626,
@@ -641,7 +641,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 640,t,639,,2,usuario640@ejemplo.com,Laura Rojas Pérez,HASH_DE_EJEMPLO_640,
 641,f,640,,2,usuario641@ejemplo.com,Carlos Rojas Pérez,HASH_DE_EJEMPLO_641,
 642,f,641,,2,usuario642@ejemplo.com,Marta Rojas Pérez,HASH_DE_EJEMPLO_642,
-643,f,642,,2,usuario643@ejemplo.com,Andrés Rojas Pérez,HASH_DE_EJEMPLO_643,
+643,f,642,2026-10-25 13:16:00,2,usuario643@ejemplo.com,Andrés Rojas Pérez,HASH_DE_EJEMPLO_643,b25044d1-3c41-8f4f-208c-2317cecca1b8
 644,t,643,,2,usuario644@ejemplo.com,Camila Rojas Pérez,HASH_DE_EJEMPLO_644,
 645,f,644,,2,usuario645@ejemplo.com,Julián Rojas Pérez,HASH_DE_EJEMPLO_645,
 646,f,645,,2,usuario646@ejemplo.com,Sofía Rojas Pérez,HASH_DE_EJEMPLO_646,
@@ -661,7 +661,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 660,t,659,,2,usuario660@ejemplo.com,Laura Mora Pérez,HASH_DE_EJEMPLO_660,
 661,f,660,,2,usuario661@ejemplo.com,Carlos Mora Pérez,HASH_DE_EJEMPLO_661,
 662,f,661,,2,usuario662@ejemplo.com,Marta Mora Pérez,HASH_DE_EJEMPLO_662,
-663,f,662,,2,usuario663@ejemplo.com,Andrés Mora Pérez,HASH_DE_EJEMPLO_663,
+663,f,662,2026-10-25 15:36:00,2,usuario663@ejemplo.com,Andrés Mora Pérez,HASH_DE_EJEMPLO_663,1d2f7719-5e89-5576-53c8-5f8b178f6c94
 664,t,663,,2,usuario664@ejemplo.com,Camila Mora Pérez,HASH_DE_EJEMPLO_664,
 665,f,664,,2,usuario665@ejemplo.com,Julián Mora Pérez,HASH_DE_EJEMPLO_665,
 666,f,665,,2,usuario666@ejemplo.com,Sofía Mora Pérez,HASH_DE_EJEMPLO_666,
@@ -681,7 +681,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 680,t,679,,2,usuario680@ejemplo.com,Laura Pacheco Pérez,HASH_DE_EJEMPLO_680,
 681,f,680,,2,usuario681@ejemplo.com,Carlos Pacheco Pérez,HASH_DE_EJEMPLO_681,
 682,f,681,,2,usuario682@ejemplo.com,Marta Pacheco Pérez,HASH_DE_EJEMPLO_682,
-683,f,682,,2,usuario683@ejemplo.com,Andrés Pacheco Pérez,HASH_DE_EJEMPLO_683,
+683,f,682,2026-10-25 17:56:00,2,usuario683@ejemplo.com,Andrés Pacheco Pérez,HASH_DE_EJEMPLO_683,cecd830c-a151-dc36-bbc1-e277a68984b7
 684,t,683,,2,usuario684@ejemplo.com,Camila Pacheco Pérez,HASH_DE_EJEMPLO_684,
 685,f,684,,2,usuario685@ejemplo.com,Julián Pacheco Pérez,HASH_DE_EJEMPLO_685,
 686,f,685,,2,usuario686@ejemplo.com,Sofía Pacheco Pérez,HASH_DE_EJEMPLO_686,
@@ -701,7 +701,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 700,t,699,,2,usuario700@ejemplo.com,Laura Navarro Pérez,HASH_DE_EJEMPLO_700,
 701,f,700,,2,usuario701@ejemplo.com,Carlos Navarro Pérez,HASH_DE_EJEMPLO_701,
 702,f,701,,2,usuario702@ejemplo.com,Marta Navarro Pérez,HASH_DE_EJEMPLO_702,
-703,f,702,,2,usuario703@ejemplo.com,Andrés Navarro Pérez,HASH_DE_EJEMPLO_703,
+703,f,702,2026-10-25 10:16:00,2,usuario703@ejemplo.com,Andrés Navarro Pérez,HASH_DE_EJEMPLO_703,bcb7fb6a-3692-2495-2486-4c433deab547
 704,t,703,,2,usuario704@ejemplo.com,Camila Navarro Pérez,HASH_DE_EJEMPLO_704,
 705,f,704,,2,usuario705@ejemplo.com,Julián Navarro Pérez,HASH_DE_EJEMPLO_705,
 706,f,705,,2,usuario706@ejemplo.com,Sofía Navarro Pérez,HASH_DE_EJEMPLO_706,
@@ -721,7 +721,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 720,t,719,,2,usuario720@ejemplo.com,Laura Suárez Pérez,HASH_DE_EJEMPLO_720,
 721,f,720,,2,usuario721@ejemplo.com,Carlos Suárez Pérez,HASH_DE_EJEMPLO_721,
 722,f,721,,2,usuario722@ejemplo.com,Marta Suárez Pérez,HASH_DE_EJEMPLO_722,
-723,f,722,,2,usuario723@ejemplo.com,Andrés Suárez Pérez,HASH_DE_EJEMPLO_723,
+723,f,722,2026-10-25 12:36:00,2,usuario723@ejemplo.com,Andrés Suárez Pérez,HASH_DE_EJEMPLO_723,1e549683-0b3c-32d9-04f3-03968a2c5ac5
 724,t,723,,2,usuario724@ejemplo.com,Camila Suárez Pérez,HASH_DE_EJEMPLO_724,
 725,f,724,,2,usuario725@ejemplo.com,Julián Suárez Pérez,HASH_DE_EJEMPLO_725,
 726,f,725,,2,usuario726@ejemplo.com,Sofía Suárez Pérez,HASH_DE_EJEMPLO_726,
@@ -741,7 +741,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 740,t,739,,2,usuario740@ejemplo.com,Laura Jiménez Pérez,HASH_DE_EJEMPLO_740,
 741,f,740,,2,usuario741@ejemplo.com,Carlos Jiménez Pérez,HASH_DE_EJEMPLO_741,
 742,f,741,,2,usuario742@ejemplo.com,Marta Jiménez Pérez,HASH_DE_EJEMPLO_742,
-743,f,742,,2,usuario743@ejemplo.com,Andrés Jiménez Pérez,HASH_DE_EJEMPLO_743,
+743,f,742,2026-10-25 14:56:00,2,usuario743@ejemplo.com,Andrés Jiménez Pérez,HASH_DE_EJEMPLO_743,30f2556e-20bf-007c-7be1-89e7ec6541b1
 744,t,743,,2,usuario744@ejemplo.com,Camila Jiménez Pérez,HASH_DE_EJEMPLO_744,
 745,f,744,,2,usuario745@ejemplo.com,Julián Jiménez Pérez,HASH_DE_EJEMPLO_745,
 746,f,745,,2,usuario746@ejemplo.com,Sofía Jiménez Pérez,HASH_DE_EJEMPLO_746,
@@ -761,7 +761,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 760,t,759,,2,usuario760@ejemplo.com,Laura Peña Pérez,HASH_DE_EJEMPLO_760,
 761,f,760,,2,usuario761@ejemplo.com,Carlos Peña Pérez,HASH_DE_EJEMPLO_761,
 762,f,761,,2,usuario762@ejemplo.com,Marta Peña Pérez,HASH_DE_EJEMPLO_762,
-763,f,762,,2,usuario763@ejemplo.com,Andrés Peña Pérez,HASH_DE_EJEMPLO_763,
+763,f,762,2026-10-25 17:16:00,2,usuario763@ejemplo.com,Andrés Peña Pérez,HASH_DE_EJEMPLO_763,82fa874a-baf9-bbe1-8886-9ed232e8874b
 764,t,763,,2,usuario764@ejemplo.com,Camila Peña Pérez,HASH_DE_EJEMPLO_764,
 765,f,764,,2,usuario765@ejemplo.com,Julián Peña Pérez,HASH_DE_EJEMPLO_765,
 766,f,765,,2,usuario766@ejemplo.com,Sofía Peña Pérez,HASH_DE_EJEMPLO_766,
@@ -781,7 +781,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 780,t,779,,2,usuario780@ejemplo.com,Laura Cárdenas Pérez,HASH_DE_EJEMPLO_780,
 781,f,780,,2,usuario781@ejemplo.com,Carlos Cárdenas Pérez,HASH_DE_EJEMPLO_781,
 782,f,781,,2,usuario782@ejemplo.com,Marta Cárdenas Pérez,HASH_DE_EJEMPLO_782,
-783,f,782,,2,usuario783@ejemplo.com,Andrés Cárdenas Pérez,HASH_DE_EJEMPLO_783,
+783,f,782,2026-10-25 09:36:00,2,usuario783@ejemplo.com,Andrés Cárdenas Pérez,HASH_DE_EJEMPLO_783,fd882c27-c3fc-8c1c-3665-f08bc68be24e
 784,t,783,,2,usuario784@ejemplo.com,Camila Cárdenas Pérez,HASH_DE_EJEMPLO_784,
 785,f,784,,2,usuario785@ejemplo.com,Julián Cárdenas Pérez,HASH_DE_EJEMPLO_785,
 786,f,785,,2,usuario786@ejemplo.com,Sofía Cárdenas Pérez,HASH_DE_EJEMPLO_786,
@@ -801,7 +801,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 800,t,799,,2,usuario800@ejemplo.com,Laura Gómez Rincón,HASH_DE_EJEMPLO_800,
 801,f,800,,2,usuario801@ejemplo.com,Carlos Gómez Rincón,HASH_DE_EJEMPLO_801,
 802,f,801,,2,usuario802@ejemplo.com,Marta Gómez Rincón,HASH_DE_EJEMPLO_802,
-803,f,802,,2,usuario803@ejemplo.com,Andrés Gómez Rincón,HASH_DE_EJEMPLO_803,
+803,f,802,2026-10-25 11:56:00,2,usuario803@ejemplo.com,Andrés Gómez Rincón,HASH_DE_EJEMPLO_803,f22e43be-cdf9-c207-5325-09c72d03aa67
 804,t,803,,2,usuario804@ejemplo.com,Camila Gómez Rincón,HASH_DE_EJEMPLO_804,
 805,f,804,,2,usuario805@ejemplo.com,Julián Gómez Rincón,HASH_DE_EJEMPLO_805,
 806,f,805,,2,usuario806@ejemplo.com,Sofía Gómez Rincón,HASH_DE_EJEMPLO_806,
@@ -821,7 +821,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 820,t,819,,2,usuario820@ejemplo.com,Laura Pérez Rincón,HASH_DE_EJEMPLO_820,
 821,f,820,,2,usuario821@ejemplo.com,Carlos Pérez Rincón,HASH_DE_EJEMPLO_821,
 822,f,821,,2,usuario822@ejemplo.com,Marta Pérez Rincón,HASH_DE_EJEMPLO_822,
-823,f,822,,2,usuario823@ejemplo.com,Andrés Pérez Rincón,HASH_DE_EJEMPLO_823,
+823,f,822,2026-10-25 14:16:00,2,usuario823@ejemplo.com,Andrés Pérez Rincón,HASH_DE_EJEMPLO_823,a33709e3-4f45-850c-5a55-fcfbf0fad9d3
 824,t,823,,2,usuario824@ejemplo.com,Camila Pérez Rincón,HASH_DE_EJEMPLO_824,
 825,f,824,,2,usuario825@ejemplo.com,Julián Pérez Rincón,HASH_DE_EJEMPLO_825,
 826,f,825,,2,usuario826@ejemplo.com,Sofía Pérez Rincón,HASH_DE_EJEMPLO_826,
@@ -841,7 +841,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 840,t,839,,2,usuario840@ejemplo.com,Laura Rincón Rincón,HASH_DE_EJEMPLO_840,
 841,f,840,,2,usuario841@ejemplo.com,Carlos Rincón Rincón,HASH_DE_EJEMPLO_841,
 842,f,841,,2,usuario842@ejemplo.com,Marta Rincón Rincón,HASH_DE_EJEMPLO_842,
-843,f,842,,2,usuario843@ejemplo.com,Andrés Rincón Rincón,HASH_DE_EJEMPLO_843,
+843,f,842,2026-10-25 16:36:00,2,usuario843@ejemplo.com,Andrés Rincón Rincón,HASH_DE_EJEMPLO_843,bca525df-17af-e87d-c991-0dd7819e19d8
 844,t,843,,2,usuario844@ejemplo.com,Camila Rincón Rincón,HASH_DE_EJEMPLO_844,
 845,f,844,,2,usuario845@ejemplo.com,Julián Rincón Rincón,HASH_DE_EJEMPLO_845,
 846,f,845,,2,usuario846@ejemplo.com,Sofía Rincón Rincón,HASH_DE_EJEMPLO_846,
@@ -861,7 +861,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 860,t,859,,2,usuario860@ejemplo.com,Laura Quintero Rincón,HASH_DE_EJEMPLO_860,
 861,f,860,,2,usuario861@ejemplo.com,Carlos Quintero Rincón,HASH_DE_EJEMPLO_861,
 862,f,861,,2,usuario862@ejemplo.com,Marta Quintero Rincón,HASH_DE_EJEMPLO_862,
-863,f,862,,2,usuario863@ejemplo.com,Andrés Quintero Rincón,HASH_DE_EJEMPLO_863,
+863,f,862,2026-10-25 08:56:00,2,usuario863@ejemplo.com,Andrés Quintero Rincón,HASH_DE_EJEMPLO_863,c65dc7db-82c7-82ea-0367-dc55defcb854
 864,t,863,,2,usuario864@ejemplo.com,Camila Quintero Rincón,HASH_DE_EJEMPLO_864,
 865,f,864,,2,usuario865@ejemplo.com,Julián Quintero Rincón,HASH_DE_EJEMPLO_865,
 866,f,865,,2,usuario866@ejemplo.com,Sofía Quintero Rincón,HASH_DE_EJEMPLO_866,
@@ -881,7 +881,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 880,t,879,,2,usuario880@ejemplo.com,Laura Torres Rincón,HASH_DE_EJEMPLO_880,
 881,f,880,,2,usuario881@ejemplo.com,Carlos Torres Rincón,HASH_DE_EJEMPLO_881,
 882,f,881,,2,usuario882@ejemplo.com,Marta Torres Rincón,HASH_DE_EJEMPLO_882,
-883,f,882,,2,usuario883@ejemplo.com,Andrés Torres Rincón,HASH_DE_EJEMPLO_883,
+883,f,882,2026-10-25 11:16:00,2,usuario883@ejemplo.com,Andrés Torres Rincón,HASH_DE_EJEMPLO_883,4aacde24-2e33-2424-4ccb-d7ed00eae902
 884,t,883,,2,usuario884@ejemplo.com,Camila Torres Rincón,HASH_DE_EJEMPLO_884,
 885,f,884,,2,usuario885@ejemplo.com,Julián Torres Rincón,HASH_DE_EJEMPLO_885,
 886,f,885,,2,usuario886@ejemplo.com,Sofía Torres Rincón,HASH_DE_EJEMPLO_886,
@@ -901,7 +901,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 900,t,899,,2,usuario900@ejemplo.com,Laura Soto Rincón,HASH_DE_EJEMPLO_900,
 901,f,900,,2,usuario901@ejemplo.com,Carlos Soto Rincón,HASH_DE_EJEMPLO_901,
 902,f,901,,2,usuario902@ejemplo.com,Marta Soto Rincón,HASH_DE_EJEMPLO_902,
-903,f,902,,2,usuario903@ejemplo.com,Andrés Soto Rincón,HASH_DE_EJEMPLO_903,
+903,f,902,2026-10-25 13:36:00,2,usuario903@ejemplo.com,Andrés Soto Rincón,HASH_DE_EJEMPLO_903,cdd16076-a6ff-35b2-5b5d-75f77935b077
 904,t,903,,2,usuario904@ejemplo.com,Camila Soto Rincón,HASH_DE_EJEMPLO_904,
 905,f,904,,2,usuario905@ejemplo.com,Julián Soto Rincón,HASH_DE_EJEMPLO_905,
 906,f,905,,2,usuario906@ejemplo.com,Sofía Soto Rincón,HASH_DE_EJEMPLO_906,
@@ -921,7 +921,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 920,t,919,,2,usuario920@ejemplo.com,Laura Leal Rincón,HASH_DE_EJEMPLO_920,
 921,f,920,,2,usuario921@ejemplo.com,Carlos Leal Rincón,HASH_DE_EJEMPLO_921,
 922,f,921,,2,usuario922@ejemplo.com,Marta Leal Rincón,HASH_DE_EJEMPLO_922,
-923,f,922,,2,usuario923@ejemplo.com,Andrés Leal Rincón,HASH_DE_EJEMPLO_923,
+923,f,922,2026-10-25 15:56:00,2,usuario923@ejemplo.com,Andrés Leal Rincón,HASH_DE_EJEMPLO_923,3309878a-5fe4-15f3-0b80-29c17faf23fd
 924,t,923,,2,usuario924@ejemplo.com,Camila Leal Rincón,HASH_DE_EJEMPLO_924,
 925,f,924,,2,usuario925@ejemplo.com,Julián Leal Rincón,HASH_DE_EJEMPLO_925,
 926,f,925,,2,usuario926@ejemplo.com,Sofía Leal Rincón,HASH_DE_EJEMPLO_926,
@@ -941,7 +941,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 940,t,939,,2,usuario940@ejemplo.com,Laura Méndez Rincón,HASH_DE_EJEMPLO_940,
 941,f,940,,2,usuario941@ejemplo.com,Carlos Méndez Rincón,HASH_DE_EJEMPLO_941,
 942,f,941,,2,usuario942@ejemplo.com,Marta Méndez Rincón,HASH_DE_EJEMPLO_942,
-943,f,942,,2,usuario943@ejemplo.com,Andrés Méndez Rincón,HASH_DE_EJEMPLO_943,
+943,f,942,2026-10-25 08:16:00,2,usuario943@ejemplo.com,Andrés Méndez Rincón,HASH_DE_EJEMPLO_943,6e2c0258-df1a-f049-4600-e94b71d492da
 944,t,943,,2,usuario944@ejemplo.com,Camila Méndez Rincón,HASH_DE_EJEMPLO_944,
 945,f,944,,2,usuario945@ejemplo.com,Julián Méndez Rincón,HASH_DE_EJEMPLO_945,
 946,f,945,,2,usuario946@ejemplo.com,Sofía Méndez Rincón,HASH_DE_EJEMPLO_946,
@@ -961,7 +961,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 960,t,959,,2,usuario960@ejemplo.com,Laura Díaz Rincón,HASH_DE_EJEMPLO_960,
 961,f,960,,2,usuario961@ejemplo.com,Carlos Díaz Rincón,HASH_DE_EJEMPLO_961,
 962,f,961,,2,usuario962@ejemplo.com,Marta Díaz Rincón,HASH_DE_EJEMPLO_962,
-963,f,962,,2,usuario963@ejemplo.com,Andrés Díaz Rincón,HASH_DE_EJEMPLO_963,
+963,f,962,2026-10-25 10:36:00,2,usuario963@ejemplo.com,Andrés Díaz Rincón,HASH_DE_EJEMPLO_963,a63d49d3-870a-c689-4648-500becb03346
 964,t,963,,2,usuario964@ejemplo.com,Camila Díaz Rincón,HASH_DE_EJEMPLO_964,
 965,f,964,,2,usuario965@ejemplo.com,Julián Díaz Rincón,HASH_DE_EJEMPLO_965,
 966,f,965,,2,usuario966@ejemplo.com,Sofía Díaz Rincón,HASH_DE_EJEMPLO_966,
@@ -981,7 +981,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 980,t,979,,2,usuario980@ejemplo.com,Laura Ortiz Rincón,HASH_DE_EJEMPLO_980,
 981,f,980,,2,usuario981@ejemplo.com,Carlos Ortiz Rincón,HASH_DE_EJEMPLO_981,
 982,f,981,,2,usuario982@ejemplo.com,Marta Ortiz Rincón,HASH_DE_EJEMPLO_982,
-983,f,982,,2,usuario983@ejemplo.com,Andrés Ortiz Rincón,HASH_DE_EJEMPLO_983,
+983,f,982,2026-10-25 12:56:00,2,usuario983@ejemplo.com,Andrés Ortiz Rincón,HASH_DE_EJEMPLO_983,bf8930ff-5bb6-5f22-6cdc-89a641455ef1
 984,t,983,,2,usuario984@ejemplo.com,Camila Ortiz Rincón,HASH_DE_EJEMPLO_984,
 985,f,984,,2,usuario985@ejemplo.com,Julián Ortiz Rincón,HASH_DE_EJEMPLO_985,
 986,f,985,,2,usuario986@ejemplo.com,Sofía Ortiz Rincón,HASH_DE_EJEMPLO_986,
@@ -1001,7 +1001,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1000,t,999,,2,usuario1000@ejemplo.com,Laura Castro Rincón,HASH_DE_EJEMPLO_1000,
 1001,f,1000,,2,usuario1001@ejemplo.com,Carlos Castro Rincón,HASH_DE_EJEMPLO_1001,
 1002,f,1001,,2,usuario1002@ejemplo.com,Marta Castro Rincón,HASH_DE_EJEMPLO_1002,
-1003,f,1002,,2,usuario1003@ejemplo.com,Andrés Castro Rincón,HASH_DE_EJEMPLO_1003,
+1003,f,1002,2026-10-25 15:16:00,2,usuario1003@ejemplo.com,Andrés Castro Rincón,HASH_DE_EJEMPLO_1003,bd94dd4a-22ab-fb65-2e67-14fcf73caa20
 1004,t,1003,,2,usuario1004@ejemplo.com,Camila Castro Rincón,HASH_DE_EJEMPLO_1004,
 1005,f,1004,,2,usuario1005@ejemplo.com,Julián Castro Rincón,HASH_DE_EJEMPLO_1005,
 1006,f,1005,,2,usuario1006@ejemplo.com,Sofía Castro Rincón,HASH_DE_EJEMPLO_1006,
@@ -1021,7 +1021,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1020,t,1019,,2,usuario1020@ejemplo.com,Laura Vargas Rincón,HASH_DE_EJEMPLO_1020,
 1021,f,1020,,2,usuario1021@ejemplo.com,Carlos Vargas Rincón,HASH_DE_EJEMPLO_1021,
 1022,f,1021,,2,usuario1022@ejemplo.com,Marta Vargas Rincón,HASH_DE_EJEMPLO_1022,
-1023,f,1022,,2,usuario1023@ejemplo.com,Andrés Vargas Rincón,HASH_DE_EJEMPLO_1023,
+1023,f,1022,2026-10-25 17:36:00,2,usuario1023@ejemplo.com,Andrés Vargas Rincón,HASH_DE_EJEMPLO_1023,f7695349-d7a5-077d-84b5-fe51fabf5b7e
 1024,t,1023,,2,usuario1024@ejemplo.com,Camila Vargas Rincón,HASH_DE_EJEMPLO_1024,
 1025,f,1024,,2,usuario1025@ejemplo.com,Julián Vargas Rincón,HASH_DE_EJEMPLO_1025,
 1026,f,1025,,2,usuario1026@ejemplo.com,Sofía Vargas Rincón,HASH_DE_EJEMPLO_1026,
@@ -1041,7 +1041,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1040,t,1039,,2,usuario1040@ejemplo.com,Laura Rojas Rincón,HASH_DE_EJEMPLO_1040,
 1041,f,1040,,2,usuario1041@ejemplo.com,Carlos Rojas Rincón,HASH_DE_EJEMPLO_1041,
 1042,f,1041,,2,usuario1042@ejemplo.com,Marta Rojas Rincón,HASH_DE_EJEMPLO_1042,
-1043,f,1042,,2,usuario1043@ejemplo.com,Andrés Rojas Rincón,HASH_DE_EJEMPLO_1043,
+1043,f,1042,2026-10-25 09:56:00,2,usuario1043@ejemplo.com,Andrés Rojas Rincón,HASH_DE_EJEMPLO_1043,fd11f95b-7fa3-3637-9fec-b3230e01ca5d
 1044,t,1043,,2,usuario1044@ejemplo.com,Camila Rojas Rincón,HASH_DE_EJEMPLO_1044,
 1045,f,1044,,2,usuario1045@ejemplo.com,Julián Rojas Rincón,HASH_DE_EJEMPLO_1045,
 1046,f,1045,,2,usuario1046@ejemplo.com,Sofía Rojas Rincón,HASH_DE_EJEMPLO_1046,
@@ -1061,7 +1061,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1060,t,1059,,2,usuario1060@ejemplo.com,Laura Mora Rincón,HASH_DE_EJEMPLO_1060,
 1061,f,1060,,2,usuario1061@ejemplo.com,Carlos Mora Rincón,HASH_DE_EJEMPLO_1061,
 1062,f,1061,,2,usuario1062@ejemplo.com,Marta Mora Rincón,HASH_DE_EJEMPLO_1062,
-1063,f,1062,,2,usuario1063@ejemplo.com,Andrés Mora Rincón,HASH_DE_EJEMPLO_1063,
+1063,f,1062,2026-10-25 12:16:00,2,usuario1063@ejemplo.com,Andrés Mora Rincón,HASH_DE_EJEMPLO_1063,6b5084f6-e724-1e90-d462-3fbb9d797458
 1064,t,1063,,2,usuario1064@ejemplo.com,Camila Mora Rincón,HASH_DE_EJEMPLO_1064,
 1065,f,1064,,2,usuario1065@ejemplo.com,Julián Mora Rincón,HASH_DE_EJEMPLO_1065,
 1066,f,1065,,2,usuario1066@ejemplo.com,Sofía Mora Rincón,HASH_DE_EJEMPLO_1066,
@@ -1081,7 +1081,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1080,t,1079,,2,usuario1080@ejemplo.com,Laura Pacheco Rincón,HASH_DE_EJEMPLO_1080,
 1081,f,1080,,2,usuario1081@ejemplo.com,Carlos Pacheco Rincón,HASH_DE_EJEMPLO_1081,
 1082,f,1081,,2,usuario1082@ejemplo.com,Marta Pacheco Rincón,HASH_DE_EJEMPLO_1082,
-1083,f,1082,,2,usuario1083@ejemplo.com,Andrés Pacheco Rincón,HASH_DE_EJEMPLO_1083,
+1083,f,1082,2026-10-25 14:36:00,2,usuario1083@ejemplo.com,Andrés Pacheco Rincón,HASH_DE_EJEMPLO_1083,fab60518-62f3-18a4-3fc7-50d9e545f6f0
 1084,t,1083,,2,usuario1084@ejemplo.com,Camila Pacheco Rincón,HASH_DE_EJEMPLO_1084,
 1085,f,1084,,2,usuario1085@ejemplo.com,Julián Pacheco Rincón,HASH_DE_EJEMPLO_1085,
 1086,f,1085,,2,usuario1086@ejemplo.com,Sofía Pacheco Rincón,HASH_DE_EJEMPLO_1086,
@@ -1101,7 +1101,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1100,t,1099,,2,usuario1100@ejemplo.com,Laura Navarro Rincón,HASH_DE_EJEMPLO_1100,
 1101,f,1100,,2,usuario1101@ejemplo.com,Carlos Navarro Rincón,HASH_DE_EJEMPLO_1101,
 1102,f,1101,,2,usuario1102@ejemplo.com,Marta Navarro Rincón,HASH_DE_EJEMPLO_1102,
-1103,f,1102,,2,usuario1103@ejemplo.com,Andrés Navarro Rincón,HASH_DE_EJEMPLO_1103,
+1103,f,1102,2026-10-25 16:56:00,2,usuario1103@ejemplo.com,Andrés Navarro Rincón,HASH_DE_EJEMPLO_1103,e3ee7758-c942-ed06-e51f-6703d2e12227
 1104,t,1103,,2,usuario1104@ejemplo.com,Camila Navarro Rincón,HASH_DE_EJEMPLO_1104,
 1105,f,1104,,2,usuario1105@ejemplo.com,Julián Navarro Rincón,HASH_DE_EJEMPLO_1105,
 1106,f,1105,,2,usuario1106@ejemplo.com,Sofía Navarro Rincón,HASH_DE_EJEMPLO_1106,
@@ -1121,7 +1121,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1120,t,1119,,2,usuario1120@ejemplo.com,Laura Suárez Rincón,HASH_DE_EJEMPLO_1120,
 1121,f,1120,,2,usuario1121@ejemplo.com,Carlos Suárez Rincón,HASH_DE_EJEMPLO_1121,
 1122,f,1121,,2,usuario1122@ejemplo.com,Marta Suárez Rincón,HASH_DE_EJEMPLO_1122,
-1123,f,1122,,2,usuario1123@ejemplo.com,Andrés Suárez Rincón,HASH_DE_EJEMPLO_1123,
+1123,f,1122,2026-10-25 09:16:00,2,usuario1123@ejemplo.com,Andrés Suárez Rincón,HASH_DE_EJEMPLO_1123,3d892c9f-a058-0db6-6881-bb11f8d36083
 1124,t,1123,,2,usuario1124@ejemplo.com,Camila Suárez Rincón,HASH_DE_EJEMPLO_1124,
 1125,f,1124,,2,usuario1125@ejemplo.com,Julián Suárez Rincón,HASH_DE_EJEMPLO_1125,
 1126,f,1125,,2,usuario1126@ejemplo.com,Sofía Suárez Rincón,HASH_DE_EJEMPLO_1126,
@@ -1141,7 +1141,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1140,t,1139,,2,usuario1140@ejemplo.com,Laura Jiménez Rincón,HASH_DE_EJEMPLO_1140,
 1141,f,1140,,2,usuario1141@ejemplo.com,Carlos Jiménez Rincón,HASH_DE_EJEMPLO_1141,
 1142,f,1141,,2,usuario1142@ejemplo.com,Marta Jiménez Rincón,HASH_DE_EJEMPLO_1142,
-1143,f,1142,,2,usuario1143@ejemplo.com,Andrés Jiménez Rincón,HASH_DE_EJEMPLO_1143,
+1143,f,1142,2026-10-25 11:36:00,2,usuario1143@ejemplo.com,Andrés Jiménez Rincón,HASH_DE_EJEMPLO_1143,e4d4976e-25c5-1a7f-c310-6da31e1ad3f4
 1144,t,1143,,2,usuario1144@ejemplo.com,Camila Jiménez Rincón,HASH_DE_EJEMPLO_1144,
 1145,f,1144,,2,usuario1145@ejemplo.com,Julián Jiménez Rincón,HASH_DE_EJEMPLO_1145,
 1146,f,1145,,2,usuario1146@ejemplo.com,Sofía Jiménez Rincón,HASH_DE_EJEMPLO_1146,
@@ -1161,7 +1161,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1160,t,1159,,2,usuario1160@ejemplo.com,Laura Peña Rincón,HASH_DE_EJEMPLO_1160,
 1161,f,1160,,2,usuario1161@ejemplo.com,Carlos Peña Rincón,HASH_DE_EJEMPLO_1161,
 1162,f,1161,,2,usuario1162@ejemplo.com,Marta Peña Rincón,HASH_DE_EJEMPLO_1162,
-1163,f,1162,,2,usuario1163@ejemplo.com,Andrés Peña Rincón,HASH_DE_EJEMPLO_1163,
+1163,f,1162,2026-10-25 13:56:00,2,usuario1163@ejemplo.com,Andrés Peña Rincón,HASH_DE_EJEMPLO_1163,9459e4b4-2d63-199b-36d2-1d98a93925e2
 1164,t,1163,,2,usuario1164@ejemplo.com,Camila Peña Rincón,HASH_DE_EJEMPLO_1164,
 1165,f,1164,,2,usuario1165@ejemplo.com,Julián Peña Rincón,HASH_DE_EJEMPLO_1165,
 1166,f,1165,,2,usuario1166@ejemplo.com,Sofía Peña Rincón,HASH_DE_EJEMPLO_1166,
@@ -1181,7 +1181,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1180,t,1179,,2,usuario1180@ejemplo.com,Laura Cárdenas Rincón,HASH_DE_EJEMPLO_1180,
 1181,f,1180,,2,usuario1181@ejemplo.com,Carlos Cárdenas Rincón,HASH_DE_EJEMPLO_1181,
 1182,f,1181,,2,usuario1182@ejemplo.com,Marta Cárdenas Rincón,HASH_DE_EJEMPLO_1182,
-1183,f,1182,,2,usuario1183@ejemplo.com,Andrés Cárdenas Rincón,HASH_DE_EJEMPLO_1183,
+1183,f,1182,2026-10-25 16:16:00,2,usuario1183@ejemplo.com,Andrés Cárdenas Rincón,HASH_DE_EJEMPLO_1183,72fa5ae2-8e55-7f6e-e0b7-a17b5dc3c03a
 1184,t,1183,,2,usuario1184@ejemplo.com,Camila Cárdenas Rincón,HASH_DE_EJEMPLO_1184,
 1185,f,1184,,2,usuario1185@ejemplo.com,Julián Cárdenas Rincón,HASH_DE_EJEMPLO_1185,
 1186,f,1185,,2,usuario1186@ejemplo.com,Sofía Cárdenas Rincón,HASH_DE_EJEMPLO_1186,
@@ -1201,7 +1201,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1200,t,1199,,2,usuario1200@ejemplo.com,Laura Gómez Quintero,HASH_DE_EJEMPLO_1200,
 1201,f,1200,,2,usuario1201@ejemplo.com,Carlos Gómez Quintero,HASH_DE_EJEMPLO_1201,
 1202,f,1201,,2,usuario1202@ejemplo.com,Marta Gómez Quintero,HASH_DE_EJEMPLO_1202,
-1203,f,1202,,2,usuario1203@ejemplo.com,Andrés Gómez Quintero,HASH_DE_EJEMPLO_1203,
+1203,f,1202,2026-10-25 08:36:00,2,usuario1203@ejemplo.com,Andrés Gómez Quintero,HASH_DE_EJEMPLO_1203,860e00f8-ffdb-7d09-db6f-9ead22cc9b92
 1204,t,1203,,2,usuario1204@ejemplo.com,Camila Gómez Quintero,HASH_DE_EJEMPLO_1204,
 1205,f,1204,,2,usuario1205@ejemplo.com,Julián Gómez Quintero,HASH_DE_EJEMPLO_1205,
 1206,f,1205,,2,usuario1206@ejemplo.com,Sofía Gómez Quintero,HASH_DE_EJEMPLO_1206,
@@ -1221,7 +1221,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1220,t,1219,,2,usuario1220@ejemplo.com,Laura Pérez Quintero,HASH_DE_EJEMPLO_1220,
 1221,f,1220,,2,usuario1221@ejemplo.com,Carlos Pérez Quintero,HASH_DE_EJEMPLO_1221,
 1222,f,1221,,2,usuario1222@ejemplo.com,Marta Pérez Quintero,HASH_DE_EJEMPLO_1222,
-1223,f,1222,,2,usuario1223@ejemplo.com,Andrés Pérez Quintero,HASH_DE_EJEMPLO_1223,
+1223,f,1222,2026-10-25 10:56:00,2,usuario1223@ejemplo.com,Andrés Pérez Quintero,HASH_DE_EJEMPLO_1223,9d52b773-09e8-4deb-572f-78b8ce56bb26
 1224,t,1223,,2,usuario1224@ejemplo.com,Camila Pérez Quintero,HASH_DE_EJEMPLO_1224,
 1225,f,1224,,2,usuario1225@ejemplo.com,Julián Pérez Quintero,HASH_DE_EJEMPLO_1225,
 1226,f,1225,,2,usuario1226@ejemplo.com,Sofía Pérez Quintero,HASH_DE_EJEMPLO_1226,
@@ -1241,7 +1241,7 @@ user_id,must_change_password,company_id,reset_token_expiry,role_id,email,name,pa
 1240,t,1239,,2,usuario1240@ejemplo.com,Laura Rincón Quintero,HASH_DE_EJEMPLO_1240,
 1241,f,1240,,2,usuario1241@ejemplo.com,Carlos Rincón Quintero,HASH_DE_EJEMPLO_1241,
 1242,f,1241,,2,usuario1242@ejemplo.com,Marta Rincón Quintero,HASH_DE_EJEMPLO_1242,
-1243,f,1242,,2,usuario1243@ejemplo.com,Andrés Rincón Quintero,HASH_DE_EJEMPLO_1243,
+1243,f,1242,2026-10-25 13:16:00,2,usuario1243@ejemplo.com,Andrés Rincón Quintero,HASH_DE_EJEMPLO_1243,95dad93e-6d2f-f487-c769-6416c612b1cd
 1244,t,1243,,2,usuario1244@ejemplo.com,Camila Rincón Quintero,HASH_DE_EJEMPLO_1244,
 1245,f,1244,,2,usuario1245@ejemplo.com,Julián Rincón Quintero,HASH_DE_EJEMPLO_1245,
 1246,f,1245,,2,usuario1246@ejemplo.com,Sofía Rincón Quintero,HASH_DE_EJEMPLO_1246,
