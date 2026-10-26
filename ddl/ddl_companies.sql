@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS public.companies (
     alarm_sound_path         VARCHAR(255),
     logo_name                VARCHAR(255),
     logo_path                VARCHAR(255),
-    status                   VARCHAR(255) NOT NULL DEFAULT 'ACTIVE',
-    city_id                  INTEGER,
+    status                   VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
+    city_id                  INTEGER NOT NULL,
     CONSTRAINT companies_nit_key UNIQUE (nit),
     CONSTRAINT companies_pkey PRIMARY KEY (company_id),
     CONSTRAINT ck_companies_status CHECK (status IN ('ACTIVE', 'INACTIVE'))

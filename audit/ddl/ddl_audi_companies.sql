@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS public.audi_companies (
     phone                    VARCHAR(10),
     email                    VARCHAR(100),
     city_id                  INTEGER,
-    status                   VARCHAR(255),
+    status                   VARCHAR(20),
     CONSTRAINT pk_audi_companies PRIMARY KEY (audit_id),
     CONSTRAINT ck_audi_companies_operation CHECK (operation IN ('INSERT', 'UPDATE', 'DELETE')),
     CONSTRAINT ck_audi_companies_state CHECK (state IN ('OLD', 'NEW'))
