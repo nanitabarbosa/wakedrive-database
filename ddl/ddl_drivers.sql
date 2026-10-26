@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS public.drivers (
     company_id               INTEGER NOT NULL,
     created_at               TIMESTAMP(6) NOT NULL,
     document                 VARCHAR(10) NOT NULL,
-    phone                    VARCHAR(10),
+    phone                    VARCHAR(10) NOT NULL,
     status                   VARCHAR(20) NOT NULL,
     email                    VARCHAR(100),
     full_name                VARCHAR(100) NOT NULL,
