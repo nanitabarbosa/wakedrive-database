@@ -1,4 +1,4 @@
--- Datos de ejemplo de dispositivos (1 250 filas), cargados con COPY desde dml/data/devices.csv.
+-- Datos de ejemplo de dispositivos (50 filas), cargados con COPY desde dml/data/devices.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.devices (device_id, company_id, created_at, last_connection, status, serial) FROM 'dml/data/devices.csv' WITH (FORMAT csv, HEADER)
 

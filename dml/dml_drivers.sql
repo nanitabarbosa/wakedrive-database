@@ -1,4 +1,4 @@
--- Datos de ejemplo de conductores (1 250 filas), cargados con COPY desde dml/data/drivers.csv.
+-- Datos de ejemplo de conductores (50 filas), cargados con COPY desde dml/data/drivers.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.drivers (driver_id, company_id, created_at, document, phone, status, email, full_name) FROM 'dml/data/drivers.csv' WITH (FORMAT csv, HEADER)
 

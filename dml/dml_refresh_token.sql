@@ -1,4 +1,4 @@
--- Datos de ejemplo de tokens de sesión (1 249 filas), cargados con COPY desde dml/data/refresh_token.csv.
+-- Datos de ejemplo de tokens de sesión (1 000 filas), cargados con COPY desde dml/data/refresh_token.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.refresh_token (id, expires_at, user_id, token) FROM 'dml/data/refresh_token.csv' WITH (FORMAT csv, HEADER)
 

@@ -1,4 +1,4 @@
--- Datos de ejemplo de vehículos (1 250 filas), cargados con COPY desde dml/data/vehicles.csv.
+-- Datos de ejemplo de vehículos (20 filas), cargados con COPY desde dml/data/vehicles.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.vehicles (vehicle_id, year, plate, brand_id, company_id, created_at, vehicle_type_id, status, model) FROM 'dml/data/vehicles.csv' WITH (FORMAT csv, HEADER)
 

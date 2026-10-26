@@ -1,4 +1,4 @@
--- Datos de ejemplo de empresas (1 250 filas), cargados con COPY desde dml/data/companies.csv.
+-- Datos de ejemplo de empresas (50 filas), cargados con COPY desde dml/data/companies.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.companies (company_id, alarm_duration_seconds, face_recognition_always, notify_device_shutdown, alarm_sound_size, logo_size, phone, nit, email, name, address, alarm_sound_name, alarm_sound_path, logo_name, logo_path, status, city_id) FROM 'dml/data/companies.csv' WITH (FORMAT csv, HEADER)
 

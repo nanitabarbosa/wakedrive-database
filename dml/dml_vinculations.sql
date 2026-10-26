@@ -1,4 +1,4 @@
--- Datos de ejemplo de vinculaciones (1 249 filas), cargados con COPY desde dml/data/vinculations.csv.
+-- Datos de ejemplo de vinculaciones (19 filas), cargados con COPY desde dml/data/vinculations.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.vinculations (vinculation_id, device_id, driver_id, linked_at, vehicle_id) FROM 'dml/data/vinculations.csv' WITH (FORMAT csv, HEADER)
 

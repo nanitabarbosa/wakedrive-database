@@ -1,4 +1,4 @@
--- Datos de ejemplo de usuarios (1 250 filas), cargados con COPY desde dml/data/users.csv.
+-- Datos de ejemplo de usuarios (1 000 filas), cargados con COPY desde dml/data/users.csv.
 -- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
 \copy public.users (user_id, must_change_password, company_id, reset_token_expiry, role_id, email, name, password, reset_token) FROM 'dml/data/users.csv' WITH (FORMAT csv, HEADER)
 
