@@ -9,7 +9,7 @@ WITH vs AS (
 et AS (SELECT array_agg(event_type_id ORDER BY event_type_id) AS ids FROM public.event_types)
 SELECT TIMESTAMP '2026-09-12 00:00:00' + (g * interval '5 seconds'),
        vs.driver_id, vs.vehicle_id, vs.device_id,
-       (ARRAY['Ruta Ocaña-Cúcuta km 40', 'Ruta Cúcuta-Pamplona km 12', 'Ruta Bucaramanga-Ocaña km 88', 'Vía Ocaña-Aguachica km 15'])[1 + (g % 4)],
+       (ARRAY['Ruta Ocaña-Cúcuta km 40', 'Ruta Cúcuta-Pamplona km 12', 'Ruta Pamplona-Ocaña km 88', 'Vía Ocaña-Ábrego km 15'])[1 + (g % 4)],
        et.ids[1 + (g % 4)],
        1 + (g % 9),
        (ARRAY['HIGH', 'MEDIUM', 'LOW', 'LOW', 'MEDIUM'])[1 + (g % 5)]
