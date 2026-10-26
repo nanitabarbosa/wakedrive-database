@@ -2,18 +2,18 @@
 CREATE OR REPLACE FUNCTION public.fn_audi_companies() RETURNS trigger AS $$
 BEGIN
     IF TG_OP = 'INSERT' THEN
-        INSERT INTO public.audi_companies (operation, state, changed_by, company_id, nit, name, address, phone, email, city_id, status)
-        VALUES (TG_OP, 'NEW', COALESCE(NEW.updated_by, current_user), NEW.company_id, NEW.nit, NEW.name, NEW.address, NEW.phone, NEW.email, NEW.city_id, NEW.status);
+        INSERT INTO public.audi_companies (operation, state, company_id, nit, name, address, phone, email, city_id, status)
+        VALUES (TG_OP, 'NEW', NEW.company_id, NEW.nit, NEW.name, NEW.address, NEW.phone, NEW.email, NEW.city_id, NEW.status);
         RETURN NEW;
     ELSIF TG_OP = 'UPDATE' THEN
-        INSERT INTO public.audi_companies (operation, state, changed_by, company_id, nit, name, address, phone, email, city_id, status)
-        VALUES (TG_OP, 'OLD', COALESCE(NEW.updated_by, current_user), OLD.company_id, OLD.nit, OLD.name, OLD.address, OLD.phone, OLD.email, OLD.city_id, OLD.status);
-        INSERT INTO public.audi_companies (operation, state, changed_by, company_id, nit, name, address, phone, email, city_id, status)
-        VALUES (TG_OP, 'NEW', COALESCE(NEW.updated_by, current_user), NEW.company_id, NEW.nit, NEW.name, NEW.address, NEW.phone, NEW.email, NEW.city_id, NEW.status);
+        INSERT INTO public.audi_companies (operation, state, company_id, nit, name, address, phone, email, city_id, status)
+        VALUES (TG_OP, 'OLD', OLD.company_id, OLD.nit, OLD.name, OLD.address, OLD.phone, OLD.email, OLD.city_id, OLD.status);
+        INSERT INTO public.audi_companies (operation, state, company_id, nit, name, address, phone, email, city_id, status)
+        VALUES (TG_OP, 'NEW', NEW.company_id, NEW.nit, NEW.name, NEW.address, NEW.phone, NEW.email, NEW.city_id, NEW.status);
         RETURN NEW;
     ELSE
-        INSERT INTO public.audi_companies (operation, state, changed_by, company_id, nit, name, address, phone, email, city_id, status)
-        VALUES (TG_OP, 'OLD', current_user, OLD.company_id, OLD.nit, OLD.name, OLD.address, OLD.phone, OLD.email, OLD.city_id, OLD.status);
+        INSERT INTO public.audi_companies (operation, state, company_id, nit, name, address, phone, email, city_id, status)
+        VALUES (TG_OP, 'OLD', OLD.company_id, OLD.nit, OLD.name, OLD.address, OLD.phone, OLD.email, OLD.city_id, OLD.status);
         RETURN OLD;
     END IF;
 END;

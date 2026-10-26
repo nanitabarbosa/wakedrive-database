@@ -17,10 +17,6 @@ CREATE TABLE IF NOT EXISTS public.companies (
     logo_path                VARCHAR(255),
     status                   VARCHAR(255) NOT NULL DEFAULT 'ACTIVE',
     city_id                  INTEGER,
-    created_at               TIMESTAMP(6) NOT NULL DEFAULT now(),
-    updated_at               TIMESTAMP(6) NOT NULL DEFAULT now(),
-    created_by               VARCHAR(100),
-    updated_by               VARCHAR(100),
     CONSTRAINT companies_nit_key UNIQUE (nit),
     CONSTRAINT companies_pkey PRIMARY KEY (company_id),
     CONSTRAINT ck_companies_status CHECK (status IN ('ACTIVE', 'INACTIVE'))
