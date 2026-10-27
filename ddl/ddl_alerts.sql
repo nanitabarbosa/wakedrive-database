@@ -10,5 +10,5 @@ CREATE TABLE IF NOT EXISTS public.alerts (
     level                    VARCHAR(10) NOT NULL,
     location                 VARCHAR(150) NOT NULL,
     CONSTRAINT alerts_pkey PRIMARY KEY (alert_id),
-    CONSTRAINT alerts_level_check CHECK (((level)::text = ANY ((ARRAY['HIGH'::character varying, 'MEDIUM'::character varying, 'LOW'::character varying])::text[])))
+    CONSTRAINT alerts_level_check CHECK (((level)::text = ANY ((ARRAY['HIGH'::character varying, 'MEDIUM'::character varying, 'LOW'::character varying, 'PENDING'::character varying])::text[])))
 );
