@@ -29,6 +29,17 @@ wakedrive-database/
 │   ├── ddl_vehicles.sql
 │   └── ddl_vinculations.sql
 ├── dml/
+│   ├── data/
+│   │   ├── access_requests.csv
+│   │   ├── alerts.csv
+│   │   ├── companies.csv
+│   │   ├── devices.csv
+│   │   ├── drivers.csv
+│   │   ├── notifications.csv
+│   │   ├── refresh_token.csv
+│   │   ├── users.csv
+│   │   ├── vehicles.csv
+│   │   └── vinculations.csv
 │   ├── dml_access_requests.sql
 │   ├── dml_alerts.sql
 │   ├── dml_brands.sql
@@ -66,7 +77,7 @@ wakedrive-database/
 | `ddl/` | Una tabla por archivo (15) y `ddl_foreign_keys.sql` con las claves foráneas. |
 | `audit/` | Tabla de auditoría `audi_users` y su trigger. |
 | `triggers/` | Triggers de reglas de negocio (alertas y vinculaciones). |
-| `dml/` | Datos de ejemplo. |
+| `dml/` | Datos de ejemplo (scripts y CSV en `dml/data/`). |
 | `indexes/` | Índices de la tabla `alerts`. |
 | `docs/` | Diagramas del modelo (conceptual, lógico y físico) y de arquitectura (C4). |
 | `apply_all.sql` | Crea la base de datos completa ejecutando todos los scripts en orden. |
