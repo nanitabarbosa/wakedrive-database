@@ -1,4 +1,4 @@
-INSERT INTO public.event_types (name) VALUES
+INSERT INTO wakedrive.event_types (name) VALUES
 ('DROWSINESS'),
 ('FACE_NOT_DETECTED'),
 ('DEVICE_OFF'),

@@ -1,6 +1,6 @@
 # wakedrive-database
 
-Scripts de la base de datos de **WakeDrive** (PostgreSQL), plataforma de monitoreo de somnolencia de conductores.
+Aquí están los scripts de la base de datos de **WakeDrive** (PostgreSQL), nuestra plataforma de monitoreo de somnolencia de conductores. Todo vive en el esquema `wakedrive`.
 
 ## Estructura
 
@@ -80,7 +80,7 @@ wakedrive-database/
 | `dml/` | Datos de ejemplo (scripts y CSV en `dml/data/`). |
 | `indexes/` | Índices de la tabla `alerts`. |
 | `docs/` | Diagramas del modelo (conceptual, lógico y físico) y de arquitectura (C4). |
-| `apply_all.sql` | Crea la base de datos completa ejecutando todos los scripts en orden. |
+| `apply_all.sql` | Creamos la base de datos completa ejecutando todos los scripts en orden. |
 
 ## Integrantes
 

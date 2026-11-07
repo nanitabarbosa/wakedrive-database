@@ -1,4 +1,4 @@
-INSERT INTO public.cities (name) VALUES
+INSERT INTO wakedrive.cities (name) VALUES
 ('Cúcuta'),
 ('Ocaña'),
 ('Pamplona'),

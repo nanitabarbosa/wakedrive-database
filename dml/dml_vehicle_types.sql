@@ -1,4 +1,4 @@
-INSERT INTO public.vehicle_types (name) VALUES
+INSERT INTO wakedrive.vehicle_types (name) VALUES
 ('Camión'),
 ('Tractomula'),
 ('Bus'),

@@ -1,4 +1,4 @@
-INSERT INTO public.brands (name) VALUES
+INSERT INTO wakedrive.brands (name) VALUES
 ('Chevrolet'),
 ('Hino'),
 ('International'),

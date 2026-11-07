@@ -1,6 +1,6 @@
--- Datos de ejemplo de dispositivos (50 filas), cargados con COPY desde dml/data/devices.csv.
--- Ejecutar desde la carpeta raíz del repositorio (la ruta del CSV es relativa).
-\copy public.devices (device_id, company_id, created_at, last_connection, status, serial) FROM 'dml/data/devices.csv' WITH (FORMAT csv, HEADER)
+-- Cargamos los datos de ejemplo de dispositivos (50 filas) con COPY desde dml/data/devices.csv.
+-- Lo ejecutamos desde la carpeta raíz del repositorio, porque la ruta del CSV es relativa.
+\copy wakedrive.devices (device_id, company_id, created_at, last_connection, status, serial) FROM 'dml/data/devices.csv' WITH (FORMAT csv, HEADER)
 
--- Las filas se cargan con su id: se ajusta la secuencia para que los nuevos registros continúen desde el último.
-SELECT setval(pg_get_serial_sequence('public.devices', 'device_id'), (SELECT max(device_id) FROM public.devices));
+-- Cargamos las filas con su id y ajustamos la secuencia para que los nuevos registros continúen desde el último.
+SELECT setval(pg_get_serial_sequence('wakedrive.devices', 'device_id'), (SELECT max(device_id) FROM wakedrive.devices));

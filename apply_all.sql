@@ -1,5 +1,5 @@
--- Crea la base de datos completa de WakeDrive sobre el esquema public.
--- Ejecutar desde esta carpeta:  psql -U postgres -d wakedrive -v ON_ERROR_STOP=1 -f apply_all.sql
+-- Creamos la base de datos completa de WakeDrive en el esquema wakedrive.
+-- Lo ejecutamos desde esta carpeta:  psql -U postgres -d wakedrive -v ON_ERROR_STOP=1 -f apply_all.sql
 
 -- 1. Tablas principales
 \i ddl/ddl_roles.sql
